@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#15</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/201012.html">http://shibuya.pm.org/blosxom/techtalks/201012.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#15</b><br />
+<b>by</b> takesako at Thu, 25 Nov 2010 14:34
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#15 を2010年12月9日(木)に開催します。</p>
+<ul>
+  <li>テーマ - <b>Perlと教育「Learning Perl」</b></li>
+  <li>日時 - 2010年12月9日(木) 18:30-21:00 (18:15 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - 100名</li>
+  <li>事前登録 - <a href="http://atnd.org/events/10338">http://atnd.org/events/10338</a> にて申し込み</li> 
+  <li>ストリーミング中継 - <a href="http://live.streamingmedia.jp/shibuyapm15/">http://live.streamingmedia.jp/shibuyapm15/</a></li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>Time Table
+  <ul>
+  <li>18:15 - 開場＆受付</li>
+  </ul>
+ </li>
+
+ <li>Special Guest
+  <ul> 
+  <li>18:30 - MORE Learning Perl - <a href="http://twitter.com/briandfoy_perl">brian d foy</a>（英語）
+<blockquote><a href="http://www.amazon.co.jp/dp/4873113970">マスタリングPerl</a>の著者、<a href="http://www.amazon.co.jp/dp/4873114276">Learning Perl</a>、<a href="http://www.amazon.co.jp/dp/0321496949">Effective Perl 2nd Ed</a><br/>の共著者として知られる<a href="http://www.pair.com/comdog">brian d foy</a>氏が緊急来日！</blockquote>
+</li>
+  </ul> 
+ </li> 
+ <li>Perlと教育
+  <ul>
+  <li>19:20 - プログラミング教育のEY-Office - 吉田裕美（<a href="http://twitter.com/Yuumi3">Yuumi3</a>）</li>
+  <li>19:40 - PerlとHTML5　～Perl復活への処方箋～ - 羽田野太巳（<a href="http://twitter.com/futomi">futomi</a>）<blockquote>利用者の立場から見たPerl、Perlプロダクト、そして、HTML5との融合、<br/>という観点で、Perlの活性化について提言します。</blockquote></li> 
+  <li>20:00 - ドキュメンテーションについて - 木本裕紀（<a href="http://d.hatena.ne.jp/perlcodesample/">perlcodesample</a>）</li> 
+  </ul>
+ </li>
+
+ <li>CPAN徹底活用塾
+  <ul> 
+  <li>20:30 - CPANソムリエになる方法 - 徳永広夢（<a href="http://d.hatena.ne.jp/tokuhirom/">tokuhirom</a>）</li> 
+  <li>20:40 - My Favorite Perl Modules - 大沢和宏（<a href="http://blog.yappo.jp/">Yappo</a>）</li> 
+  </ul>
+ </li>
+
+ <li>Lightning Talks
+  <ol> 
+  <li>20:50 - 続・モダンPerlの裏側で - <a href="http://d.hatena.ne.jp/koba04/">koba04</a></li> 
+  <li>20:55 - JPAによるPerl技術者育成の研修・講習活動 - <A href="http://mt.endeworks.jp/d-6/">lestrrat</a></li> 
+  </ol>
+ </li>
+
+
+</ul>
+</li>
+</ul></li>
+
+<p>今回は「Perlと教育について」をテーマに、最前線で活躍する識者の方から、プログラミング言語を教える楽しさ・難しさについてざっくばらんにお話しいただく予定です。</p>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

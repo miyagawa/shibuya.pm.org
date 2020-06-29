@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+> 
+
+  <channel rdf:about="http://shibuya.pm.org/blosxom">
+    <title>Shibuya Perl Mongers</title>
+    <link>http://shibuya.pm.org/blosxom</link>
+    <description>Shibuya Perl Mongers Weblogs</description>
+    <language>ja</language>
+    <dc:creator>Shibuya Perl Mongers (chair at shibuya.pm.org)</dc:creator>
+    <dc:rights>Copyright Shibuya Perl Mongers</dc:rights>
+    <admin:generatorAgent rdf:resource="http://www.raelity.org/apps/blosxom/?v=2.0rc5" />
+    <admin:errorReportsTo rdf:resource="mailto:chair at shibuya.pm.org"/>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201807.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201506.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201107.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201012.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201009.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201004.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/200911.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/200904.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/2008011.html" />
+        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/200806.html" />
+
+      </rdf:Seq>
+    </items>
+
+
+  </channel>
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201807.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#18</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/201807.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#18 を2018年7月5日(木)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>karupanerura</dc:creator>
+    <dc:date>2018-06-11T15:34+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201807" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#18 を2018年7月5日(木)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します。</p>
+<ul>
+  <li><b>Shibuya Perl Mongersテクニカルトーク#18</b></li>
+  <li>日時 - 2018年7月5日(木) 19:20-22:00 (19:00 開場)</li>
+  <li>会場 - 渋谷ヒカリエ21F DeNA本社（受付11F） (<a href="http://dena.com/jp/company/access.html">株式会社ディー・エヌ・エー</a>)</li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - 120名</li>
+  <li>事前登録 -  <a href="http://shibuyapm.connpass.com/event/89357/">http://shibuyapm.connpass.com/event/89357/</a> からお申し込みください。</li> 
+  <li>注意事項 - 入館手続きのため、名刺を1枚ご用意ください。名刺には事前にお申込み時のアカウント名のご記入をお願い致します。</li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>タイムスケジュール
+  <ul>
+  <li>19:00 - 開場・受付</li>
+  <li>19:20 - 開会の挨拶 - <a href="https://twitter.com/karupanerura">@karupanerura</a></li>
+  </ul>
+ </li>
+
+ <li>基調講演 - 「あのCPANモジュール実装の裏側」
+  <ul>
+  <li>19:30 - Inside of DBIx::Schema::DSL - <a href="https://twitter.com/songmu">@songmu</a></li> 
+  <li>19:50 - cpmの実装の裏側 - <a href="https://twitter.com/shoichikaji">@shoichikaji</a></li> 
+  <li>20:10 - 質疑応答（5分）</li> 
+  </ul>
+ </li>
+ <li>特別講演 - perl 5.28 has been released!
+  <ul> 
+  <li>20:20 - perl 5.28 delta - <a href="https://twitter.com/charsbar">@charsbar</a></li>
+  </ul>
+ </li> 
+ <li>Lightning Talks
+  <ol> 
+    <li>20:35 - <a href="https://twitter.com/tokuhirom">@tokuhirom</a></li>
+    <li>20:40 - <a href="https://twitter.com/codehex">@CodeHex</a></li>
+    <li>20:45 - <a href="https://twitter.com/kfly8">@kfly8</a></li>
+    <li>20:50 - <a href="https://twitter.com/dankogai">@dankogai</a>    
+    <li>20:55 - <a href="https://twitter.com/papix">@papix</a></li>
+  </ol>
+ </li> 
+ <li>リーダー引継ぎ式
+  <ul> 
+  <li>21:00 ~</li>
+  </ul>
+ </li> 
+</ul>
+</li>
+<li>受付・入館方法：
+<ul>
+<li>入館受付開始は19:00です。オフィスフロア入り口である11F受付にお越し下さい。ヒカリエビル内の地下フロアやJRとの連絡通路がある2Fなどに、11Fへのエレベータが数ヶ所設置されています。 当日11Fには、本フォーラム用の特設受付をご用意しておりますので、そちらへお越し頂き、その後は受付の案内に従ってください。</li>
+<li>入館時にお名刺を1枚ご準備ください。名刺には事前にお申込み時のアカウント名のご記入をお願い致します。名刺をお持ちで無い方は受付で芳名帳に記入をお願いいたします。</li>
+<li>受付締切時刻は19:30です。遅れてきた方は基本的に参加することができませんのでご注意ください。</li>
+</ul></li>
+
+<li>注意事項：
+<ul>
+<li>途中入退室できませんのでご注意ください。会場内は飲食可能です。
+お飲み物等は、予めご自身でご用意ください。11Fにローソンがありますので、
+入館手続き前にご購入ください。
+</li>
+<li>営業、スカウト行為目的のご参加は固くお断りしております。ご理解いただきますようお願い致します。</li>
+</ul></li>
+</ul>
+
+<p>Lightning Talksの発表者を募集しています。持ち時間は1人5分です。希望者の方はconnpassの参加登録のアンケートに発表タイトルと概要を記載いただくか、または件名「Shibuya.pm#18 LT希望」として、発表タイトルを添えて karupa@cpan.org までメールして下さい。</p>
+<ins><p>応募多数のため、Lightning Talksの発表者の募集は締め切りました。たくさんのご応募ありがとうございます。次回以降またよろしくお願いいたします。</p></ins>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201506.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#17</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/201506.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#17 を2015年6月2日(火)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2015-04-30T09:13+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201506" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#17 を2015年6月2日(火)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します。</p>
+<ul>
+  <li><b>Shibuya Perl Mongersテクニカルトーク#17</b></li>
+  <li>日時 - 2015年6月2日(火) 18:50-21:00 (18:30 開場)</li>
+  <li>会場 - 渋谷ヒカリエ21F DeNA本社（受付11F） (<a href="http://dena.com/jp/company/access.html">株式会社ディー・エヌ・エー</a>)</li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - 150名</li>
+  <li>事前登録 -  <a href="http://shibuyapm.connpass.com/event/15705/">http://shibuyapm.connpass.com/event/15705/</a> からお申し込みください。【満員御礼】</li> 
+  <li>注意事項 - 入館手続きのため、名刺を1枚ご用意ください。名刺には事前にお申込み時のアカウント名のご記入をお願い致します。</li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>タイムスケジュール
+  <ul>
+  <li>18:30 - 開場・受付</li>
+  <li>18:50 - 開会の挨拶 - <a href="https://twitter.com/takesako">@takesako</a></li>
+  </ul>
+ </li>
+
+ <li>基調講演
+  <ul>
+  <li>19:00 - nginxのパフォーマンスチューニング - <a href="https://twitter.com/cubicdaiya">@cubicdaiya</a></li> 
+  <li>19:20 - H2Oのパフォーマンスか機能に関する未発表の何か(仮) - <a href="https://twitter.com/kazuho">@kazuho</a></li> 
+  <li>19:40 - 質疑応答（5分）</li> 
+  </ul>
+ </li>
+ <li>Lightning Talks
+  <ol> 
+  <li>19:55 - ドキッ！記号だらけの無名関数 - <a href="https://twitter.com/tsurumau">@tsurumau</a></li>
+  <li>20:00 - %1 => sub { $_[0] }(仮) - <a href="https://twitter.com/tokuhirom">@tokuhirom</a></li> 
+  <li>20:05 - CPANモジュールでスタンドアロンサーバーを書く方法 - <a href="https://twitter.com/songmu">@Songmu</a></li> 
+  <li><del>20:10 - App::revealupを改造して・・・しゃべるスライドの実演 - <a href="https://twitter.com/dokechin">@dokechin</a></del></li> 
+  <li>20:15 - perlをphpに変換する（その後） - <a href="https://twitter.com/tomita">@tomita</a></li> 
+  <li>20:20 - Perl-Lintのなかみ（仮） - <a href="https://twitter.com/moznion">@moznion</a></li> 
+  <li>20:25 - APIクライアントのつくりかた - <a href="https://twitter.com/__papix__">@__papix__</a></li> 
+  <li>20:30 - Test::WWW::Stubのご紹介 - <a href="https://twitter.com/ast_j">@ast_j</a></li> 
+  <li>20:35 - 高速Plackサーバ GazelleとHTTPリクエスト処理を高速化するためのモジュール紹介 - <a href="https://twitter.com/kazeburo">@kazeburo</a></li> 
+  <li>20:40 - Perlでデバッグする - <a href="https://twitter.com/ks0608">@ks0608</a></li> 
+  <li>20:45 - ドキュメントの生成とかとか - <a href="https://twitter.com/toku_bass">@toku_bass</a></li> 
+  <li>20:50 - one source code で「複数のサービスに対応するが schema 構成は微妙にに違います」という要件に直面したら開発はどうすればいいのか、僕なりに何日か考えた上でのややベターな結論のようなもの - <a href="https://twitter.com/Yappo">@Yappo</a></li> 
+  <li>20:55 - ppencode 2 - 任意の Perl コードを予約語だけの Perl コードに変換する - <a href="https://twitter.com/shinh">@shinh</a></li> 
+  </ol>
+ </li> 
+</ul>
+</li>
+<li>受付・入館方法：
+<ul>
+<li>入館受付開始は18:30です。オフィスフロア入り口である11F受付にお越し下さい。ヒカリエビル内の地下フロアやJRとの連絡通路がある2Fなどに、11Fへのエレベータが数ヶ所設置されています。 当日11Fには、本フォーラム用の特設受付をご用意しておりますので、そちらへお越し頂き、その後は受付の案内に従ってください。</li>
+<li>入館時にお名刺を1枚ご準備ください。名刺には事前にお申込み時のアカウント名のご記入をお願い致します。名刺をお持ちで無い方は受付で芳名帳に記入をお願いいたします。</li>
+<li>遅れてきた方は、エントランスに掲示してある連絡先までご一報ください。お迎えに参ります。</li>
+</ul></li>
+
+<li>注意事項：
+<ul>
+<li>途中入退室できませんのでご注意ください。会場内は飲食可能です。
+お飲み物等は、予めご自身でご用意ください。11Fにローソンがありますので、
+入館手続き前にご購入ください。
+</li>
+<li><ins>営業、スカウト行為目的のご参加は固くお断りしております。ご理解いただきますようお願い致します。</ins></li>
+</ul></li>
+</ul>
+
+<del><p>Lightning Talksの発表者を募集しています。持ち時間は1人5分です。希望者の方は件名「Shibuya.pm#17 LT希望」として、発表タイトルを添えて takesako@shibuya.pm.org までメールして下さい。</p></del>
+<ins><p>応募多数のため、Lightning Talksの発表者の募集は締め切りました。たくさんのご応募ありがとうございます。次回以降またよろしくお願いいたします。</p></ins>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201107.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#16</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/201107.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#16 を2011年7月6日(水)にmixiさんの新オフィスをお借りして開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2011-06-13T07:19+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201107" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#16 を2011年7月6日(水)にmixiさんの新オフィスをお借りして開催します。</p>
+<p>今回はmixiさんのご厚意によりテクニカルトーク後に懇親会を開催する予定となっております。<br/>こちらも時間の許す限り奮ってご参加いただければと思います。</p>
+<ul>
+  <li>テーマ - <b>「夏の正規表現祭り」</b></li>
+  <li>日時 - 2011年7月6日(水) 18:45-21:00 (18:30 開場)</li>
+  <li>会場 - 〒150-0011 東京都渋谷区東1-2-20 住友不動産渋谷ファーストタワー 7F (<a href="http://mixi.co.jp/profile/info/#map">株式会社ミクシィ</a>)</li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - 110名 (<a href="http://www.mdn.co.jp/di/articles/2412/?page=1">いちばん大きなセミナールーム</a>)</li>
+  <li>事前登録 - <a href="http://atnd.org/events/17082">http://atnd.org/events/17082</a> にて参加申し込みが必要 → 満員御礼</li> 
+  <li>中継 - <a href="http://www.ustream.tv/channel/shibuya-perl-mongers-mixi">http://www.ustream.tv/channel/shibuya-perl-mongers-mixi</a> にてUSTREAM中継します!</li>
+  <li>注意事項 - ※20時以降のご来社はビルが閉館してしまう為、誠に恐縮ですがご遠慮ください</li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>タイムスケジュール
+  <ul>
+  <li>18:30 - 開場</li>
+  </ul>
+ </li>
+
+ <li>夏の正規表現祭り
+  <ul>
+  <li>18:45 - 開会宣言（会場からの諸注意）</li>
+  <li>18:50 - Dan the (Irr|R)egular Expressionist - <a href="https://twitter.com/#!/dankogai">@dankogai</a></li>
+  <li>19:10 - スペシャルゲスト「正規表現メモ」 - <a href="http://www.kt.rim.or.jp/~kbk/zakkicho/">木村浩一</a></li> 
+  </ul>
+ </li>
+ <li>正規表現若手の会
+  <ul>
+  <li>19:40 - Hello, re::engine! - <a href="https://twitter.com/#!/__gfx__">@__gfx__</a></li>
+  <li>19:55 - 正規表現の限界 - <a href="https://twitter.com/#!/sinya8282">@sinya8282</a></li> 
+  </ul>
+ </li> 
+
+ <li>Lightning Talks
+  <ol> 
+  <li>20:30 - 僕の考えた世界最強の正規表現エンジン(速けりゃイイじゃん?) - <a href="https://twitter.com/#!/sinya8282">@sinya8282</a></li> 
+  <li>20:35 - Plaggerで覚えたPerlの正規表現 - <a href="https://twitter.com/#!/yusukebe">@yusukebe</a></li> 
+  <li>20:40 - Regexp::Assembleで正規表現を作るとか - <a href="https://twitter.com/#!/yappo">@yappo</a></li> 
+  <li>20:45 - 再帰的正規表現 - <a href="https://twitter.com/#!/TAKESAKO">@TAKESAKO</a></li> 
+  <li>20:50 - 僕と契約して、自己言及コードになってよ！ - <a href="https://twitter.com/#!/sugyan">@sugyan</a></li> 
+  <li>20:55 - 色々なものを正規に表現してみよう(仮) - <a href="https://twitter.com/#!/nipotan">@nipotan</a></li> 
+  </ol> 
+ </li> 
+
+ <li>懇親会（<a href="http://www.mdn.co.jp/di/articles/2412/?page=2">コラボレーションルーム</a>）
+  <ul> 
+  <li>21:00 - 隣の<a href="http://www.mdn.co.jp/di/articles/2412/?page=2">コラボレーションルーム</a>に移動して懇親会を開始
+  <ul>
+  <li>乾杯の音頭： <a href="http://ja.wikipedia.org/wiki/%E6%AD%8C%E4%BB%A3%E5%92%8C%E6%AD%A3">歌代和正</a>様（jcode.pl開発者）より乾杯のご発声</li>
+  <li>趣旨：数年ぶりの渋谷での開催ということで、みんなでお祝いしたいと思います</li>
+  <li>スポンサー： 株式会社ミクシィ様</li>
+  <li>懇親会費： 無料（参加者全員分の飲み物のご用意がありますので最初の乾杯時だけでもご参加ください）</li>
+  </ul>
+  </li>
+  <li>21:10 - ご歓談（自由解散）
+  </li> 
+  <li>22:30 - 撤収</li> 
+  </ul>
+ </li> 
+ 
+<p>今回は正規表現尽くしでお送りいたします。</p>
+
+</ul>
+</li>
+</ul></li>
+
+<p>※ ビルの入館の関係上、遅れて参加の場合は20:00までに必ずご入館ください。<br/>※ 懇親会のみの参加は受け付けておりません。</p>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201012.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#15</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/201012.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#15 を2010年12月9日(木)に開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2010-11-25T05:34+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201012" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#15 を2010年12月9日(木)に開催します。</p>
+<ul>
+  <li>テーマ - <b>Perlと教育「Learning Perl」</b></li>
+  <li>日時 - 2010年12月9日(木) 18:30-21:00 (18:15 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - 100名</li>
+  <li>事前登録 - <a href="http://atnd.org/events/10338">http://atnd.org/events/10338</a> にて申し込み</li> 
+  <li>ストリーミング中継 - <a href="http://live.streamingmedia.jp/shibuyapm15/">http://live.streamingmedia.jp/shibuyapm15/</a></li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>Time Table
+  <ul>
+  <li>18:15 - 開場＆受付</li>
+  </ul>
+ </li>
+
+ <li>Special Guest
+  <ul> 
+  <li>18:30 - MORE Learning Perl - <a href="http://twitter.com/briandfoy_perl">brian d foy</a>（英語）
+<blockquote><a href="http://www.amazon.co.jp/dp/4873113970">マスタリングPerl</a>の著者、<a href="http://www.amazon.co.jp/dp/4873114276">Learning Perl</a>、<a href="http://www.amazon.co.jp/dp/0321496949">Effective Perl 2nd Ed</a><br/>の共著者として知られる<a href="http://www.pair.com/comdog">brian d foy</a>氏が緊急来日！</blockquote>
+</li>
+  </ul> 
+ </li> 
+ <li>Perlと教育
+  <ul>
+  <li>19:20 - プログラミング教育のEY-Office - 吉田裕美（<a href="http://twitter.com/Yuumi3">Yuumi3</a>）</li>
+  <li>19:40 - PerlとHTML5　～Perl復活への処方箋～ - 羽田野太巳（<a href="http://twitter.com/futomi">futomi</a>）<blockquote>利用者の立場から見たPerl、Perlプロダクト、そして、HTML5との融合、<br/>という観点で、Perlの活性化について提言します。</blockquote></li> 
+  <li>20:00 - ドキュメンテーションについて - 木本裕紀（<a href="http://d.hatena.ne.jp/perlcodesample/">perlcodesample</a>）</li> 
+  </ul>
+ </li>
+
+ <li>CPAN徹底活用塾
+  <ul> 
+  <li>20:30 - CPANソムリエになる方法 - 徳永広夢（<a href="http://d.hatena.ne.jp/tokuhirom/">tokuhirom</a>）</li> 
+  <li>20:40 - My Favorite Perl Modules - 大沢和宏（<a href="http://blog.yappo.jp/">Yappo</a>）</li> 
+  </ul>
+ </li>
+
+ <li>Lightning Talks
+  <ol> 
+  <li>20:50 - 続・モダンPerlの裏側で - <a href="http://d.hatena.ne.jp/koba04/">koba04</a></li> 
+  <li>20:55 - JPAによるPerl技術者育成の研修・講習活動 - <A href="http://mt.endeworks.jp/d-6/">lestrrat</a></li> 
+  </ol>
+ </li>
+
+
+</ul>
+</li>
+</ul></li>
+
+<p>今回は「Perlと教育について」をテーマに、最前線で活躍する識者の方から、プログラミング言語を教える楽しさ・難しさについてざっくばらんにお話しいただく予定です。</p>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201009.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#14</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/201009.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#14 を2010年9月30日(木)に開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2010-09-03T07:58+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201009" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#14 を2010年9月30日(木)に開催します。</p>
+<ul>
+  <li>テーマ - <b>「IPAとJPAは違う団体です」</b></li>
+  <li>日時 - 2010年9月30日(木) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - <s>100名</s> → 170名に変更しました！ ※</li>
+  <li>事前登録 - <a href="http://atnd.org/events/7722">ATNDで参加申し込み受付中</a>です。</li> 
+  <li>中継 - HTML5/WebMにて配信予定 <a href="http://live.streamingmedia.jp/shibuyapm/">http://live.streamingmedia.jp/shibuyapm/</a></li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>タイムスケジュール
+  <ul>
+  <li>18:00 - 開場</li>
+  </ul>
+ </li>
+
+ <li>Perl6セッション
+  <ul> 
+  <li>18:30 - 本日のイベント開催趣旨について - 竹迫良範</li>
+  <li>18:35 - Perl 6 Language Update - 小飼弾</li> 
+  </ul> 
+ </li> 
+
+ <li>JPAからのお知らせ
+  <ul> 
+  <li>18:55 - ぼくのかんがえたさいきょうのYAPC::Asia - 櫛井</li> 
+  <li>19:00 - JPA活動報告 - 牧</li> 
+  </ul> 
+ </li> 
+
+ <li>夏休みの宿題
+  <ul> 
+  <li>19:15 - memcached injection - 佐名木智貴
+</li> 
+  <li>19:25 - memcachedの運用監視ノウハウ - 長野雅広（ライブドア）</li> 
+  </ul> 
+ </li> 
+
+
+ <li>IPA特別企画
+  <ul> 
+  <li>19:50 - 身につけておきたい、今そこにあるシステムの救命措置<br/>パネルディスカッション形式での対談（IPA園田＋数名）</li> 
+  </ul> 
+ </li> 
+
+ <li>Tokyo.pmより
+  <ul> 
+  <li>20:30 - Perl 1,2,3,4 の歴史 - 前田薫</li> 
+  </ul> 
+ </li> 
+
+ <li>Lightning Talks
+  <ol> 
+  <li>20:40 - 久しぶりのShibuya.pm(仮) - 伊藤直也 (グリー株式会社)</li> 
+  <li>20:45 - *hack* in the web application with plack - tokuhirom</li> 
+  <li>20:50 - String::Filter 構造化テキストの正しいエスケープについて - 奥一穂（サイボウズ・ラボ）</li> 
+  <li>20:55 - Perl Parser Hacks vol.2 - 藤吾郎（gfx）</li> 
+  </ol> 
+ </li> 
+
+<p>YAPC::Asia 2010 が開催される前に盛り上がっていきましょう！</p>
+
+</ul>
+</li>
+</ul></li>
+
+<p>特設サイト上でHTML5/WebMによるストリーミング配信を予定しています。今回は特別に来場者の方にはプレゼントがあるかもしれませんので、途中からでもぜひご参加ください。</p>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201004.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#13「Shibuya.pm in Taipei」</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/201004.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#13 を2010年4月24日(土)に台湾で開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2010-04-01T03:05+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201004" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#13 を2010年4月24日(土)に台湾で開催します。</p>
+<ul>
+  <li>テーマ - <b>Shibuya.pm in Taipei</b></li>
+  <li>日時 - 2010年4月24日(土) 3:40pm - 5:30pm</li>
+  <li>会場 - <a href="http://www.sinica.edu.tw/">中央研究院（Academia Sinica）</a>人文所国際会議場</li>
+  <li>住所 - <a href="http://maps.google.com/maps?f=q&amp;hl=zh-TW&amp;geocode=&amp;q=sinica&amp;sll=25.045122,121.618191&amp;sspn=0.003723,0.007231&amp;ie=UTF8&amp;t=h&amp;om=1&amp;ll=25.043848,121.615831&amp;spn=0.001857,0.003616&amp;z=18">115 Taiwan台北市南港區研究院路二段128號‎</a></li>
+  <li>地図 - <a href="http://www.sinica.edu.tw/as/map/fromAirport.htm">桃園國際機場往返中央研究院院區交通圖</a></li>
+  <li>交通アクセス - <a href="http://www.ifs.sinica.edu.tw/item4-1.html">Getting to A.S</a></li>
+  <li>料金 - NTD 400（台湾元）</li>
+  <li>定員 - 360名</li>
+  <li>事前登録 - <a href="http://registrano.com/events/osdctw2010">OSDC.TW 2010 | Registrano</a> にて参加登録受付中</li>
+</ul>
+
+<ul>
+  <li>プログラム [Speakers and topics] <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>Timetable: <a href="http://osdc.tw/osdctw-2010-day1-schedule.html">OSDC.TW 2010 Day1 Schedule</a></li>
+
+ <li>9:00am - 開場
+  <ul>
+  <li>中央研究院人文所國際會議廳 (international conference hall) にて</li>
+  </ul>
+ </li>
+
+ <li>3:40pm - 5:30pm
+  <ul>
+  <li>Shibuya.pm in Taipei</li>
+  </ul>
+  <ol>
+  <li>竹迫 良範 (Yoshinori Takesako)  @takesako - Polyglot Programming</li>
+  <li>石垣 憲一 (Kenichi Ishigaki) @charsbar - Perl for a translator</li>
+  <li>藤 吾郎 (Goro Fuji) @__gfx__ - Opcode and YAML</li>
+  <li>川崎 有亮 (Yusuke Kawasaki) @kawanet - Something Xiaolongbao</li>
+  <li>檀上 伸郎 (Nobuo Danjou) @lopnor - Net::Google::Spreadsheet</li>
+  <li>宮川 達彦 (Tatsuhiko Miyagawa) @miyagawa - cpanminus</li>
+  <li>松野 徳大 (Tokuhiro Matsuno) @tokuhirom - IRCD web interface</li>
+  <li>大沢 和宏 (Kazuhiro Osawa) @yappo - Ajax application testing</li>
+  </ol>
+ </li>
+
+</ul>
+
+<p>
+The Shibuya.pm comes in Taipei!
+Shibuya Perl Mongers is a community of Perl hackers based in Tokyo.
+The guys here give technical talks away in the special sub-conference of the OSDC.TW 2010.
+You'll see the highest level in technics and the lowest level in depth of Perl.
+</p>
+
+</li>
+</ul></li>
+
+<p>
+ゴールデンウィーク前ですが、もしもご都合のつく方はぜひ会場までいらしてください。ちなみに翌週の月曜日にハッカソンも予定しています。
+</p>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/200911.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#12 「NoSQL特集」</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/200911.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#12 "NoPerl, NoSQL, NoKVS" を2009年11月30日(月)に開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2009-11-19T06:07+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_200911" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#12 "NoPerl, NoSQL, NoKVS" を2009年11月30日(月)に開催します。</p>
+<ul>
+  <li>テーマ - <b>"Not only Perl, Not only SQL, Not only KVS"</b></li>
+  <li>日時 - 2009年11月30日(月) 18:30-21:00 (18:00 開場)</li>
+
+  <li>会場 - グラントウキョウサウスタワー23F <a href="http://www.recruit.co.jp/corporate/english/company/data/pdf/map_south.pdf">リクルート本社サウスホール</a></li>
+  <li>住所 - 東京都千代田区丸の内1-9-2 (JR東京駅 八重洲南口すぐ)</li>
+  <li>料金 - 無料</li>
+  <li>定員 - <s>200名</s> 300名（※定員枠を増やしました）</li>
+
+  <li>事前登録 - <a href="http://atnd.org/events/2242">ATNDで参加申し込み受付中</a>です。</li>
+  <li>Ustream.tv - <a href="http://www.ustream.tv/channel/mtl-live">http://www.ustream.tv/channel/mtl-live</a></li>
+</ul>
+
+<ul>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>【開場時間】
+  <ol>
+  <li>18:00 会場2Fロビーの受付までお越しください</li>
+  </ol>
+
+ </li>
+
+ <li>【特別講演】
+  <ol>
+  <li>18:30 開会の挨拶</li>
+
+  <li>18:35 宮川達彦(miyagawa) - "Tatsumaki" I/O bound HTTP clients in web frameworks</li>
+  </ol>
+ </li>
+
+ <li>【特別企画】
+  <ol>
+  <li>19:00 NoSQL vs. NoKVS ライトニングディスカッション</li>
+  <li>平林幹雄(mikio) - Tokyo (Cabinet|Tyrant)</li>
+
+  <li>山田浩之(mogwaing) - Lux IO 的な何か</li>
+  <li>鶴岡直也(halt) - 毎秒11万回更新できるのはRedisだけ</li>
+  <li>古橋貞之(frsyuki) - えとらぼで kumofs 作って運用してみた</li>
+  <li>太田一樹(kzk) - Hadoop/hBase を動かしてみた</li>
+  <li>小泉守義(moriyoshi) - golang で KVS 作ってみた</li>
+  <li>奥一穂(kazuho) - NoKVS な RDBMS sharding 作ってみた</li>
+
+  <li>斯波健徳(shiba) - Spider Storage Engine 作ってみた</li>
+  <li>質疑応答</li>
+  </ol>
+ </li>
+<p>
+RDBMS 以外の non-relational なデータベースとして KVS の枠にとどまらない
+Not only SQL を指向する OSS の実装と運用の実際について語り合います。
+一人5分間の持ち時間でライトニングトーク的なプレゼンを行なった後、
+パネラーの方から5分間のツッコミを受けます。
+最後に総論として会場からの質疑応答を受け付けます。
+（※発表タイトル・順・時間はすべて仮です）</p>
+</ul></li>
+
+ <li>Lightning Talks - Not only Shibuya.pm#12
+  <ol>
+
+  <li>20:40 松野徳大(tokuhirom) - Perl で Golang のような Channel を実装する方法</li>
+  <li>20:45 藤吾郎(gfx) - Metaprogramming in XS</li>
+  <li>20:50 大沢和宏(Yappo) - Ajax application testing</li>
+  <li>20:55 ゼットオオナミ(z.ohnami) - CouchDBで作る薄々レイヤーアプリケーション</li>
+ </li>
+</ul>
+
+ <li>クロージング
+  <ol>
+
+  <li>21:00 閉会の挨拶</li>
+  </ol>
+ </li>
+
+<p>
+今回は軽量データベース特集ということで、Perlの枠を超えて、他の言語のプログラマー、
+インフラ系のエンジニアの方も安心して聞ける内容になると思います。
+現在お使いのプログラミング言語・データベースを問わず、ふるってご参加ください。
+</p>
+
+<p>会場は前回と同様リクルートMTLの川崎さんにお世話になりまして、東京駅近くの机付きの200人規模の大きな会場を使わさせていただくことになりました。ありがとうございます。</p>
+
+<p>
+※ 11/26(木)22:16 追記：リクルートMTL川崎さんのご厚意により会場の定員枠を200→300名に増やしていただけました。前半は机あり、後半は椅子のみのレイアウトとなります。ただし、立ち見の可能性もありますので、なるべく早めに会場へお越しください。
+</p>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/200904.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#11</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/200904.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#11を2009年4月22日(水)に開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2009-03-27T07:44+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_200904" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#11を2009年4月22日(水)に開催します。</p>
+<ul>
+  <li>テーマ - <b>"no Perl; use x86;"</b></li>
+  <li>日時 - 2009年4月22日(水) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - グラントウキョウサウスタワー23F <a href="http://www.recruit.co.jp/corporate/english/company/data/pdf/map_south.pdf">リクルート本社サウスホール</a></li>
+  <li>住所 - 東京都千代田区丸の内1-9-2 (JR東京駅 八重洲南口すぐ)</li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200904" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --><s>（定員200名）</s> → 当日参加枠30名を追加しました。</li>
+</ul>
+<ul>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>開場時間
+  <ol>
+  <li>18:00 会場サウスホール(23F)開場<div>2Fロビーからエレベーターまで誘導案内を手配</div></li>
+  </ol>
+ </li>
+
+ <li>第一部 sandbox特集
+  <ol>
+  <li>18:35 バイナリ畑で捕まえて - inside lleval (dankogai)</li>
+  <li>18:50 任意のコードを安全に eval する方法の実装方法と、突破方法について (tokuhirom)</li>
+  <li>19:00 How about Kindle hacking? (obra)</li>
+  </ol>
+ </li>
+ <li>第二部 x86 binary hacks
+  <ol>
+  <li>19:15 世界のセキュリティコンテスト（Capture the Flag）ってどんなもの？ (kenji)</li>
+  <li>19:30 Native Client Hacks (Fukumori Daiki)</li>
+  <li>19:40 Perl で学ぶ Win32/FreeBSD/Linux/x86_64 アセンブラ入門 (takesako)</li>
+  </ol>
+ </li>
+ <li>第三部 Perl Internals
+  <ol>
+  <li>20:00 オレオレPerlVM (gfx)</li>
+  <li>20:10 CPUの気持ちは大事だけど、VMの気持ちも考えよう (Yappo)</li>
+  <li>20:20 Devel::BindPP をつかって簡単に C++ で Perl の拡張モジュールをつくろう！ (tokuhirom)</li>
+  </ol>
+ </li>
+ <li>第四部 Lightning Talks
+  <ol>
+  <li>20:35 Devel::NYTProf (clkao)</li>
+  <li>20:40 マルウェアの検出 (sonodam)</li>
+  <li>20:45 ブラマンのブラックな話 (isidai)</li>
+  <li>20:50 5分で danbot server を立ち上げる方法 (Yappo)</li>
+  <li>20:55 Windowsユーザのための初めてのPerlプログラミング (HASEGAWA Yosuke)</li>
+  </ol>
+ </li>
+</ul></li>
+</ul>
+
+<p>会場はリクルートMTLの川崎さんにお世話になりまして、机付きの200人規模の大きな会場を使わさせていただくことになりました。ありがとうございます。</p>
+
+<p>ちなみに今回のプログラムは XS Nite のときよりも低レベルになる予定です。
+正規表現やPerlに詳しくない方でも安心して聞ける内容になると思います。
+現在お使いのプログラミング言語を問わず、ふるってご参加ください。
+</p>
+
+<!-- more -->
+<h4 class="streaming">ストリーミング中継について</h4>
+
+<p>ストリーミング中継についてですが、このたびは会場に安定したネットワークが用意できないため未定となっております。<p>
+<blockquote>
+懸念点としては、会場にゲスト用のブロードバンドな無線ＬＡＮがありません。
+UQ WiMAX を無線ＬＡＮで共有させて、スピーカー・スタッフ用として提供し、
+別系統の e-mobile も無線ＬＡＮで共有させて、参加者用として提供可能です。
+ただし、上流が e-mobile なので１人あたりは遅くなると思いますが。
+</blockquote>
+<p>予めご了承ください。</p>
+
+<h4 class="subsection">プログラム詳細</h4>
+<dl>
+<dt>Native Client Hacks</dt>
+<dd>スピーカー: <a href="#fukumori">福森大喜（Fukumori Daiki）</a><br />
+これまでWebブラウザのサンドボックスは様々に変化してきました。先日は、ブラウザ上でx86バイナリを動かす仕組みであるGoogle Native Clientというものが登場しましたが、これを実現するためにはサンドボックスの考えが重要になります。今回はそのセキュリティと想定される攻撃について考えます。
+</dd>
+</dl>
+
+<dl>
+<dt>世界のセキュリティコンテスト（Capture the Flag）ってどんなもの？</dt>
+<dd>スピーカー: <a href="#kenji">愛甲 健二（kenji）</a><br />
+世界では、純粋なセキュリティ技術を競い合うセキュリティコンテスト<a href="http://nopsr.us/ctf2008/overview.html">（Capture the Flag）</a>が多く開催されています。
+今回は、それらがどのように行われているか、また、どういった問題が出題されているかを紹介します。
+</dd>
+</dl>
+
+<dl>
+<dt>任意のコードを安全に eval する方法の実装方法と、突破方法について</dt>
+<dd>スピーカー: <a href="#tokuhirom">松野 徳大（tokuhirom）</a><br />
+任意のコードを安全に評価する方法の一つとして、XS をもちいた実装をおこなったので、
+その方法論について解説する。主なトピックは、レキシカル変数のセキュリティや、'Dyna'.'Loader' とのつきあいかたについて。
+</dd>
+</dl>
+
+<dl>
+<dt>Devel::BindPP をつかって簡単に C++ で Perl の拡張モジュールをつくろう！</dt>
+<dd>スピーカー: <a href="#tokuhirom">松野 徳大（tokuhirom）</a><br />
+Perl の拡張モジュールを書く方法としては、XS が標準です。しかし、XSは学習コストがたかいため、書ける人が非常に少ないという現状があります。そんな現状を打破するモジュールが Devel::BindPPです。Devel::BindPP をつかえば、マクロの海から脱出し、普通に C++ で拡張モジュールがかけるのです！
+</dd>
+</dl>
+
+<dl>
+<dt>Perl で学ぶ Win32/FreeBSD/Linux/x86_64 アセンブラ入門</dt>
+<dd>スピーカー: <a href="#takesako">竹迫 良範（takesako）</a><br />
+Yet Another DynaLoader Hacks の紹介。
+PerlでWin32::APIを使わずにWindowsメッセージボックスを表示するハックを例に
+Win32/FreeBSD/Linux/x86_64な環境でアセンブラプログラミングする方法について解説します。
+</dd>
+</dl>
+
+<dl>
+<dt>CPUの気持ちは大事だけど、VMの気持ちも考えよう</dt>
+<dd>スピーカー: <a href="#yappo">大沢 和宏（yappo）</a><br />
+Perlのコードを指してloop
+unrollingだね！と言ったら「それscope減っただけだよ」と指摘されてしまう世知辛い世の中ですが、VMの気持ちさえ知っていれば真のloop
+unrollingもPerlで可能かもしれません。書いたコードが実際どういう風にVMに処理されるのかを見やすくして効率的な最適化を行う方法について考えます。
+</dd>
+</dl>
+
+<dl>
+<dt>オレオレPerlVM</dt>
+<dd>スピーカー: <a href="#gfx">藤 吾郎（gfx）</a><br />
+perl実行系の中枢であるPerl5 Virtual Machineの実装を通して，そのメカニズムを解説します。
+</dd>
+</dl>
+
+<dl>
+<dt>Windowsユーザのための初めてのPerlプログラミング</dt>
+<dd>スピーカー: <a href="#hasegawa">はせがわようすけ（HASEGAWA Yosuke）</a><br />
+Not Only DynaLoader Hacks の紹介。 PerlでDynaLoaderを使わずにWindowsメッセージボックスを表示するハックを例に、WindowsユーザにとってのPerlプログラミング入門について解説します。
+</dd>
+</dl>
+
+<dl>
+<dt>ブラマンのブラックな話（仮）</dt>
+<dd>スピーカー: <a href="#isidai">石森大貴（isidai）</a><br />
+TBSドラマ「ブラッディ・マンデイ」のハッキングシーンついて元現役高校生が考察する。
+</dd>
+</dl>
+
+<dl>
+<dt>マルウェアの検出</dt>
+<dd>スピーカー: <a href="#sonodam">園田道夫（sonodam）</a><br />
+マルウェアの検出は年々困難になってきていますが、既存技術の変遷を振り返りながら、今後どういう方法論がいいのか考察してみます。
+</dd>
+</dl>
+
+<h4 class="subsection">スピーカー紹介</h4>
+
+<dl>
+<dt><a name="fukumori">福森 大喜（Fukumori Daiki）</a></dt>
+<dd>
+大学の授業で作成したプログラムのセキュリティホールを指摘されたのがきっかけでセキュリティの道に進む。2007年第3回IPA賞受賞（情報セキュリティ部門）。連載「<a href="http://gihyo.jp/dev/serial/01/web20sec">ここが危ない！Web2.0のセキュリティ</a>」
+の著者でもある。
+</dd>
+</dl>
+
+<dl>
+<dt><a name="tokuhirom">松野 徳大（tokuhirom）</a></dt>
+<dd>
+最近は Moxy, HTTP::MobileAttribute, HTTP::Session, Devel::BindPP, Mouse,
+HTTP::Engine などの perl モジュールにコミットしている perl monger。最近の趣味は
+DynaLoader という文字列を評価できない環境における DynaLoader の利用方法の研究な
+ど。
+</dd>
+</dl>
+
+<dl>
+<dt><a name="takesako">竹迫 良範（takesako）</a></dt>
+<dd>
+Shibuya.pm 2代目リーダー。
+広島市立大学卒業後、大企業向けのmod_perlパッケージソフトの開発に従事し、
+2005年よりサイボウズ・ラボ株式会社。
+2008年には Microsoft MVP Award - Developer Security を受賞。
+</dd>
+</dl>
+
+
+<dl>
+<dt><a name="yappo">大沢 和宏（yappo）</a></dt>
+<dd>
+Web+DB PRESS Vol.48の特集でPerlの章に寄稿をしたり、HTTP::Engine, Moose, Mouse,
+Class::MOPなどにコミットする傍ら、Acme的モジュールを含めると6個のAcmeモジュールを登録している日本屈指のAcme
+Author。Acme::NabeAtzzとdan.pmはPerlの仕組みの無駄遣いなので良い子の皆さんは真似しないように。
+</dd>
+</dl>
+
+<dl>
+<dt><a name="gfx">藤 吾郎（gfx）</a></dt>
+<dd>
+筑波大学の学生。専攻は心理学。趣味はPerlソースコードを読むことと，Perlコードのベンチマークをとること。
+</dd>
+</dl>
+
+<dl>
+<dt><a name="kenji">愛甲 健二（kenji）</a></dt>
+<dd>
+<a href="http://ruffnex.oc.to/kenji/">http://ruffnex.oc.to/kenji/</a> の管理人
+</dd>
+</dl>
+
+<dl>
+<dt><a name="hasegawa">はせがわようすけ（HASEGAWA Yosuke）</a></dt>
+<dd>
+TAKESAKOさんの追っかけ。Perlはぜんぜんわかりません。 <a href="http://utf-8.jp/">http://utf-8.jp/</a>
+</dd>
+</dl>
+
+<dl>
+<dt><a name="isidai">石森大貴（isidai）</a></dt>
+<dd>CNET Japanブログにてブラッディ・マンディの考察記事を連載。
+３月より，ハッキングシーンの制作・監修を行ったサイバーディフェンス研究所にて，Webアプリケーション診断や，Zone-Hハッキングセミナー講師補助として活動。
+セキュリティキャンプチューターやYahoo!トピックスエディターなどとしても活動しながら，レンタルサーバーAbelProjectの運営を行う，ふつうの大学1年生。 
+</dd>
+</dl>
+
+<dl>
+<dt><a name="sonodam">園田道夫（sonodam）</a></dt>
+<dd>
+日本サイバー大学IT総合学部准教授。
+著書に「Winnyはなぜ破られたのか」、共著、共訳には「実用SSH第二版」、「Snort2.0侵入検知」、「暗号技術大全」、「企業情報ネットワークの保護管理」、「平成19年度テクニカルエンジニア情報セキュリティ試験に良く出る午前問題集」、監訳に「ハニーネットプロジェクト」、「実践パケット解析」、「ファジング」、マンガ「アクセス探偵IHARA」、マンガ「アクセスガールアスカ危機一髪」等がある。
+</dd>
+</dl>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/2008011.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#10</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/2008011.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#10「最新Perlフレームワーク特集」を2008年11月27日に開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2008-11-18T10:00+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_2008011" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#10「最新Perlフレームワーク特集」を2008年11月27日に開催します。</p>
+<ul>
+  <li>日時 - 2008年11月27日(木) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200811/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --> <s>（定員100名）</s>定員に達したので締め切りました。</li>
+  <li>ストリーミング
+<ul>
+<li><a href="http://www.ustream.tv/channel/shibuya-perl-mongers">ustream.tv で中継予定</a>（by cojiさん）</li>
+</ul>
+  </li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+ <li>第一部 Main Talks
+  <ol>
+  <li>18:30 TPF-J(仮)について (lestrrat)</li>
+  <li>18:50 初心者向け Perl OO 講習 - LL温泉報告 (tokuhirom)</li>
+  </ol>
+ </li>
+ <li>第二部 特別企画「最速Perlフレームワーク研究会」
+  <ol>
+  <li>19:00 Benchmark of Perl Web Application Frameworks (hidek)</li>
+  <li>19:10 Yacafi と見せかけて Module::Setup の話 (Yappo)</li>
+  <li>19:15 MENTA (tokuhirom)</li>
+  <li>19:20 NanoA (kazuho)</li>
+  <li>19:25 Catalyst の次は Mojo ? (charsbar)</li>
+  <li>19:30 質疑応答／休憩</li>
+  </ol>
+ </li>
+ <li>第三部 Demo Talks
+  <ol>
+  <li>19:45 "remedie" pluggable media center application (miyagawa)</li>
+  <li>19:55 "kamaitachi" perl flash media server (typester)</li>
+  <li>20:10 ウェブサービスにおける SSD の使い方 (kazuho)</li>
+  </ol>
+ </li>
+ <li>第四部 Lightning Talks
+  <ol>
+  <li>20:25 Moxy at Dwango(仮) (acotie)</li>
+  <li>20:30 EC2 と S3 で Hadoop する (lopnor)</li>
+  <li><s>20:35 SVありーな概要 (wakapon)</s></li>
+  <li>20:40 Acme::Acme::Don't 2.0 (gfx)</li>
+  <li>20:45 EBCDIC 2.0 Binary Hacks (takesako)</li>
+  <li>20:50 Yokohama.pm 活動報告 (clouder)</li>
+  <li>20:55 京都観光を終えて (mala)</li>
+  </ol>
+ </li>
+</ul></li>
+</ul>
+
+<p>今回は普段Perl以外の言語（PHPやRubyやPythonなど）を使われている方にも楽しめる内容となるように、Perlのオブジェクト指向がスッキリわかる<a href="http://ll-onsen.jp/program/tutorial">「初心者向け Perl OO 講習」</a>や、<a href="http://d.hatena.ne.jp/charsbar/20081105/1225820041">Catalystだけじゃない！</a><a href="http://d.hatena.ne.jp/hide-K/20081112/1226499186">「Perlの最新Webアプリケーションフレームワーク特別比較」</a>セッションを企画しました。その他、EC2 と S3 で Hadoop する話や、flash media serverのPerl実装のデモや、SSDで安価な検索エンジンを構築する方法など、Webサービスに関連する幅広い話題も取り扱っています。なお、今回は特別にインターネット中継では味わえないmiyagawaさんの特別セッションも予定されています。最近活発に活動を始めた新しいPerlコミュニティ<a href="http://yokohama.pm.org/">Yokohama.pm</a>の活動報告や、これから立ち上げを準備している<a href="http://trac.endeworks.jp/trac/tpfj/wiki">TPF-J(仮)の話</a>も聞くことが出来ます。どうぞお楽しみください。
+</p>
+
+<h4>追記：パブリックビューイング会場のご案内</h4>
+<p><a href="http://blog.yappo.jp/yappo/archives/000625.html">YappoLogs: Shibuya.PM tech talk #10 の申し込み間に合わなかった人への提案とust時代の勉強会の関わり方</a></p>
+<ol>
+<li><a href="http://www.ustream.tv/channel/shibuya.pm-osaka">大阪</a>：<a href="http://d.hatena.ne.jp/hasegawayosuke/20081119/p1">Shibuya.pm ustream中継 新大阪サテライト会場 - 葉っぱ日記</a></li>
+<li><a href="http://www.ustream.tv/channel/shibuya.pm-kyoto">京都</a>：<a href="http://d.hatena.ne.jp/antipop/20081119/1227073598">Shibuya Perl Mongersテクニカルトーク#10 京都サテライト開場のご案内 - antipop</a></li>
+<li><a href="http://www.ustream.tv/channel/codecheck.in">福岡</a>：<a href="http://fukuoka.pm.org/2008/11/shibuya-perl-mongers10.html">Fukuoka Perl Mongers: &#12300;Shibuya Perl Mongersテクニカルトーク#10 福岡サテライト&#12301;開催のお知らせ</a></li>
+</ol>
+<p><a href="http://parame.mwj.jp/shibuya.pm/">パブリックビューイング会場一覧ページ</a> (by doumaeさん)</p>
+]]></content:encoded>
+  </item>
+
+  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/200806.html">
+    <title>Shibuya Perl Mongersテクニカルトーク#9</title>
+    <link>http://shibuya.pm.org/blosxom/techtalks/200806.html</link>
+    <description>Shibuya Perl Mongersテクニカルトーク#9 (通称：XS Nite) を2008年6月25日に開催します...</description>
+    <dc:subject>Tech Talks</dc:subject>
+    <dc:creator>takesako</dc:creator>
+    <dc:date>2008-06-18T12:24+09:00</dc:date>
+    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_200806" />
+    <content:encoded><![CDATA[
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#9 (通称：XS Nite) を2008年6月25日に開催します。</p>
+<ul>
+  <li>日時 - 2008年6月25日(水) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
+
+  <li>料金 - 無料</li>
+  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200806/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --> <s>（定員100名）</s> 定員に達したので締め切りました。</li>
+  <li>ストリーミング
+<ul>
+<li>録画を公開しました（cojiさん、ありがとうございます！）</li>
+<li><a href="http://techtalk.jp/2008/06/shibuyapm9.html">http://techtalk.jp/2008/06/shibuyapm9.html</a></li>
+
+</ul>
+  </li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+ <li>第一部「XS 概論」
+  <ol>
+  <li>18:30 はじめてのXS - ハマりどころはココだ (hirose31)</li>
+  <li>18:45 Perl 5 internals の世界にようこそ (Daisuke Maki)</li>
+
+  <li>19:30 休憩</li>
+  </ol>
+ </li>
+ <li>第二部「XS 若手の会」
+  <ol>
+  <li>19:50 Inside Ruby.pm (藤 吾郎)</li>
+  <li>20:10 PerlMachine (wakapon)</li>
+  </ol>
+
+ </li>
+ <li>Lightning Talks
+  <ol>
+  <li>20:30 autobox.xs 徹底解説 (tokuhirom)</li>
+  <li>20:35 PL_check Hacks (Yappo)</li>
+  <li>20:40 arguments.callee の作り方 (TAKESAKO)</li>
+  <li>20:45 gdbでXS on mod_perlをデバッグ (stanaka)</li>
+
+  <li>20:50 Abstract Script Engines (Akira Higuchi)</li>
+  <li>20:55 Acme::PerlVMGolf (tokuhirom)</li>
+  </ol>
+ </li>
+</ul></li>
+</ul>
+<p>YAPC::Asia 2008 Tokyo で一部人気だったセッションをもとに、今回は XS Nite と称して、これから XS を書いてみようと思う Perl プログラマの人を対象に、PerlとCライブラリとの拡張インターフェースを作るためのマクロ言語 XS だけについて語る XS only イベントを開催します。C言語で書かれた Perl 処理系の内部構造についても軽く中身をのぞいてみる予定です。</p>
+
+<h3>感想リンク集</h3>
+
+<ul>
+<li><a href="http://d.hatena.ne.jp/hiratara/20080625/1214389654">XS Nite (Shibuya.pm Tech Talk #9) - a geek</a></li>
+<li><a href="http://diary.lampetty.net/20080625.html#p02">おいぬま日報(不定期) - Shibuya Perl Mongersテクニカルトーク#9 (XS Nite)に行ってきました ,</a></li>
+<li><a href="http://yusukebe.com/archives/08/06/26/112921.html">ゆーすけべー日記: Shibuya.pm tech talk #9 (XS Nite) に行って来た</a></li>
+<li><a href="http://d.hatena.ne.jp/rin1024/20080626/1214450995">昨日はShibuya.pmだったー！！１ - uncertain world</a></li>
+</ul>
+]]></content:encoded>
+  </item>
+
+
+</rdf:RDF>

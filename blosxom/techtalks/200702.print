@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : デブサミ2007出張Shibuyaイベント</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200702.html">http://shibuya.pm.org/blosxom/techtalks/200702.html</a>.
+<br /><br /><br />
+
+<b>デブサミ2007出張Shibuyaイベント</b><br />
+<b>by</b> takesako at Mon, 08 Jan 2007 08:25
+<p />
+
+<p style="margin-top:0">デブサミ2007出張Shibuyaイベントを2007年2月14日に開催します。</p>
+
+<h3>Developers Summit 2007（デブサミ2007）</h3>
+<h3><a href="http://www.seshop.com/event/dev/2007/timetable/">[開発テクノロジー]【14-B-7】「出張Shibuyaイベント」</a><br />
+  ～ Shibuya.pm presents "Shibuya.js x Shibuya.pl mashup night" ～</h3>
+
+<ul>
+  <li>日時 - 2007年 2/14(水) 17:40～19:10</li>
+  <li>会場 - <a href="http://www.seshop.com/event/dev/2007/gaiyo/index.html#04">目黒雅叙園（東京・目黒）</a>夢扇（B会場）</li>
+  <li>料金 - 無料</li>
+  <li>参加登録 - <a href="http://www.seshop.com/event/dev/2007/">こちら</a> （定員300名）</li>
+  <li>プログラム <span class="caution">（※内容・順番・時間などは予告なく変更する場合があります）</span>
+
+     <ol>
+     <li>Shibuya.pm メイントーク (15 min)
+	<ul>
+	<li>サンフランシスコより中継 (宮川達彦)</li>
+	</ul>
+     <li>Shibuya.js 特別対談 (30 min)
+	<ul>
+	<li>パネルDISカッション (id:brazil x ma.la) with 江渡浩一郎</li>
+	</ul>
+     <li>Shibuya.pl Lightning Talks (5 * 7 = 35 min)
+	<ul>
+	<li>PRhagger - Pluggable feed aggregator (鶴岡直也)</li>
+		<li>まるごと Plagger インスパイア (Yappo)</li>
+		<li>Assurer - サーバテスティング/モニタリングフレームワーク (mizzy)</li>
+		<li>新春CSSかくし芸大会駈け足ダイジェストとPerl &#38; CSS (ZIGOROゥ)</li>
+		<li>Nagios の Plugin を Perl で + NRPE (kazeburo)</li>
+		<li>Archer で快適なくらしを創造する会 (tokuhirom)</li>
+		<li>VH$上映 (youpy)</li>
+	</ul>
+     </ol>
+  </li>
+</ul>
+
+<p>Shibuya.pm／Shibuya.jsのイベントをそのままデブサミの会場の中で行なってしまおうという企画です。</p>
+<p>翔泳社様のご厚意により、デブサミ2007のセッションで使われる300人規模の会場をShibuya系コミュニティのために無償で貸していただいてることになりました。ありがとうございました。</p>
+
+<hr class="seemore">
+
+
+
+<h1>プログラム詳細</h1>
+
+<h2>Shibuya.pl Lightning Talks</h2>
+
+<dl>
+<dt>PRhagger - Pluggable feed aggregator (鶴岡直也)</dt>
+<dd><span class="caps">PHP</span>もやれば出来る子なんです！PHPでPlaggerをパクったPRhaggerを紹介します。</dd>
+</dl>
+<dl>
+<dt>まるごと　Plagger　インスパイア (Yappo)</dt>
+<dd>Plaggerが公開されて一年が経ちました。この間にPlaggerを参考にした様々なプロダクトが発表されています。このLTでは、それらのプロダクトを駆け足で紹介します。</dd>
+</dl>
+<dl>
+<dt>Assurer - サーバテスティング/モニタリングフレームワーク (mizzy)</dt>
+<dd>Plaggerインスパイヤなサーバテスト/監視用フレームワークAssurer（アシュラ） をご紹介します。最初はテストだけする簡単なツールでいいや、と思っていたのに、なんだかだんだん大げさになってきちゃって、本人ちょっとビビリ入ってます。次世代Nagiosと呼ばれる日を夢見てます。（たぶん無理）</dd>
+</dl>
+<dl>
+<dt>新春CSSかくし芸大会駈け足ダイジェストとPerl &#38; CSS (ZIGOROゥ)</dt>
+<dd>社内で行ったCSSかくし芸大会のダイジェスト版及びPerlとCSS、情報設計にまで言及してみるかもしれません。CSS Nite出たい！</dd>
+</dl>
+<dl>
+<dt>Nagios の Plugin を Perl で + NRPE (kazeburo)</dt>
+<dd>設定が複雑で有名なオープンソースの運用監視ツールNagiosの紹介と、PerlによるプラグインやNRPEを使って幸せになる方法。Plaggerとは関係がありません。</dd>
+</dl>
+<dl>
+<dt>Archer で快適なくらしを創造する会 (tokuhirom)</dt>
+<dd>deploy tool として有名な SwitchTower あらためカピカピなんたらなんて知ったことか。名前覚えにくいんだよ！Plagger っぽくないツールに明日なんかねぇ。と言いきります。</dd>
+</dl>
+
+<h1>プロフィール</h1>
+
+<dl>
+<dt><a href="http://labs.cybozu.co.jp/blog/tsuruoka/">鶴岡直也</a></dt>
+<dd><a href="http://labs.cybozu.co.jp/">サイボウズ・ラボ株式会社</a> 代表戸締役。「言語ではない」とDISられるPHPが「やれば出来る子」である事を説明してまわっているがみんなわかってくれない。</dd>
+</dl>
+<dl>
+<dt><a href="http://blog.yappo.jp/">Yappo</a></dt>
+<dd><a href="http://www.infomarks.co.jp/">インフォマークス株式会社</a> 社員兼Yappo最高責任者兼Boofy保護の会役員。え、ここなにか面白いこと書かなきゃだめなの?ねこ大好き。</dd>
+</dl>
+<dl>
+<dt><a href="http://mizzy.org/">宮下剛輔</a> (mizzy)</dt>
+<dd><a href="http://paperboy.co.jp/">（株）paperboy&#38;co.</a> 所属技術系何でも屋。ドクターペッパー中毒で愛妻家で子煩悩。でもプログラミング中に子供に邪魔されるとキレる。</dd>
+</dl>
+<dl>
+<dt><a href="http://d.hatena.ne.jp/ZIGOROu/">山口 徹</a> (ZIGOROu)</dt>
+<dd>Wii Sportsのテニスのランキングは現在2393です。2月からニート街道まっしぐら。溜まった書籍を読み漁ってます。</dd>
+</dl>
+<dl>
+<dt><a href="http://blog.nomadscafe.jp/">長野雅広</a> (kazeburo)</dt>
+<dd><a href="http://mixi.jp/">株式会社ミクシィ</a> 所属。id:kazeburo。運用系Perlプログラマー。最近は便利なシェルスクリプトを「Perlでもできるもん」と移植するのが趣味。</dd>
+</dl>
+<dl>
+<dt><a href="http://d.hatena.ne.jp/tokuhirom/">松野徳大</a> (tokuhirom)</dt>
+<dd><a href="http://mobilefactory.jp/">株式会社モバイルファクトリー</a> 所属兼ウェブアプリケーションフレームワークで最適な暮らしを創造する会会長代理。マイブームはPHPの勉強会にサブテカ大勢で押しかけること。</dd>
+</dl>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

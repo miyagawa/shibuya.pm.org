@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#10</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/2008011.html">http://shibuya.pm.org/blosxom/techtalks/2008011.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#10</b><br />
+<b>by</b> takesako at Tue, 18 Nov 2008 19:00
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#10「最新Perlフレームワーク特集」を2008年11月27日に開催します。</p>
+<ul>
+  <li>日時 - 2008年11月27日(木) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200811/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --> <s>（定員100名）</s>定員に達したので締め切りました。</li>
+  <li>ストリーミング
+<ul>
+<li><a href="http://www.ustream.tv/channel/shibuya-perl-mongers">ustream.tv で中継予定</a>（by cojiさん）</li>
+</ul>
+  </li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+ <li>第一部 Main Talks
+  <ol>
+  <li>18:30 TPF-J(仮)について (lestrrat)</li>
+  <li>18:50 初心者向け Perl OO 講習 - LL温泉報告 (tokuhirom)</li>
+  </ol>
+ </li>
+ <li>第二部 特別企画「最速Perlフレームワーク研究会」
+  <ol>
+  <li>19:00 Benchmark of Perl Web Application Frameworks (hidek)</li>
+  <li>19:10 Yacafi と見せかけて Module::Setup の話 (Yappo)</li>
+  <li>19:15 MENTA (tokuhirom)</li>
+  <li>19:20 NanoA (kazuho)</li>
+  <li>19:25 Catalyst の次は Mojo ? (charsbar)</li>
+  <li>19:30 質疑応答／休憩</li>
+  </ol>
+ </li>
+ <li>第三部 Demo Talks
+  <ol>
+  <li>19:45 "remedie" pluggable media center application (miyagawa)</li>
+  <li>19:55 "kamaitachi" perl flash media server (typester)</li>
+  <li>20:10 ウェブサービスにおける SSD の使い方 (kazuho)</li>
+  </ol>
+ </li>
+ <li>第四部 Lightning Talks
+  <ol>
+  <li>20:25 Moxy at Dwango(仮) (acotie)</li>
+  <li>20:30 EC2 と S3 で Hadoop する (lopnor)</li>
+  <li><s>20:35 SVありーな概要 (wakapon)</s></li>
+  <li>20:40 Acme::Acme::Don't 2.0 (gfx)</li>
+  <li>20:45 EBCDIC 2.0 Binary Hacks (takesako)</li>
+  <li>20:50 Yokohama.pm 活動報告 (clouder)</li>
+  <li>20:55 京都観光を終えて (mala)</li>
+  </ol>
+ </li>
+</ul></li>
+</ul>
+
+<p>今回は普段Perl以外の言語（PHPやRubyやPythonなど）を使われている方にも楽しめる内容となるように、Perlのオブジェクト指向がスッキリわかる<a href="http://ll-onsen.jp/program/tutorial">「初心者向け Perl OO 講習」</a>や、<a href="http://d.hatena.ne.jp/charsbar/20081105/1225820041">Catalystだけじゃない！</a><a href="http://d.hatena.ne.jp/hide-K/20081112/1226499186">「Perlの最新Webアプリケーションフレームワーク特別比較」</a>セッションを企画しました。その他、EC2 と S3 で Hadoop する話や、flash media serverのPerl実装のデモや、SSDで安価な検索エンジンを構築する方法など、Webサービスに関連する幅広い話題も取り扱っています。なお、今回は特別にインターネット中継では味わえないmiyagawaさんの特別セッションも予定されています。最近活発に活動を始めた新しいPerlコミュニティ<a href="http://yokohama.pm.org/">Yokohama.pm</a>の活動報告や、これから立ち上げを準備している<a href="http://trac.endeworks.jp/trac/tpfj/wiki">TPF-J(仮)の話</a>も聞くことが出来ます。どうぞお楽しみください。
+</p>
+
+<h4>追記：パブリックビューイング会場のご案内</h4>
+<p><a href="http://blog.yappo.jp/yappo/archives/000625.html">YappoLogs: Shibuya.PM tech talk #10 の申し込み間に合わなかった人への提案とust時代の勉強会の関わり方</a></p>
+<ol>
+<li><a href="http://www.ustream.tv/channel/shibuya.pm-osaka">大阪</a>：<a href="http://d.hatena.ne.jp/hasegawayosuke/20081119/p1">Shibuya.pm ustream中継 新大阪サテライト会場 - 葉っぱ日記</a></li>
+<li><a href="http://www.ustream.tv/channel/shibuya.pm-kyoto">京都</a>：<a href="http://d.hatena.ne.jp/antipop/20081119/1227073598">Shibuya Perl Mongersテクニカルトーク#10 京都サテライト開場のご案内 - antipop</a></li>
+<li><a href="http://www.ustream.tv/channel/codecheck.in">福岡</a>：<a href="http://fukuoka.pm.org/2008/11/shibuya-perl-mongers10.html">Fukuoka Perl Mongers: &#12300;Shibuya Perl Mongersテクニカルトーク#10 福岡サテライト&#12301;開催のお知らせ</a></li>
+</ol>
+<p><a href="http://parame.mwj.jp/shibuya.pm/">パブリックビューイング会場一覧ページ</a> (by doumaeさん)</p>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

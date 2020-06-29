@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#17</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/201506.html">http://shibuya.pm.org/blosxom/techtalks/201506.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#17</b><br />
+<b>by</b> takesako at Thu, 30 Apr 2015 18:13
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#17 を2015年6月2日(火)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します。</p>
+<ul>
+  <li><b>Shibuya Perl Mongersテクニカルトーク#17</b></li>
+  <li>日時 - 2015年6月2日(火) 18:50-21:00 (18:30 開場)</li>
+  <li>会場 - 渋谷ヒカリエ21F DeNA本社（受付11F） (<a href="http://dena.com/jp/company/access.html">株式会社ディー・エヌ・エー</a>)</li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - 150名</li>
+  <li>事前登録 -  <a href="http://shibuyapm.connpass.com/event/15705/">http://shibuyapm.connpass.com/event/15705/</a> からお申し込みください。【満員御礼】</li> 
+  <li>注意事項 - 入館手続きのため、名刺を1枚ご用意ください。名刺には事前にお申込み時のアカウント名のご記入をお願い致します。</li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>タイムスケジュール
+  <ul>
+  <li>18:30 - 開場・受付</li>
+  <li>18:50 - 開会の挨拶 - <a href="https://twitter.com/takesako">@takesako</a></li>
+  </ul>
+ </li>
+
+ <li>基調講演
+  <ul>
+  <li>19:00 - nginxのパフォーマンスチューニング - <a href="https://twitter.com/cubicdaiya">@cubicdaiya</a></li> 
+  <li>19:20 - H2Oのパフォーマンスか機能に関する未発表の何か(仮) - <a href="https://twitter.com/kazuho">@kazuho</a></li> 
+  <li>19:40 - 質疑応答（5分）</li> 
+  </ul>
+ </li>
+ <li>Lightning Talks
+  <ol> 
+  <li>19:55 - ドキッ！記号だらけの無名関数 - <a href="https://twitter.com/tsurumau">@tsurumau</a></li>
+  <li>20:00 - %1 => sub { $_[0] }(仮) - <a href="https://twitter.com/tokuhirom">@tokuhirom</a></li> 
+  <li>20:05 - CPANモジュールでスタンドアロンサーバーを書く方法 - <a href="https://twitter.com/songmu">@Songmu</a></li> 
+  <li><del>20:10 - App::revealupを改造して・・・しゃべるスライドの実演 - <a href="https://twitter.com/dokechin">@dokechin</a></del></li> 
+  <li>20:15 - perlをphpに変換する（その後） - <a href="https://twitter.com/tomita">@tomita</a></li> 
+  <li>20:20 - Perl-Lintのなかみ（仮） - <a href="https://twitter.com/moznion">@moznion</a></li> 
+  <li>20:25 - APIクライアントのつくりかた - <a href="https://twitter.com/__papix__">@__papix__</a></li> 
+  <li>20:30 - Test::WWW::Stubのご紹介 - <a href="https://twitter.com/ast_j">@ast_j</a></li> 
+  <li>20:35 - 高速Plackサーバ GazelleとHTTPリクエスト処理を高速化するためのモジュール紹介 - <a href="https://twitter.com/kazeburo">@kazeburo</a></li> 
+  <li>20:40 - Perlでデバッグする - <a href="https://twitter.com/ks0608">@ks0608</a></li> 
+  <li>20:45 - ドキュメントの生成とかとか - <a href="https://twitter.com/toku_bass">@toku_bass</a></li> 
+  <li>20:50 - one source code で「複数のサービスに対応するが schema 構成は微妙にに違います」という要件に直面したら開発はどうすればいいのか、僕なりに何日か考えた上でのややベターな結論のようなもの - <a href="https://twitter.com/Yappo">@Yappo</a></li> 
+  <li>20:55 - ppencode 2 - 任意の Perl コードを予約語だけの Perl コードに変換する - <a href="https://twitter.com/shinh">@shinh</a></li> 
+  </ol>
+ </li> 
+</ul>
+</li>
+<li>受付・入館方法：
+<ul>
+<li>入館受付開始は18:30です。オフィスフロア入り口である11F受付にお越し下さい。ヒカリエビル内の地下フロアやJRとの連絡通路がある2Fなどに、11Fへのエレベータが数ヶ所設置されています。 当日11Fには、本フォーラム用の特設受付をご用意しておりますので、そちらへお越し頂き、その後は受付の案内に従ってください。</li>
+<li>入館時にお名刺を1枚ご準備ください。名刺には事前にお申込み時のアカウント名のご記入をお願い致します。名刺をお持ちで無い方は受付で芳名帳に記入をお願いいたします。</li>
+<li>遅れてきた方は、エントランスに掲示してある連絡先までご一報ください。お迎えに参ります。</li>
+</ul></li>
+
+<li>注意事項：
+<ul>
+<li>途中入退室できませんのでご注意ください。会場内は飲食可能です。
+お飲み物等は、予めご自身でご用意ください。11Fにローソンがありますので、
+入館手続き前にご購入ください。
+</li>
+<li><ins>営業、スカウト行為目的のご参加は固くお断りしております。ご理解いただきますようお願い致します。</ins></li>
+</ul></li>
+</ul>
+
+<del><p>Lightning Talksの発表者を募集しています。持ち時間は1人5分です。希望者の方は件名「Shibuya.pm#17 LT希望」として、発表タイトルを添えて takesako@shibuya.pm.org までメールして下さい。</p></del>
+<ins><p>応募多数のため、Lightning Talksの発表者の募集は締め切りました。たくさんのご応募ありがとうございます。次回以降またよろしくお願いいたします。</p></ins>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

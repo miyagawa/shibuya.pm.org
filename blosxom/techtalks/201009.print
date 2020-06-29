@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#14</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/201009.html">http://shibuya.pm.org/blosxom/techtalks/201009.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#14</b><br />
+<b>by</b> takesako at Fri, 03 Sep 2010 16:58
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#14 を2010年9月30日(木)に開催します。</p>
+<ul>
+  <li>テーマ - <b>「IPAとJPAは違う団体です」</b></li>
+  <li>日時 - 2010年9月30日(木) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - <s>100名</s> → 170名に変更しました！ ※</li>
+  <li>事前登録 - <a href="http://atnd.org/events/7722">ATNDで参加申し込み受付中</a>です。</li> 
+  <li>中継 - HTML5/WebMにて配信予定 <a href="http://live.streamingmedia.jp/shibuyapm/">http://live.streamingmedia.jp/shibuyapm/</a></li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>タイムスケジュール
+  <ul>
+  <li>18:00 - 開場</li>
+  </ul>
+ </li>
+
+ <li>Perl6セッション
+  <ul> 
+  <li>18:30 - 本日のイベント開催趣旨について - 竹迫良範</li>
+  <li>18:35 - Perl 6 Language Update - 小飼弾</li> 
+  </ul> 
+ </li> 
+
+ <li>JPAからのお知らせ
+  <ul> 
+  <li>18:55 - ぼくのかんがえたさいきょうのYAPC::Asia - 櫛井</li> 
+  <li>19:00 - JPA活動報告 - 牧</li> 
+  </ul> 
+ </li> 
+
+ <li>夏休みの宿題
+  <ul> 
+  <li>19:15 - memcached injection - 佐名木智貴
+</li> 
+  <li>19:25 - memcachedの運用監視ノウハウ - 長野雅広（ライブドア）</li> 
+  </ul> 
+ </li> 
+
+
+ <li>IPA特別企画
+  <ul> 
+  <li>19:50 - 身につけておきたい、今そこにあるシステムの救命措置<br/>パネルディスカッション形式での対談（IPA園田＋数名）</li> 
+  </ul> 
+ </li> 
+
+ <li>Tokyo.pmより
+  <ul> 
+  <li>20:30 - Perl 1,2,3,4 の歴史 - 前田薫</li> 
+  </ul> 
+ </li> 
+
+ <li>Lightning Talks
+  <ol> 
+  <li>20:40 - 久しぶりのShibuya.pm(仮) - 伊藤直也 (グリー株式会社)</li> 
+  <li>20:45 - *hack* in the web application with plack - tokuhirom</li> 
+  <li>20:50 - String::Filter 構造化テキストの正しいエスケープについて - 奥一穂（サイボウズ・ラボ）</li> 
+  <li>20:55 - Perl Parser Hacks vol.2 - 藤吾郎（gfx）</li> 
+  </ol> 
+ </li> 
+
+<p>YAPC::Asia 2010 が開催される前に盛り上がっていきましょう！</p>
+
+</ul>
+</li>
+</ul></li>
+
+<p>特設サイト上でHTML5/WebMによるストリーミング配信を予定しています。今回は特別に来場者の方にはプレゼントがあるかもしれませんので、途中からでもぜひご参加ください。</p>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

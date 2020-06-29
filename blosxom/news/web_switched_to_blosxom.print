@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya.pm Web Renewal</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/news/web_switched_to_blosxom.html">http://shibuya.pm.org/blosxom/news/web_switched_to_blosxom.html</a>.
+<br /><br /><br />
+
+<b>Shibuya.pm Web Renewal</b><br />
+<b>by</b> miyagawa at Wed, 05 Mar 2003 17:05
+<p />
+
+Shibuya.pm の Webサイト管理を <a href="http://sourceforge.jp/projects/modinsert">mod_insert</a> から <a href="http://www.raelity.org/apps/blosxom/">blosxom</a> へ移行しました。TrackBack も実験的にサポートしています。ping を打つ際には euc-jp でお願いします。
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

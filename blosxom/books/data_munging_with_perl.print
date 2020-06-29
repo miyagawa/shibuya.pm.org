@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Perlデータマンジング</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/books/data_munging_with_perl.html">http://shibuya.pm.org/blosxom/books/data_munging_with_perl.html</a>.
+<br /><br /><br />
+
+<b>Perlデータマンジング</b><br />
+<b>by</b> oyama at Mon, 11 Aug 2003 18:10
+<p />
+
+Shibuya.pmの宮川達彦さん訳による書籍<a href="http://www.pearsoned.co.jp/washo/prog/wa_pro67-j.shtml">Perlデータマンジング</a>がピアソンエデュケーションより発行されています。
+<p />
+世の中に溢れる雑多なフォーマットのデータをPerlで解釈・変換するテクニックが満載。各所のブックレビューでも高い評価を受けている本書は、様々なデータを扱うアプリケーション/サーバ管理者の道具箱としてお奨めです。<p />
+
+<hr class="seemore">
+
+
+<a href="http://www.linux.or.jp/bookreview/BR72-2.html">日本Linuxユーザ会 ブックレビュー</a>より。<br />
+「データの移植・再利用・設計のための参考書」<br />
+「業務／趣味に活かせる実用的なコードが満載の良書」<br />
+「データの扱いを学ぶことができる好著」<br />
+「Perl を『肥後の守』に」<br />
+<p />
+
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4894715589/ref=nosim/bulknews-22">Amazon.co.jp カスタマーレビュー</a>より。<br />
+「一課に一冊」<br />
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#3</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200306.html">http://shibuya.pm.org/blosxom/techtalks/techtalks_200306.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#3</b><br />
+<b>by</b> miyagawa at Fri, 23 May 2003 18:27
+<p />
+
+Shibuya Perl Mongersテクニカルトーク#3を2003年6月13日に開催します。
+<ul>
+  <li>日時 - 2003年6月13日 金曜日 19:00〜21:00</li>
+  <li>会場 - <a href="http://www.nyc.go.jp/">国立オリンピック記念青少年総合センター</a> <a href="http://www.nyc.go.jp/users/d6-1-16.html">センター棟3階306号室</a></li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - 定員に達したため締め切りました。当日参加でもお待ちしています。</li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+    <ol>
+      <li>"CGIの裏側見せます" - 小山浩之</li>
+      <li>"100万(+3)人の Mutt とみんなの Perl" - 谷本哲</li>
+      <li>"楽天広場が仕掛ける、パーソナルwebサービスの時代" - 田中良和</li>
+      <li>"Geek向け出版業界の光と影" - 渡里健司/田和勝</li>
+    </ol>
+  </li>
+  <li>配布資料 - <a href="http://shibuya.pm.org/blosxom/news/techtalks_200306_slides_and_reviews.print">こちら</a>にて公開しています
+</li>
+</ul>
+<hr class="seemore">
+
+
+<h4 class="subsection">プログラム詳細</h4>
+  <dl>
+    <dt>CGIの裏側見せます</dt>
+    <dd>スピーカー: <a href="#oyama">小山浩之</a> (Shibuya.pm)<br />
+        ジャンル: Web<br />
+Webサーバの基本機能として何気なく使用しているCGI。Apacheのmod_cgi.cモジュールの実装を元に、Webサーバの視点からCGIの舞台裏を解説。Apacheが行うスクリプト起動からコンテンツ送信までの仕事、ブラウザとの通信方法、Apache側のバッファとスクリプト側のバッファ、タイムアウト等など。	
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>100万(+3)人の Mutt とみんなの Perl</dt>
+    <dd>スピーカー: <a href="#tanimoto">谷本哲</a> (エッジ株式会社)<br />
+        ジャンル: 応用<br />
+	スピーカーもほとんど把握しきれないほど豊富な機能を持つ <a href="http://www.mutt.org/">Mutt</a> だが、単体では貧弱な部分もいくつかある。それを Perl のプログラムで補った例をいくつか紹介し、「Mutt を使ってみたいがその辺どうなのよ」といった不安を少しでも解消していく。Mutt と Perl に共通するもの、、、それはまさに TMTOWTDI である。<br />例）複数アカウント対応、メールテンプレート、未読管理など。
+	</dd>
+  </dl>
+
+  <dl>
+    <dt>楽天広場が仕掛ける、パーソナルwebサービスの時代</dt>
+    <dd>スピーカー: <a href="#tanaka">田中良和</a> (楽天株式会社)<br />
+        ジャンル: Webサービス<br />
+	<a href="http://plaza.rakuten.co.jp/">楽天広場</a>など楽天で個人向けサービスを手がけるスピーカーが、簡単な技術的な側面を加味しながら、具体的事例として、blog関連を中心にRSSやWebサービスを活用した海外の人気の個人向けサービスなどを紹介する。
+    </dd>
+  </dl>
+ 
+  <dl>
+    <dt>Geek向け出版業界の光と影</dt>
+    <dd>スピーカー: <a href="#watari">渡里健司</a> (O'Reilly Japan) / <a href="#tawa">田和勝</a><br />
+        ジャンル: 社会学<br />
+	「ラクダ本」で知られる Geek系コンピュータ書籍出版社である O'Reilly Japan から、技術書籍制作の現状や Larry Wall, Tim O'Reilly の知られざる素顔を公開!</dd>
+  </dl>
+
+
+<h4 class="subsection">スピーカー紹介</h4>
+  <dl>
+    <dt><a href="http://module.jp/" id="oyama">小山浩之</a></dt>
+    <dd>職場で「Webのフロントエンド書くのはもうお腹いっぱい」などとのたまいつつ、趣味でApache moduleを書いていたりする矛盾の多い本格派駄目サラリーマン。<a href="http://search.cpan.org/author/OYAMA/">登録済みCPANモジュール</a>の更新されていなさ加減から、その移り気な性格を垣間見ることができる。現在ヤフー株式会社勤務。</dd>
+  </dl>
+  <dl>
+    <dt><a id="tanimoto">谷本哲</a></dt>
+    <dd>vim と Mutt をこよなく愛する Perl プログラマ。CPANにもこっそりとモジュールを<a href="http://search.cpan.org/author/TANIMOTO/">登録</a>している。現在エッジ株式会社勤務。
+    </dd>
+  </dl>
+  <dl>
+    <dt><a href="http://www.tanakayoshikazu.com/" id="tanaka">田中良和</a></dt>
+    <dd>ソニーコミュニケーションネットワークを経て、2000年<a href="http://www.rakuten.co.jp/">楽天株式会社</a>入社。日本最大級の日記コミュニティサービス<a href="http://plaza.rakuten.co.jp/">楽天広場</a>の他、オークション、アフィリエイトなどの個人向けサービスの新規企画・開発を担当。
+    </dd>    
+  </dl>
+  <dl>
+    <dt><a href="http://www.oreilly.co.jp/" id="watari">渡里健司</a></dt>
+    <dd><a href="http://www.oreilly.co.jp/">O'Reilly Japan</a>に立ち上げ期から携わり、マーケティングを担当。そのかたわら、<a href="http://lc.linux.or.jp/lc2003/committee.html">Linux Conference</a>の実行委員を<s>押し付けられる</s>務めるなど、オープンソースコミュニティへの造詣も深い。
+    </dd>
+  </dl>
+  <dl>
+    <dt><a id="tawa">田和勝</a></dt>
+    <dd>1960年生まれ。山口大学経済学部出身。都内の某ソフトウェアハウスで主にデータベース関係のシステム開発に携わった後、独立してフリーの翻訳者に。現在は、コンピュータ関係の英文和訳を専門に行っている。（<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873110378/ref=nosim/bulknews-22">Perl クックブック</a>より抜粋）
+    </dd>
+  </dl>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

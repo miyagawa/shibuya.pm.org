@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : バッドノウハウカンファレンス 2004 発表資料とレポート</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/bkcon_reviews.html">http://shibuya.pm.org/blosxom/techtalks/bkcon_reviews.html</a>.
+<br /><br /><br />
+
+<b>バッドノウハウカンファレンス 2004 発表資料とレポート</b><br />
+<b>by</b> miyagawa at Sat, 15 May 2004 03:40
+<p />
+
+<a href="http://shibuya.pm.org/blosxom/techtalks/bkcon.html" title="Shibuya Perl Mongers">バッドノウハウカンファレンス 2004</a> が無事開催され、盛況となりました。開催にご協力いただいた皆様、スピーカーの皆様、見に来ていただいた皆様、ありがとうございました。
+
+<p />
+当日の発表資料をこちらのエントリで公開します（一部準備中）。スピーカの都合などにより、当日と内容が変更されているものがありますがご了承ください。
+
+<p />
+また、参加された方々のレポートなどのリンクもこちらに掲載していきます。参加報告はこのエントリへの Trackback Ping にて受け付けています。
+
+<hr class="seemore">
+
+
+
+<h2>Session #1-#3</h2>
+
+<ul>
+<li>高林哲 - <a href="http://namazu.org/~satoru/pub/bkcon2004/">基調講演: バッドノウハウ講座 [namazu.org]</a></li>
+<li>宮川達彦 - <a href="http://shibuya.pm.org/slides/bkcon2004/miyagawa.pdf">ソフトウェア開発における再利用のためのバッドノウハウパターン [.pdf 153K]</a></li>
+<li>平林純 - <a href="http://www.hirax.net/diaryweb/2004/05/14.html#200405141">招待講演: オッパイ星人とバッドノウハウ [hirax.net]</a></li>
+</ul>
+
+<h2>Lightning Talks Session</h2>
+
+<ul>
+<li>山下達雄 - <a href="/slides/bkcon2004/yto.pdf">グーアマ効果～失われたバッドノウハウ [.pdf 982k]</a> <a href="http://nais.to/~yto/clog/2004-05-14.html#2004-05-14-3">[nais.to]</a></a></li>
+<li>野首貴嗣 - <a href="/slides/bkcon2004/knok.pdf">日本 Unix 昔話 [.pdf 132k]</a> <a href="http://www.daionet.gr.jp/~knok/diary/?200405b&amp;to=200405151S1#200405151S1">[dionet.gr.jp]</a></li>
+<li>森本淳 - <a href="/slides/bkcon2004/fantastic.pdf">マクロの決死圏 [.pdf 1.6M]</a></li>
+<li>江渡浩一郎 - <a href="/slides/bkcon2004/eto.pdf">Unix is The Bad Knowhow [.pdf 163k]</a></li>
+<li>新部裕 - <a href="/slides/bkcon2004/txx.pdf">TeX and only TeX [.pdf 269k]</a></li>
+<li>鈴木聡 - <a href="/slides/bkcon2004/svslab.pdf">「奥が深い症候群」の傾向と対策 [.pdf 97k]</a></li>
+<li>伊藤直也 - Perl でどうよ？</li>
+<li>小山浩之 - <a href="/slides/bkcon2004/oyama.pdf">filter_callback()の話～Apacheの秘め事 [.pdf 207k]</a></li>
+<li>竹迫良範 - <a href="/slides/bkcon2004/innosetup.pdf">Inno Setup STAND ALONE COMPLEX [.pdf 818k]</a></li>
+<li>早川真也 - <a href="/slides/bkcon2004/hayakawa.pdf">5分で分かるPerlパワフルテクニック [.pdf 62k]</a></li>
+</ul>
+
+ppt や pdf ファイルへの直リンクはなるべくご遠慮ください。
+
+<h2>レビュー・レポートリンク</h2>
+
+<ul>
+<li><a href="http://slashdot.jp/journal.pl?op=display&uid=4&id=218903">Oliver の日記 (4) [slashdot.jp]</a></li>
+<li><a href="http://www.hirax.net/diaryweb/2004/05/14.html#200405141">inside out [hirax.net]</a></li>
+<li><a href="http://capsctrl.que.jp/kdmsnr/diary/20040514.html#p06">capsctrldays(2004-05-14) [capsctrl.que.jp]</a></li>
+<li><a href="http://eto.com/d/index.html#UXQyRRBws0fo3SpEKdMH-A">eto.com/d [eto.com]</a></li>
+<li><a href="http://blog.livedoor.jp/nipotan/archives/602043.html">にぽたん研究所:バッドノウハウカンファレンス [blog.livedoor.jp]</a></li>
+<li><a href="http://peri.jp/kuromomo/archives/000480.html">くろもも日記: バッドノウハウカンファレンス [peri.jp]</a></li>
+<li><a href="http://d.hatena.ne.jp/secondlife/20040515#1084548842">はてなダイアリー - 2nd life [d.hatena.ne.jp]</a></li>
+<li><a href="http://yamaguch.sytes.net/~takuya/diary/20040514.html#p03">新・日々是雑記(2004-05-14) [yamaguch.sytes.net]</a></li>
+<li><a href="http://www.namazu.org/~satoru/diary/20040514.html#p01">いやな日記 - バッドノウハウカンファレンス2004スライドとレポート [namazu.org]</a></li>
+<li><a href="http://diary.mrmt.net/?20040514#14-2">なんか:かんがえて-2 [diary.mrmt.net]</a></li>
+<li><a href="http://nais.to/~yto/clog/2004-05-14.html#2004-05-14-3">たつをの ChangeLog / 2004-05-14 [nais.to]</a></li>
+<li><a href="http://www.sgtpepper.net/hyspro/diary/20040515.html#p01">hysteric programmer diary: バッドノウハウカン ... [sgtpepper.net]</a></li>
+<li><a href="http://digit.que.ne.jp/visit/index.cgi?2004%c7%af5%b7%ee#i1">2004年5月  - WalWiki月。 [digit.que.ne.jp]</a></li>
+<li><a href="http://slashdot.jp/journal.pl?op=display&uid=154&id=219102">sakura の日記 (154) [slashdot.jp]</a></li>
+<li><a href="http://sappari.org/diary/?date=20040514">sappari.org - メモ＋日記(2004-05-14) [sappari.org]</a></li>
+<li><a href="http://naoya.dyndns.org/~naoya/mt/archives/001092.html">NDO::Weblog: バッドノウハウカンファレンス　2004 に参加 ... [naoya.dyndns.org]</a></li>
+<li><a href="http://d.hatena.ne.jp/murixng/20040514#p2">はてなダイアリー - MURIXNG [d.hatena.ne.jp]</a></li>
+<li><a href="http://namazu.org/~takesako/diary/?date=20040514">ad-hocな人生 - TAKESAKO (仮) - バッドノウハウカン ... [namazu.org]</a></li>
+<li><a href="http://diary.godtomato.net/takefumi/2004/05/14_02.html">のみまくし日記 [diary.godtomato.net]</a></li>
+<li><a href="http://jinbey.com:8080/blog/136">Jinbey [jinbey.com]</a></li>
+<li><a href="http://soundlife.jp/archives/000160.html">SoundLife: バッドノウハウカンファレンス2004 [soundlife.jp]</a></li>
+<li><a href="http://hori-uchi.com/archives/000156.html">Horiuchi::Weblog: バッドノウハウカンファレンス [hori-uchi.com]</a></li>
+<li><a href="http://module.jp/blog/bkcon20040514.html">MODULE.JP - バッドノウハウカンファレンス2004終了 [module.jp]</a></li>
+<li><a href="http://d.hatena.ne.jp/tnx/20040515#p1">はてなダイアリー - 彼の岸 [d.hatena.ne.jp]</a></li>
+<li><a href="http://www.asahi-net.or.jp/~AE5T-KSN/d/200405.html#14-02">日誌 - 2004/5 [asahi-net.or.jp]</a></li>
+<li><a href="http://d.hatena.ne.jp/tinsep19/20040514#p1">はてなダイアリー - 0番線ホームに佇んだ [d.hatena.ne.jp]</a></li>
+<li><a href="http://bills.taro-web.com/2004-05-14.html#2004-05-14-1">bills.flipflap.net / 2004-05-14 [bills.taro-web.com]</a></li>
+<li><a href="http://www.daionet.gr.jp/~knok/diary/?200405b&to=200405151#200405151">I should be so lucky. [daionet.gr.jp]</a></li>
+<li><a href="http://blog.bulknews.net/mt/archives/000988.html">blog.bulknews.net: バッドノウハウカンファレンス 20 ... [blog.bulknews.net]</a></li>
+<li><a href="http://nnri.dip.jp/~yf/cgi-bin/yaswiki2.cgi?name=%b9%d4%a4%c3%a4%c6%a4%ad%a4%de%a4%b7%a4%bf%a1%a3&parentid=556">YASWiki2実験室 - 行ってきました。 [nnri.dip.jp]</a></li>
+<li><a href="http://svslab.jp/0x0a/20040516.html#p04">0x0a by SUZUKI, S. V. - 今日の前半 , Trac ... [svslab.jp]</a></li>
+<li><a href="http://d.hatena.ne.jp/sakura154/20040515">はてなダイアリー - sakura(154)の日記 [d.hatena.ne.jp]</a></li>
+<li><a href="http://kmuto.jp/d/?date=20040514#p06">KeN's Debian GNU/Linux Diary(2004-05 ... [kmuto.jp]</a></li>
+<li><a href="http://www.netfort.gr.jp/~dancer/diary/200405.html.ja#2004-May-15-00:50:54">つれづれ日記 [netfort.gr.jp]</a></li>
+<li><a href="http://d.ma-aya.to/?date=20040514#p03">Forget Me Not...(2004-05-14) [d.ma-aya.to]</a></li>
+<li><a href="http://d.hatena.ne.jp/hayashih/20040514#p1">はてなダイアリー - hayashihがOSをインストールする日記 [d.hatena.ne.jp]</a></li>
+<li><a href="http://kitaj.no-ip.com/tdiary/20040517.html#p06">今日のなんでやねん(2004-05-17) [kitaj.no-ip.com]</a></li>
+<li><a href="http://sky.taro-web.com/archives/000138.html">僕ト云フ事: バッドノウハウカンファレンス 2004 行って来ました [sky.taro-web.com]</a></li>
+</ul>
+
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

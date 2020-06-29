@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : 1周年記念テクニカルトーク 発表資料とレビューリンク集</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310_slides_and_reviews.html">http://shibuya.pm.org/blosxom/techtalks/techtalks_200310_slides_and_reviews.html</a>.
+<br /><br /><br />
+
+<b>1周年記念テクニカルトーク 発表資料とレビューリンク集</b><br />
+<b>by</b> miyagawa at Sun, 19 Oct 2003 21:00
+<p />
+
+<a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.print">Shibuya Perl Mongers 1周年記念テクニカルトーク</a>が無事終了しました。スピーカの皆さん、休日でビルのセキュリティなど面倒な中、セミナー会場を貸していただいた<a href="http://www.gihyo.co.jp/">技術評論社</a> Software Design, WEB+DB PRESS のスタッフの皆様、そして参加された皆さん、ありがとうございました。
+<p />
+当日の発表資料をこちらで公開します。スピーカの都合などにより、当日とは内容が異なっているものもありますがご了承ください。
+<hr class="seemore">
+
+
+<p />
+
+<h2>Session #1-#3</h2>
+<ul>
+<li>伊藤直也 - <a href="/slides/200310/naoya.ppt">Blog テクノロジと Web サービス [.ppt 4.8M]</a></li>
+<li>竹迫良範 - <a href="/slides/200310/takesako.ppt">mod_perl における C10K problem [.ppt 2.0M]</a></li>
+<li>宮川達彦 - <a href="/slides/200310/miyagawa.ppt">Blosxom による CMS 構築と SEO テクニック [.ppt 71k]</a></li>
+</ul>
+
+<h2>Lightning Talks Session</h2>
+<ul>
+<li>川合孝典 - <a href="/slides/200310/hippo2000.ppt">Perl で VisualBasic のソースを解析する [.ppt 114k]</a></li>
+<li>小山浩之 - <a href="http://module.jp/blog/shibuya_pm_techtalks4.html">オープンソースソフトウェア開発者はなぜ飽きるのか [module.jp]</a></li>
+<li>木村岳文 - <a href="/slides/200310/takefumi.ppt">位置情報と私 [.ppt 1.1M]</a></li>
+<li>山岸広太郎 - <a href="/slides/200310/yamagishi.pdf">Introduction to CNET Japan [.pdf 335k]</a></li>
+<li>早川真也 - <a href="/slides/200310/hayakawa.pdf">技としての Perl [.pdf 175k]</a></li>
+<li>山下達雄 - <a href="/slides/200310/yto.ppt">ChangeLog で Blog [.ppt 613k]</a> / <a href="http://nais.to/~yto/clog/2003-10-18.html#2003-10-18-3">[mp3など (nais.to)]</a></li>
+<li>飯尾淳 - <a href="/slides/200310/iio.ppt">FLOSS-JP オープンソース開発者オンライン調査日本版 [.ppt 89k]</a></li>
+<li>塚本牧生 - <a href="/slides/200310/tsukamoto.ppt">Perl on PDAs [.ppt 343k]</a></li>
+<li>高林哲 - <a href="http://namazu.org/~satoru/pub/handout/shibuyapm4/">ネットピープル分類学 その傾向と対策 [namazu.org]</a></li>
+</ul>
+
+ppt や pdf ファイルへの直リンクはなるべくご遠慮ください。
+
+<h2>レビューリンク</h2>
+
+いつものように、参加された皆さんの Blog/日記エントリへのリンク集です。随時更新します。「書いたよ」という方は、エントリ中にリンクを張っていただくか、Trackback Ping をもらえれば追加します。
+
+<ul>
+<li><a href="http://ukai.org/d/index.cgi?2003-10-18&l=jp#3">
+http://ukai.org/d/index.cgi?2003-10 ... [ukai.org]</a></li>
+<li><a href="http://nais.to/~yto/clog/2003-10-18.html#2003-10-18-3">たつをの ChangeLog - 2003-10-18 [nais.to]</a></li>
+<li><a href="http://d.hatena.ne.jp/tnx/20031018#p1">はてなダイアリー - 彼の岸 [d.hatena.ne.jp]</a></li>
+<li><a href="http://www.undefine.to/~naoko/tdiary/20031019.html#p01">naoko日記(2003-10-19) [undefine.to]</a></li>
+<li><a href="http://naoya.dyndns.org/~naoya/mt/archives/000593.html">NDO::Weblog: Shibuya.pm 終了 [naoya.dyndns.org]</a></li>
+<li><a href="http://digit.que.ne.jp/visit/index.cgi?2003%c7%af10%b7%ee#i1">2003年10月  - 秋の天気月。 [digit.que.ne.jp]</a></li>
+<li><a href="http://blosxom.kmtz.net/technology/perl/03101819shibuyapm.html">Kmtz.NET::Blosxom [blosxom.kmtz.net]</a></li>
+<li><a href="http://diary.godtomato.net/takefumi/2003/10/18.html#s02">のみまくし日記 - 2003/10/18 [diary.godtomato.net]</a></li>
+<li><a href="http://www.namazu.org/~satoru/diary/?date=20031018#p01">いやな日記(2003-10-18) [namazu.org]</a></li>
+<li><a href="http://www.torus.jp/memo/x200310/shibuya_pm.html">シブヤパールモンガース・テクニカルトーク #4 にいってきた。 : to ... [torus.jp]</a></li>
+<li><a href="http://blog.bulknews.net/mt/archives/000470.html">blog.bulknews.net: Shibuya.pm Tech T ... [blog.bulknews.net]</a></li>
+<li><a href="http://naoya.dyndns.org/~naoya/mt/archives/000601.html">NDO::Weblog: Shibuya.pm でデモした POE によ ... [naoya.dyndns.org]</a></li>
+<li><a href="http://www.undefine.to/~naoko/tdiary/20031020.html#p01">naoko日記(2003-10-20) [undefine.to]</a></li>
+<li><a href="http://www.daionet.gr.jp/~knok/diary/?200310b&to=200310181#200310181">I should be so lucky. [daionet.gr.jp]</a></li>
+<li><a href="http://module.jp/blog/shibuya_pm_techtalks4.html">MODULE.JP - Shibuya.pm Tech Talks #4 [module.jp]</a></li>
+<li><a href="http://taro-web.com/sky/read.cgi?select_past=200310#200310182359">- 僕ト云フ事 - [taro-web.com]</a></li>
+<li><a href="http://www.imjp.co.jp/~nidate/?page=diary%2F2003%2D10%2D18">diary/2003-10-18 - nidate homepage [imjp.co.jp]</a></li>
+<li><a href="http://hirokiendo.main.jp/archives/000010.html">Hirokiendo.main.jp: ShibuyaPM人物中心的なレ ... [hirokiendo.main.jp]</a></li>
+<li><a href="http://www.rickdom.com/archives/000882.html">rickdom: Shibuya Perl Mongers [rickdom.com]</a></li>
+<li><a href="http://namazu.org/~takesako/diary/?date=20031018">ad-hocな人生 - TAKESAKO (仮) - Shibuya.p ... [namazu.org]</a></li>
+<li><a href="http://www.pure.ne.jp/~learner/cgi-bin/diary/diary_s.cgi#20031023-1">Practice of Programming [pure.ne.jp]</a></li>
+</ul>
+
+
+またオンライン上のメディアでも取り上げていただきました。
+
+<ul>
+<li><a href="http://www.zdnet.co.jp/news/0310/21/nj00_spm.html">ZDNN：Perlの強者が目黒に集結、Shibuya Perl Mong ... [zdnet.co.jp]</a></li>
+<li><a href="http://japan.linux.com/opensource/03/10/21/0421251.shtml">japan.linux.com | Shibuya.pm 1周年記念テク ... [japan.linux.com]</a></li>
+</ul>
+
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

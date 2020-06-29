@@ -1,0 +1,153 @@
+<html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="keywords" content="Shibuya, Perl, Tokyo, Japan, User Community, Technical Talks, Book" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://shibuya.pm.org/blosxom/index.rss10" />
+    <title>Shibuya Perl Mongers</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="banner">Shibuya Perl Mongers</div>
+      <span class="description">We are a group of people dedicated to the encouragement of all things Perl-like in Shibuya.</span>
+    </div><!-- end of "header" -->
+
+    <div id="menu">
+      <a href="http://shibuya.pm.org/blosxom" title="Home">Home</a>
+      <a href="http://shibuya.pm.org/blosxom/common/mailinglist.html" title="Mailing List info">Mailing List</a>
+      <a href="http://shibuya.pm.org/blosxom/techtalks/" title="Technical Talks">Tech Talks</a>
+      <a href="http://shibuya.pm.org/blosxom/books/" title="Books">Books</a>
+    </div><!-- end of "menu" -->
+
+<div id="content">
+<div class="entry">
+<div class="date">Archive of All Entries</div>
+Listed in reverse order, with the oldest at the bottom.
+<ul><li><a href="http://shibuya.pm.org/blosxom/techtalks/201807.html">Shibuya Perl Mongersテクニカルトーク#18</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/201506.html">Shibuya Perl Mongersテクニカルトーク#17</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/201107.html">Shibuya Perl Mongersテクニカルトーク#16</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/201012.html">Shibuya Perl Mongersテクニカルトーク#15</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/201009.html">Shibuya Perl Mongersテクニカルトーク#14</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/201004.html">Shibuya Perl Mongersテクニカルトーク#13「Shibuya.pm in Taipei」</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200911.html">Shibuya Perl Mongersテクニカルトーク#12 「NoSQL特集」</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200904.html">Shibuya Perl Mongersテクニカルトーク#11</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/2008011.html">Shibuya Perl Mongersテクニカルトーク#10</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200806.html">Shibuya Perl Mongersテクニカルトーク#9</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200710.html">Shibuya Perl Mongers テクニカルトーク #8</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/yapcasia2007.html">YAPC::Asia 2007: April 4-5, 2007</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200702.html">デブサミ2007出張Shibuyaイベント</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200610.html">Shibuya Perl Mongers テクニカルトーク #7</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/yapcasia2006.html">YAPC::Asia 2006 Tokyo を開催します</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200511.html">Shibuya Perl Mongers テクニカルトーク #6</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200412.html">Shibuya Perl Mongers テクニカルトーク #5</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/books/perl_cookbook_2nd.html">Perl クックブック第2版</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/books/bloghacks.html">Blog Hacks</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/bkcon_reviews.html">バッドノウハウカンファレンス 2004 発表資料とレポート</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/bkcon.html">バッドノウハウカンファレンス 2004</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/misc/perl500504.html">Perl 5.005_04 released</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/misc/perl_is_sixteen.html">Perl is 16</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/books/spidering_hacks.html">Spidering Hacks</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310_slides_and_reviews.html">1周年記念テクニカルトーク 発表資料とレビューリンク集</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/techtalks_200310_lightning_talks_lineup.html">Lightning Talks @ Tech Talks #4 </a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/techtalks_200310_registration_closed.html">テクニカルトーク #4 事前登録締切</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.html">Shibuya Perl Mongers 1周年記念テクニカルトーク</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/call_for_lightning_talks_200310.html">Call For Lightning Talks @ Tech Talks #4</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/common/lightning_talks.html">What are Lightning Talks?</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/ll_saturday_log_published.html">LL Saturday 2003 ログ公開</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/misc/chicago_pm_blogging_technologies.html">Blogging Technologies at Chicago.pm meeting</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/books/google_hacks.html">Google Hacks</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/ll_saturday_program_all_published.html">LL Saturday 2003 資料公開</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/misc/blog_output_compressed_with_gzip.html">blosxom gzip プラグインの利用開始</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/books/data_munging_with_perl.html">Perlデータマンジング</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/ll_saturday_event_finished.html">LL Saturday 2003 無事終了</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/books/apache_module_book.html">Apache モジュールプログラミングガイド</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/misc/yapc_2003_slide_online.html">YAPC 2003 Slides Online</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/misc/ocreilly.html">OcREILLY の秘密</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/techtalks_200306_slides_and_reviews.html">Tech Talks #3 slides and reviews</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/guest_for_tech_talks_200306.html">Guest for O'Reilly Talk</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/llsaturday_registration_started.html">LL Saturday 事前登録受付開始</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/techtalks_200306_registration_closed.html">Tech Talks #3 Registration closed</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200306.html">Shibuya Perl Mongersテクニカルトーク#3</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/llsaturday.html">LL Saturday</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/encoding_utf8.html">Blog Encodings</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/rss1_0-syndication.html">RSS 1.0 Syndication</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/tech_200304_report.html">テクニカルトーク #2 レポート</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/tech_200304_deadline.html">テクニカルトーク#2 事前登録締切</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/shibuya_pm_official.html">Shibuya.pm が Perl Mongers の一員に</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200304.html">Shibuya Perl Mongersテクニカルトーク#2</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200303.html">Shibuya Perl Mongersテクニカルトーク#2</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/shibuya_pm_org.html">shibuya.pm.org is alive!</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/web_switched_to_blosxom.html">Shibuya.pm Web Renewal</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/tech_200301_report.html">スタートアップセミナー終了レポート</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/news/tech_200301_deadline.html">スタートアップセミナー事前登録締切</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/common/mailinglist.html">Shibuya Perl Mongers Mailing List info</a></li>
+
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/200301.html">スタートアップセミナー開催！(無料)</a></li>
+
+</div><!-- id="entry" -->
+</ul>
+</div><!-- id="content" -->
+</body>
+</html>

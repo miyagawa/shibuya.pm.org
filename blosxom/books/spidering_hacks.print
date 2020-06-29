@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Spidering Hacks</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/books/spidering_hacks.html">http://shibuya.pm.org/blosxom/books/spidering_hacks.html</a>.
+<br /><br /><br />
+
+<b>Spidering Hacks</b><br />
+<b>by</b> miyagawa at Fri, 19 Dec 2003 20:41
+<p />
+
+<a href="http://www.oreilly.com/">O'Reilly &amp; Associates</a> より Hacks シリーズの最新作 <a href="http://www.amazon.co.jp/exec/obidos/ASIN/0596005776/ref=nosim/bulknews-22">Spidering Hacks</a> が刊行されています。
+
+<p />
+Spidering Hacks には、LWP, wget といった HTTP Spider/Crawler ツールをつかって、Web 上の便利なコンテンツを取得、加工するための Hack が 100 個おさめられています。はっきりいって超ニッチですが、それぞれの Hack が非常に面白く、ほとんどの Spider は Perl の LWP を使用してかかれており、オススメ度高いです。
+
+<p />
+洋書ですが割と平易な英語で書かれています。日本語訳にも期待したいですね。
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

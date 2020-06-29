@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#11</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200904.html">http://shibuya.pm.org/blosxom/techtalks/200904.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#11</b><br />
+<b>by</b> takesako at Fri, 27 Mar 2009 16:44
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#11を2009年4月22日(水)に開催します。</p>
+<ul>
+  <li>テーマ - <b>"no Perl; use x86;"</b></li>
+  <li>日時 - 2009年4月22日(水) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - グラントウキョウサウスタワー23F <a href="http://www.recruit.co.jp/corporate/english/company/data/pdf/map_south.pdf">リクルート本社サウスホール</a></li>
+  <li>住所 - 東京都千代田区丸の内1-9-2 (JR東京駅 八重洲南口すぐ)</li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200904" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --><s>（定員200名）</s> → 当日参加枠30名を追加しました。</li>
+</ul>
+<ul>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>開場時間
+  <ol>
+  <li>18:00 会場サウスホール(23F)開場<div>2Fロビーからエレベーターまで誘導案内を手配</div></li>
+  </ol>
+ </li>
+
+ <li>第一部 sandbox特集
+  <ol>
+  <li>18:35 バイナリ畑で捕まえて - inside lleval (dankogai)</li>
+  <li>18:50 任意のコードを安全に eval する方法の実装方法と、突破方法について (tokuhirom)</li>
+  <li>19:00 How about Kindle hacking? (obra)</li>
+  </ol>
+ </li>
+ <li>第二部 x86 binary hacks
+  <ol>
+  <li>19:15 世界のセキュリティコンテスト（Capture the Flag）ってどんなもの？ (kenji)</li>
+  <li>19:30 Native Client Hacks (Fukumori Daiki)</li>
+  <li>19:40 Perl で学ぶ Win32/FreeBSD/Linux/x86_64 アセンブラ入門 (takesako)</li>
+  </ol>
+ </li>
+ <li>第三部 Perl Internals
+  <ol>
+  <li>20:00 オレオレPerlVM (gfx)</li>
+  <li>20:10 CPUの気持ちは大事だけど、VMの気持ちも考えよう (Yappo)</li>
+  <li>20:20 Devel::BindPP をつかって簡単に C++ で Perl の拡張モジュールをつくろう！ (tokuhirom)</li>
+  </ol>
+ </li>
+ <li>第四部 Lightning Talks
+  <ol>
+  <li>20:35 Devel::NYTProf (clkao)</li>
+  <li>20:40 マルウェアの検出 (sonodam)</li>
+  <li>20:45 ブラマンのブラックな話 (isidai)</li>
+  <li>20:50 5分で danbot server を立ち上げる方法 (Yappo)</li>
+  <li>20:55 Windowsユーザのための初めてのPerlプログラミング (HASEGAWA Yosuke)</li>
+  </ol>
+ </li>
+</ul></li>
+</ul>
+
+<p>会場はリクルートMTLの川崎さんにお世話になりまして、机付きの200人規模の大きな会場を使わさせていただくことになりました。ありがとうございます。</p>
+
+<p>ちなみに今回のプログラムは XS Nite のときよりも低レベルになる予定です。
+正規表現やPerlに詳しくない方でも安心して聞ける内容になると思います。
+現在お使いのプログラミング言語を問わず、ふるってご参加ください。
+</p>
+
+<hr class="seemore">
+
+
+<h4 class="streaming">ストリーミング中継について</h4>
+
+<p>ストリーミング中継についてですが、このたびは会場に安定したネットワークが用意できないため未定となっております。<p>
+<blockquote>
+懸念点としては、会場にゲスト用のブロードバンドな無線ＬＡＮがありません。
+UQ WiMAX を無線ＬＡＮで共有させて、スピーカー・スタッフ用として提供し、
+別系統の e-mobile も無線ＬＡＮで共有させて、参加者用として提供可能です。
+ただし、上流が e-mobile なので１人あたりは遅くなると思いますが。
+</blockquote>
+<p>予めご了承ください。</p>
+
+<h4 class="subsection">プログラム詳細</h4>
+<dl>
+<dt>Native Client Hacks</dt>
+<dd>スピーカー: <a href="#fukumori">福森大喜（Fukumori Daiki）</a><br />
+これまでWebブラウザのサンドボックスは様々に変化してきました。先日は、ブラウザ上でx86バイナリを動かす仕組みであるGoogle Native Clientというものが登場しましたが、これを実現するためにはサンドボックスの考えが重要になります。今回はそのセキュリティと想定される攻撃について考えます。
+</dd>
+</dl>
+
+<dl>
+<dt>世界のセキュリティコンテスト（Capture the Flag）ってどんなもの？</dt>
+<dd>スピーカー: <a href="#kenji">愛甲 健二（kenji）</a><br />
+世界では、純粋なセキュリティ技術を競い合うセキュリティコンテスト<a href="http://nopsr.us/ctf2008/overview.html">（Capture the Flag）</a>が多く開催されています。
+今回は、それらがどのように行われているか、また、どういった問題が出題されているかを紹介します。
+</dd>
+</dl>
+
+<dl>
+<dt>任意のコードを安全に eval する方法の実装方法と、突破方法について</dt>
+<dd>スピーカー: <a href="#tokuhirom">松野 徳大（tokuhirom）</a><br />
+任意のコードを安全に評価する方法の一つとして、XS をもちいた実装をおこなったので、
+その方法論について解説する。主なトピックは、レキシカル変数のセキュリティや、'Dyna'.'Loader' とのつきあいかたについて。
+</dd>
+</dl>
+
+<dl>
+<dt>Devel::BindPP をつかって簡単に C++ で Perl の拡張モジュールをつくろう！</dt>
+<dd>スピーカー: <a href="#tokuhirom">松野 徳大（tokuhirom）</a><br />
+Perl の拡張モジュールを書く方法としては、XS が標準です。しかし、XSは学習コストがたかいため、書ける人が非常に少ないという現状があります。そんな現状を打破するモジュールが Devel::BindPPです。Devel::BindPP をつかえば、マクロの海から脱出し、普通に C++ で拡張モジュールがかけるのです！
+</dd>
+</dl>
+
+<dl>
+<dt>Perl で学ぶ Win32/FreeBSD/Linux/x86_64 アセンブラ入門</dt>
+<dd>スピーカー: <a href="#takesako">竹迫 良範（takesako）</a><br />
+Yet Another DynaLoader Hacks の紹介。
+PerlでWin32::APIを使わずにWindowsメッセージボックスを表示するハックを例に
+Win32/FreeBSD/Linux/x86_64な環境でアセンブラプログラミングする方法について解説します。
+</dd>
+</dl>
+
+<dl>
+<dt>CPUの気持ちは大事だけど、VMの気持ちも考えよう</dt>
+<dd>スピーカー: <a href="#yappo">大沢 和宏（yappo）</a><br />
+Perlのコードを指してloop
+unrollingだね！と言ったら「それscope減っただけだよ」と指摘されてしまう世知辛い世の中ですが、VMの気持ちさえ知っていれば真のloop
+unrollingもPerlで可能かもしれません。書いたコードが実際どういう風にVMに処理されるのかを見やすくして効率的な最適化を行う方法について考えます。
+</dd>
+</dl>
+
+<dl>
+<dt>オレオレPerlVM</dt>
+<dd>スピーカー: <a href="#gfx">藤 吾郎（gfx）</a><br />
+perl実行系の中枢であるPerl5 Virtual Machineの実装を通して，そのメカニズムを解説します。
+</dd>
+</dl>
+
+<dl>
+<dt>Windowsユーザのための初めてのPerlプログラミング</dt>
+<dd>スピーカー: <a href="#hasegawa">はせがわようすけ（HASEGAWA Yosuke）</a><br />
+Not Only DynaLoader Hacks の紹介。 PerlでDynaLoaderを使わずにWindowsメッセージボックスを表示するハックを例に、WindowsユーザにとってのPerlプログラミング入門について解説します。
+</dd>
+</dl>
+
+<dl>
+<dt>ブラマンのブラックな話（仮）</dt>
+<dd>スピーカー: <a href="#isidai">石森大貴（isidai）</a><br />
+TBSドラマ「ブラッディ・マンデイ」のハッキングシーンついて元現役高校生が考察する。
+</dd>
+</dl>
+
+<dl>
+<dt>マルウェアの検出</dt>
+<dd>スピーカー: <a href="#sonodam">園田道夫（sonodam）</a><br />
+マルウェアの検出は年々困難になってきていますが、既存技術の変遷を振り返りながら、今後どういう方法論がいいのか考察してみます。
+</dd>
+</dl>
+
+<h4 class="subsection">スピーカー紹介</h4>
+
+<dl>
+<dt><a name="fukumori">福森 大喜（Fukumori Daiki）</a></dt>
+<dd>
+大学の授業で作成したプログラムのセキュリティホールを指摘されたのがきっかけでセキュリティの道に進む。2007年第3回IPA賞受賞（情報セキュリティ部門）。連載「<a href="http://gihyo.jp/dev/serial/01/web20sec">ここが危ない！Web2.0のセキュリティ</a>」
+の著者でもある。
+</dd>
+</dl>
+
+<dl>
+<dt><a name="tokuhirom">松野 徳大（tokuhirom）</a></dt>
+<dd>
+最近は Moxy, HTTP::MobileAttribute, HTTP::Session, Devel::BindPP, Mouse,
+HTTP::Engine などの perl モジュールにコミットしている perl monger。最近の趣味は
+DynaLoader という文字列を評価できない環境における DynaLoader の利用方法の研究な
+ど。
+</dd>
+</dl>
+
+<dl>
+<dt><a name="takesako">竹迫 良範（takesako）</a></dt>
+<dd>
+Shibuya.pm 2代目リーダー。
+広島市立大学卒業後、大企業向けのmod_perlパッケージソフトの開発に従事し、
+2005年よりサイボウズ・ラボ株式会社。
+2008年には Microsoft MVP Award - Developer Security を受賞。
+</dd>
+</dl>
+
+
+<dl>
+<dt><a name="yappo">大沢 和宏（yappo）</a></dt>
+<dd>
+Web+DB PRESS Vol.48の特集でPerlの章に寄稿をしたり、HTTP::Engine, Moose, Mouse,
+Class::MOPなどにコミットする傍ら、Acme的モジュールを含めると6個のAcmeモジュールを登録している日本屈指のAcme
+Author。Acme::NabeAtzzとdan.pmはPerlの仕組みの無駄遣いなので良い子の皆さんは真似しないように。
+</dd>
+</dl>
+
+<dl>
+<dt><a name="gfx">藤 吾郎（gfx）</a></dt>
+<dd>
+筑波大学の学生。専攻は心理学。趣味はPerlソースコードを読むことと，Perlコードのベンチマークをとること。
+</dd>
+</dl>
+
+<dl>
+<dt><a name="kenji">愛甲 健二（kenji）</a></dt>
+<dd>
+<a href="http://ruffnex.oc.to/kenji/">http://ruffnex.oc.to/kenji/</a> の管理人
+</dd>
+</dl>
+
+<dl>
+<dt><a name="hasegawa">はせがわようすけ（HASEGAWA Yosuke）</a></dt>
+<dd>
+TAKESAKOさんの追っかけ。Perlはぜんぜんわかりません。 <a href="http://utf-8.jp/">http://utf-8.jp/</a>
+</dd>
+</dl>
+
+<dl>
+<dt><a name="isidai">石森大貴（isidai）</a></dt>
+<dd>CNET Japanブログにてブラッディ・マンディの考察記事を連載。
+３月より，ハッキングシーンの制作・監修を行ったサイバーディフェンス研究所にて，Webアプリケーション診断や，Zone-Hハッキングセミナー講師補助として活動。
+セキュリティキャンプチューターやYahoo!トピックスエディターなどとしても活動しながら，レンタルサーバーAbelProjectの運営を行う，ふつうの大学1年生。 
+</dd>
+</dl>
+
+<dl>
+<dt><a name="sonodam">園田道夫（sonodam）</a></dt>
+<dd>
+日本サイバー大学IT総合学部准教授。
+著書に「Winnyはなぜ破られたのか」、共著、共訳には「実用SSH第二版」、「Snort2.0侵入検知」、「暗号技術大全」、「企業情報ネットワークの保護管理」、「平成19年度テクニカルエンジニア情報セキュリティ試験に良く出る午前問題集」、監訳に「ハニーネットプロジェクト」、「実践パケット解析」、「ファジング」、マンガ「アクセス探偵IHARA」、マンガ「アクセスガールアスカ危機一髪」等がある。
+</dd>
+</dl>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

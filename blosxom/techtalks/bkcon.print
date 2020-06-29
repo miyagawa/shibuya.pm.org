@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : バッドノウハウカンファレンス 2004</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/bkcon.html">http://shibuya.pm.org/blosxom/techtalks/bkcon.html</a>.
+<br /><br /><br />
+
+<b>バッドノウハウカンファレンス 2004</b><br />
+<b>by</b> miyagawa at Tue, 13 Apr 2004 19:21
+<p />
+
+Shibuya Perl Mongers Presents &quot;バッドノウハウカンファレンス 2004&quot; を2004年5月14日に開催します。
+
+<h4 class="subsection">最新情報</h4>
+<ul>
+<li><a href="http://shibuya.pm.org/blosxom/techtalks/bkcon_reviews.html">発表資料とレポートリンク</a>のエントリを作成しました。</li>
+<li><a href="#hirax">平林純</a>氏の招待講演が決定しました。
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774119296/bulknews-22/ref=nosim">『史上最強科学のムダ知識』</a> を持参するといいかもしれません。</li>
+</ul>
+
+<h4 class="subsection">プログラム概要</h4>
+
+<ul>
+  <li>日時 - 2004年5月14日 金曜日 18:30〜21:00<br />
+入場は 18時から受け付けています。</li>
+  <li>会場 - <a href="http://www.nyc.go.jp/">国立オリンピック記念青少年総合センター</a> <a href="http://www.nyc.go.jp/users/d6-1-24.html">センター棟 403室</a></li> 
+  <li>料金 - 無料</li>
+  <li>事前登録 - <!-- a href="/register/bkcon2004/" onClick="window.open('/register/bkcon2004/', 'register', 'width=480,height=480,scrollbars=yes,status=yes'); return false">こちら</a--> 満員御礼となりました。
+<span class="caution">誠に申し訳ありませんが会場の定員の都合のため、登録のない方の当日参加は受け付けておりません。どうぞご了承ください。</span></li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+    <ol>
+      <li>18:00～ 開場、受付、準備
+      <li>18:30～ キーノート: &quot;バッドノウハウとの付き合い方&quot; (仮) - 高林哲</li>
+      <li>18:50～ &quot;バッドノウハウと黒魔術&quot;(仮) - 宮川達彦</li>
+      <li>19:20～ 招待講演 &quot;オッパイ星人とバッドノウハウ(仮)&quot; - 平林純</li>
+      <li>19:50～ 小休止
+      <li>20:00～ Lightning Talks - 自慢のバッドノウハウ談義を披露しあおう</li>
+      <li>21:00～ 閉会、会場で懇親会 (22時までには解散)
+    </ol>
+  </li>
+  <li>発表資料 - <a href="http://shibuya.pm.org/blosxom/techtalks/bkcon_reviews.html">こちら</a></li>
+</ul>
+
+<hr class="seemore">
+
+
+<h4 class="subsection">プログラム詳細</h4>
+  <dl>
+    <dt>バッドノウハウとの付き合い方 (仮)</dt>
+    <dd>スピーカー: <a href="#satoru">高林哲</a><br />
+ついつい深追いしてしまうのはなぜか？ 深追イストとは？？
+効果的なバッドノウハウシェアリング、などなど。詳細未定。
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>バッドノウハウと黒魔術(仮)</dt>
+    <dd>スピーカー: <a href="#miyagawa">宮川達彦</a><br />
+バッドノウハウを生み出すソフトウェアに見られる共通項とは？エンジニアはバッドノウハウをどう吸収し、付き合っていくのか？
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>オッパイ星人とバッドノウハウ(仮)</dt>
+    <dd>スピーカー: <a href="#hirax">平林純</a><br />
+    科学はまさにノウハウだ。しかも、とても役に立つノウハウだ。
+    しかし、それが「オッパイ星人の科学」ならどうだろう？
+   「無駄科学」の作者が「効率的作業」について考えると…？
+
+    </dd>
+  </dl>
+
+<h4 class="subsection">Lightning Talks Session</h4>
+
+  <dl>
+    <dt>グーアマ効果　～失われたバッドノウハウ～</dt>
+    <dd>スピーカー: <a href="#tatuo">山下達雄</a><br />
+       「Googleの検索結果にAmazonアソシエイトIDが出る！」
+        アサマシドリブンなバッドノウハウ探求とその顛末。
+        </dd>
+  </dl>
+
+  <dl>
+    <dt>日本Unix昔話</dt>
+    <dd>スピーカー: <a href="#knok">野首貴嗣</a><br />
+概要: スピーカーの体験を元にUnixのバッドノウハウを現代的視点から再検証してみるテスト。
+        </dd>
+  </dl>
+
+  <dl>
+    <dt>マクロの決死圏</dt>
+    <dd>スピーカー: <a href="#mrmt">森本淳</a><br />
+       とあるLinux関連団体で制作頒布していたドキュメントCDに関するバッドノウハウの思い出。
+        </dd>
+  </dl>
+
+  <dl>
+    <dt>ユニックス・イズ・ザ・バッドノウハウ</dt>
+    <dd>スピーカー: <a href="#eto">江渡浩一郎</a><br />
+       世界で最も普及したバッドノウハウを、
+        その歴史と共にふりかえる。
+        </dd>
+  </dl>
+
+  <dl>
+    <dt>TeX and only TeX</dt>
+    <dd>スピーカー: <a href="#gniibe">新部裕</a><br />
+       TeX でのプログラミングを語ろう。
+       TeX だけがプログラミングだ。
+       生き残るものにこそ価値がある。
+       20年, 不朽の BK.
+       </dd>
+  </dl>
+
+  <dl>
+    <dt>Perl でどうよ?</dt>
+    <dd>スピーカー: <a href="#naoya">伊藤直也</a><br />
+       C++開発者 Bjarne Stroustrup 氏は言った。
+       「Java はマーケティングの産物だよね」。
+       つまり、言語の種類は本質ではない。
+       では、それをいかにそれ伝えるか。
+       Perl Hacker 涙の直感的プレゼン手法。
+        </dd>
+  </dl>
+
+  <dl>
+    <dt>「奥が深い症候群」の傾向と対策</dt>
+    <dd>スピーカー: <a href="#ssv">鈴木 聡</a><br />
+人はなぜ「奥が深い症候群」にはまり込むのか？ 「奥の深さ」から抜け出すには？ ひとつの見方を提示する予定．</dd>
+
+  </dl>
+
+  <dl>
+    <dt>Inno Setup STAND ALONE COMPLEX</dt>
+    <dd>スピーカー: <a href="#takesako">竹迫良範</a><br />
+某オープンソースソフトウェアのWindowsへのポーティング秘話。
+世界最強のWindowsインストーラ作成ソフト<a href="http://www.jrsoftware.org/">Inno Setup</a>の手により、
+数々のバッドノウハウが隠蔽され、一つの複合体が形成されていく様子を描く。
+</dd>
+  </dl>
+
+  <dl>
+     <dt>バッドノウハウのない世界 (仮)</dt>
+     <dd>スピーカー: <a href="#oyama">小山浩之</a><br />
+     準備中。
+      </dd>
+  </dl>
+
+  <dl>
+    <dt>深追い Perl (仮)</dt>
+    <dd>スピーカー: <a href="#hayakawa">早川真也</a><br />
+準備中。</dd>
+  </dl>
+
+<p>
+</p>
+
+<h4 class="subsection">スピーカー紹介</h4>
+
+  <dl>
+  <dt><a href="http://www.namazu.org/~satoru/" id="satoru">高林哲</a></dt>
+  <dd><a href="http://namazu.org/~satoru/misc/bad-knowhow.html">バッドノウハウ研究家</a>にして <a
+href="http://www.google.co.jp/search?ie=utf-8&oe=utf-8&q=%E3%81%84%E3%82%84%E3%81%AA+%E4%B8%80%E7%99%BA%E3%83%8D%E3%82%BF%E7%B3%BB+%E3%81%8C%E3%82%89%E3%81%8F%E3%81%9F+%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2">一発ネタ系 がらくた ソフトウェア</a>の専門家。今思えば Perl との出会いがバッドノウハウ研究の出発点となったような気がする。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://blog.bulknews.net/mt/" id="miyagawa">宮川達彦</a></dt>
+    <dd>Shibuya.pm リーダーにして、CPAN モジュール生産数世界一を誇る。最近では日本の RSS の第一人者としても活躍中。著書（翻訳）に <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4894715589/ref=nosim/bulknews-22">Perl データマンジング</a>。<a href="http://corp.livedoor.com/">株式会社ライブドア</a> 執行役員 Chief Technology Architect。</dd>
+  </dl>
+
+
+  <dl>
+    <dt><a href="http://hirax.net/" id="hirax">平林純</a></dt>
+    <dd>（自称）技術系サイト<a href="http://hirax.net/">hirax.net</a>で駄文を垂れ流している。
+「オッパイ星人の力学」を研究したせいか、人からは単なる「巨乳好き」だと思われているらしい。
+</dd>
+  </dl>
+
+   <dl>
+  <dt><a href="http://nais.to/~yto/" id="tatuo">山下達雄</a></dt>
+  <dd>某 IT メーカで何かについて研究している研究員。小さくて短いシンプル
+なプログラムを好む。学生時代は<a href="http://chasen.aist-nara.ac.jp/">
+茶筌</a>や <a href="http://nais.to/~yto/tools/sufary/">SUFARY</a> の開発
+に携わる。最近はダウンサイジングして、<a
+href="http://nais.to/~yto/tools/kuttukibbs/">くっつき BBS</a>を始めとし
+た「くっつきシリーズ」や <a
+href="http://nais.to/~yto/tools/chalow/">chalow</a> などの Web 系ツール
+を細々と作っている。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://www.daionet.gr.jp/~knok/" id="knok">野首貴嗣</a></dt>
+    <dd>脱輪とガジェットのことなら俺にまかせろ！うへ。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://mrmt.net/" id="mrmt">森本淳</a></dt>
+    <dd>準備中</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://eto.com/" id="eto">江渡浩一郎</a></dt>
+    <dd>自他ともに認める深追イスト。深追い禁止 = 深追い必至がモットー。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://www.gniibe.org/" id="gniibe">新部裕</a></dt>
+    <dd>ハノイの塔と low level プログラミングをこよなく愛する。
+「普通のやつらの下を行け!」がモットー。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://naoya.dyndns.org/" id="naoya">伊藤直也</a></dt>
+    <dd>某ISPで blog サービスの企画・開発を努めるエンジニア。Blog 検索エンジン FeedBack 開発者。Blog Hacks 執筆中だが日夜飲み歩き一向に進まない。
+</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://svslab.jp/" id="ssv">鈴木 聡</a></dt>
+    <dd>バッドノウハウをあさっての方向から観察する流浪の似非HCI研究者。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://namazu.org/~takesako/" id="takesako">竹迫良範</a></dt>
+    <dd><a href="http://namazu.org/windows/">Namazu for Win32</a>のメンテナ。後継者探しに広島県から遠征。
+現在の職業はmod_perl屋さん、<a href="http://www.dreamarts.co.jp">株式会社ドリーム・アーツ</a>広島ラボに勤務。</dd>
+  </dl>
+
+  <dl>
+  <dt><a href="http://module.jp/" id="oyama">小山浩之</a></dt>
+  <dd>職場で「Webのフロントエンド書くのはもうお腹いっぱい」とのたまいつつ、趣味でApache moduleを書いていたりする矛盾の多い本格派駄目サラリーマン。著書に<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774117994/ref=nosim/modulejp-22" title="amazon.co.jp">Apacheモジュールプログラミングガイド</a>。</dd>
+  </dl>
+
+  <dl>
+    <dt><a id="hayakawa">早川真也</a></dt>
+    <dd>「CPANは"くぱん"と読む」を普及させようと目論むツワモノ。一日1つ新しい(マニアックな)オペレーションシステムをインストールすることを日課にしている。<a href="http://shibuya.pm.org/blosxom/news/ll_saturday_event_finished.print">LL Saturday 2003</a> での活躍は記憶に新しい。株式会社ライブドア LindowsOS 開発チーム。</dd>
+  </dl>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

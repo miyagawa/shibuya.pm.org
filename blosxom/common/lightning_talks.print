@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : What are Lightning Talks?</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/common/lightning_talks.html">http://shibuya.pm.org/blosxom/common/lightning_talks.html</a>.
+<br /><br /><br />
+
+<b>What are Lightning Talks?</b><br />
+<b>by</b> miyagawa at Wed, 10 Sep 2003 21:02
+<p />
+
+Lightning Talks は、<a href="http://yapc.org/">YAPC (Yet Another Perl Conference)</a> ではじまった、5分間限定トークで、<a href="http://perl.plover.com/">Mark J. Dominus さん (mjd)</a> が考案しました。日本では2001年の <a href="http://yarpc.tokyo.pm.org/">YARPC (Yet Another Ruby/Perl Conference)</a> ではじめて導入されました。
+<p />
+mjd の <a href="http://perl.plover.com/lt/">Lightning Talks</a> を日本語に訳してみますので参考まで。
+<hr class="seemore">
+
+
+<h3>Lightning Talks って何?</h3>
+
+Lightning Talks は60分もしくは90分の枠に、5分間のトークをつめこんだものです。
+
+<h3>なぜLightning Talkなんかやるの？</h3>
+
+<p />
+いままでにセミナーの講師をやったことない人でも、小さいものならできるか
+もしません。Lightning Talk なら、スライドをつくらなくてもいいし、作る
+としても、2,3枚で十分です。
+<p />
+失敗するんじゃないかと心配するかもしれません。5分のトークなら、準備も
+簡単。もし失敗したとしても、すぐに終わるんだから気にすることはないんです。
+<p />
+あまりしゃべることがないかもしれません。みんなに質問をするとか、プロジェ
+クトのメンバー募集をするとか、自分のやったことを自慢するとか、ちょっと
+した気をつけることの話をするとか、それだけかもしれない。こういう話は面
+白いんだけど、30分も話すほどのネタではないことが大半です。
+<p />
+しゃべることがたくさんあって、すでにそのうち1つについて長い時間しゃべ
+る予定があるときには、スポットライトを独占するのを遠慮したいこともある
+でしょう。Lightning Talks をいくつもやっても問題ありません。たった5分
+ですから。
+
+<h3>なぜLightning Talkを聞きたいの？</h3>
+
+同じテーマについての長いトークをきかないで、Lightning Talk を聞きにく
+る人もいるでしょう。聞く人のリスクは大きくありません。トークがつまらな
+かったり、スピーカーがほんとに下手なスピーカーでも5分我慢すればいいの
+です。Lightning Talks では、つまらないレクチャーで45分間退屈するということはありません。
+
+<h3>意図についての注意</h3>
+
+多くの人が勘違いをします。5分しかしゃべれないと聞くと、みんなこう言い
+ます。「どうやってこのトークを5分に絞りこめばいいんだろう？」
+<p />
+違うんです。トークはたったの5分なんですから、シリアスに考える必要はな
+いのです。なにか簡単に、面白いことをしゃべって、急いで檀上からおりるの
+です。もっと聞きたい人がいれば、後で廊下あたりであなたを捕まえてくるで
+しょう。
+<p />
+11個のトークがすべて、わあわあとわめきちらすものだったら、わたしはとっ
+ても幸せです。
+
+<h3>5分で何をしゃべればいい？</h3>
+
+こんなのはどうでしょう:
+
+<ol>
+<li>わたしがモジュールXを好きな理由</li>
+<li>イケてるプロジェクトXをやりたいんだけど、手伝ってくれる人いない？</li>
+<li>成功事例: プロジェクトXをやって、うまくいった。あなたにもその理由を教えてあげよう。</li>
+<li>失敗事例: プロジェクトXは、うまくいかなかった。その理由はこうだ。</li>
+<li>Perl 反論: みんなXっていうけど、間違ってる。その理由はこうだ。</li>
+<li>みんなサイテーだ: Perl コミュニティのよくないところはこれだ。</li>
+<li>Call to Action: みんなもっとXをしよう/Xをやめよう!</li>
+<li>perl5-porters/comp.lang.perl.misc/PerlMonks で経験したヘンなこと</li>
+<li>X だったらクールじゃない？</li>
+<li>だれかが X を必要としてる</li>
+<li>Perl にこれがあればなー</li>
+<li>X が間違いだった理由</li>
+<li>X は間違ってるようにみえるけど、そうではない理由</li>
+<li>X をやるとこんな感じ</li>
+<li>使える小技テクニック</li>
+<li>便利だとおもったけどイケてなかったテクニック</li>
+<li>モジュールXがイケてない理由</li>
+<li>モジュールX と Y の比較</li>
+<li>X にいま注目するワケ</li>
+<li>Perl の大好きなところ</li>
+</ol>
+
+もちろん、しゃべりたいことがあれば、このリストにのっていなくてもまった
+くかまいません。
+<p />
+Lightning Talk をやりたいけどネタが思いつかないという人がいました。そ
+の人のために、<a href="http://perl.plover.com/lt/lightning-topics.txt">Perl関連のトピック</a>を紹介します。
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

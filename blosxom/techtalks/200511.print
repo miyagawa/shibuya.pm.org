@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongers テクニカルトーク #6</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200511.html">http://shibuya.pm.org/blosxom/techtalks/200511.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongers テクニカルトーク #6</b><br />
+<b>by</b> miyagawa at Wed, 26 Oct 2005 15:08
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#6 を2005年11月2日に開催します。</p>
+
+<ul>
+  <li>日時 - 2005年11月2日 (水) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/map/">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - 定員に達したので締め切りました<!-- a href="http://shibuya.pm.org/register/200511/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a> （定員100名）--></li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+    <ol>
+      <li>"Six Apart and Perl" - 宮川達彦</li>
+      <li>"Learning Catalyst" - 加藤＠おーさか</li>
+      <li>"Catalyst Tips and Traps" - 加藤 亮</li>
+      <li>"prototype.js と Perl で Ajax" - 伊藤直也</li>
+      <li>"Pugs でお手軽 Perl6 入門" - 竹迫良範</li>
+      <li>"Perl で ICFP（Perlは「最強の言語」か？）" - 澤勇太</li>
+    </ol>
+  </li>
+</ul>
+<hr class="seemore">
+
+
+<h4 class="subsection">プログラム詳細</h4>
+<dl>
+<dt>Six Apart and Perl</dt>
+<dd>スピーカー: <a href="#miyagawa">宮川達彦</a><br />
+Six Apart は世界でも有数の "Perl geeks company" の1つであり、世界中から Perl Hacker が集まってきています。Six Apart の Perl やオープンソースに対するカルチャーや、Movable Type, TypePad, LiveJournal という異なる形態のソフトウェア開発手法における違いなどについて紹介します。 <a href="http://shibuya.pm.org/slides/200511/6aperl.pdf">発表資料(pdf)</a>
+</dd>
+</dl>
+
+<dl>
+<dt>Learning Catalyst</dt>
+<dd>スピーカー: <a href="#ktat">加藤＠おーさか</a><br />
+Catalyst によるお手軽Webアプリケーション作成。インストール、特徴、作り方まで。Catalystで簡単なWikiを簡単に作っちゃいます。 <a href="http://shibuya.pm.org/slides/200511/catalyst_20051102.zip">発表資料(zip)</a> <a href="http://shibuya.pm.org/slides/200511/mywiki.tar.gz">ソースコード</a>
+</dd>
+</dl>
+
+<dl>
+<dt>Catalyst Tips and Traps</dt>
+<dd>スピーカー: <a href="#lyokato">加藤 亮</a><br />
+Catalyst の Plugin Hack。
+メタフレームワークからオレオレフレームワークへ。
+その他、現状での Trap Point など。 <a href="http://shibuya.pm.org/slides/200511/catalyst_tips_and_traps.zip">発表資料(zip)</a>
+</dd>
+</dl>
+
+<dl>
+<dt>prototype.js と Perl で Ajax</dt>
+<dd>スピーカー: <a href="#naoya">伊藤直也</a><br />
+prototype.js を使うと泥臭くなりがちな JavaScript プログラミングをすっきり済ませることができます。prototype.js の Ajax ライブラリと Perl を組み合わせて Ajax る How To を紹介します。 <a href="http://shibuya.pm.org/slides/200511/prototype_js.ppt">発表資料(ppt)</a>
+</dd>
+</dl>
+
+<dl>
+<dt>Pugs でお手軽 Perl6 入門</dt>
+<dd>スピーカー: <a href="#takesako">竹迫良範</a><br />
+最近 Perl6 の実装の1つとして Haskell で書かれた Pugs が注目を集めています。VM である Parrot との関係、DWIMmery な Perl6 の言語仕様、新しく追加されたネコ演算子などの紹介を交えつつ、実際に Pugs を動かしながら Perl6 の世界を体感してみましょう。 <a href="http://labs.cybozu.co.jp/blog/takesako/pub/PugsPerl6-takesako.ppt">発表資料(ppt)</a>
+</dd>
+</dl>
+
+<dl>
+<dt>Perl で ICFP（Perlは「最強の言語」か？）</dt>
+<dd>スピーカー: <a href="#sawa">澤勇太</a><br />
+<a href="http://icfpc.plt-scheme.org/">ICFP</a>というプログラミング言語の大会があります。
+この大会はどの言語が最強かを決めるものですが、残念ながら過去Perlは優勝どころか入賞もしていません。ということで参加して、Perlが他の言語よりも良いのかどうかをやってみたレポートです。 <a href="http://shibuya.pm.org/slides/200511/sawa.ppt">発表資料(ppt)</a> <a href="http://shibuya.pm.org.nyud.net:8090/slides/200511/Avi1.m1v">デモ動画</a>
+</dd>
+</dl>
+
+
+<h4 class="subsection">スピーカー紹介</h4>
+
+<dl>
+<dt><a href="http://blog.bulknews.net/mt/" id="miyagawa">宮川達彦</a></dt>
+<dd>Shibuya.pm リーダーにして、<a href="http://search.cpan.org/~miyagawa/">CPAN モジュール制作数</a> で世界3本の指に入る。著書に Blog Hacks など。現在は Six Apart にて VP of Partner Engineering。</dd>
+</dl>
+
+<dl>
+<dt><a id="ktat">加藤＠おーさか</a></dt>
+<dd>
+文学部哲学及倫理学専攻出身の完全文系プログラマ。Perldoc.jp、Kansai.pm などに参加。現在はアフィリエイト広告配信会社に勤務。<a href="http://www.pure.ne.jp/~learner/program/Perl_oo.html">Perl オブジェクト指向プログラミング</a>, <a href="http://www.pure.ne.jp/~learner/program/Perl_unicode.html">Perl 5.8.x Unicode関連</a> などを書いてます。
+</dd>
+</dl>
+
+<dl>
+<dt><a href="http://www.lost-season.jp/mt/" id="lyokato">加藤 亮</a></dt>
+<dd>名古屋在住のフリーエンジニアで、最近は派遣で転々と。
+来春上京画策中。</dd>
+</dl>
+
+<dl>
+<dt><a href="http://d.hatena.ne.jp/naoya/" id="naoya">伊藤直也</a></dt>
+<dd>株式会社はてなCTO。Blog Hacks 共著、Perl Medic 監訳。近頃のスローガンは "モテたくて"</dd>
+</dl>
+
+<dl>
+<dt><a href="http://www.namazu.org/~takesako/" id="takesako">竹迫良範</a></dt>
+<dd>片道20kmの自転車通勤で体重を減らしたソフトウェアエンジニア。<a href="http://namazu.org/~takesako/ppencode/demo.html">ppencode</a> の作者。Namazu for Win32のメンテナ、Perlクックブック第2版の監訳などを担当。最近東京に引っ越してきました。</dd>
+</dl>
+
+<dl>
+<dt><a href="http://d.hatena.ne.jp/succeed/" id="sawa">澤勇太</a></dt>
+<dd>東京大学理学部情報科学科の3年生。座右の銘は「人生いつも綱渡り」「ネタのために生きる」</dd>
+</dl>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

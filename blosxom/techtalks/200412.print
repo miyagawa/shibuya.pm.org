@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongers テクニカルトーク #5</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200412.html">http://shibuya.pm.org/blosxom/techtalks/200412.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongers テクニカルトーク #5</b><br />
+<b>by</b> miyagawa at Wed, 08 Dec 2004 23:20
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#5 を2004年12月16日に開催します。</p>
+
+<ul>
+  <li>日時 - 2004年12月16日 (木) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/map/">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - 定員を超えたので締め切りました。<!-- a href="http://shibuya.pm.org/register/200412/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a> （定員100名）--></li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+    <ol>
+      <li>"iPod&amp;iTunes Hacks" - 宮川達彦</li>
+      <li>"再考ですかーっJavaScript" - 小山浩之</li>
+      <li>"はてなの開発裏側見せますパート2" - 伊藤直也</li>
+      <li>"PerlとJavaで異言語Webサービス連携 - SOAP/WSDLの光と影" - 竹迫良範</li>
+      <li>"アイスホッケーの成績集計とテスト駆動開発" - 吉田裕美</li>
+      <li>"JAPHを読む" - 水野貴明</li>
+      <li>"Perl大改造！！劇的ビフォーアフター" - 早川真也</li>
+    </ol>
+  </li>
+</ul>
+<hr class="seemore">
+
+
+<h4 class="subsection">プログラム詳細</h4>
+<dl>
+<dt>iPod&amp;iTunes Hacks</dt>
+<dd>スピーカー: <a href="#miyagawa">宮川達彦</a><br />
+iTunes と iPod の API を利用した雑多なスクリプト、iTunes ファイル共有プロトコル DAAP の利用、AirMac Express のプロトコル解析などディープな Hack を紹介する。
+</dd>
+</dl>
+
+<dl>
+<dt>再考ですかーっJavaScript</dt>
+<dd>スピーカー: <a href="#oyama">小山浩之</a><br />
+どうもブラウザの都合で虐げられがちなJavaScript。プログラミング言語としてのJavaScriptを再考したうえで、Mozillaプロジェクトで利用されているJavaScriptの処理系SpiderMonkeyの利用方法や、その拡張方法を解説する。
+</dd>
+</dl>
+
+<dl>
+<dt>はてなの開発裏側見せますパート2</dt>
+<dd>スピーカー: <a href="#naoya">伊藤直也</a><br />
+最近のはてな、何をどんな風に開発しているか、その裏側をお見せします。はまぞう、はてな検索、新アンテナ、そして最近社内で熱いのは Google AdSense 代替広告 Hack。面白いとこどりで紹介させていただきます。
+</dd>
+</dl>
+
+<dl>
+<dt>PerlとJavaで異言語Webサービス連携 - SOAP/WSDLの光と影 -</dt>
+<dd>スピーカー: <a href="#takesako">竹迫良範</a><br />
+巷で流行のWebサービス、その中でもSOAPとWSDLの仕様は疎結合でプラットフォーム非依存の技術と言われています。しかし現実は…。PerlのSOAP::Liteモジュールを使って異言語Webサービス連携を実現するためのad hocを紹介します。
+</dd>
+</dl>
+
+<dl>
+<dt>アイスホッケーの成績集計とテスト駆動開発</dt>
+<dd>スピーカー: <a href="#yuumi">吉田裕美</a><br />
+みなさんは、アイスホッケーのスコアーを見たことありますか？ この夏に開発したアジアリーグ・アイスホッケー成績集計システムでの複雑なルール等とそれを正しく実装する為のテスト駆動開発などに付いて、お話します。
+</dd>
+</dl>
+
+<dl>
+<dt>JAPH を読む</dt>
+<dd>スピーカー: <a href="#takaaki">水野貴明</a><br />
+簡単に書けることをわざと複雑に書く。そんなパズルのようなスクリプトを読み解きながら、そこに使われている使われているテクニックを味わい、面白がり、よい意味での無駄な努力を賞賛します。
+</dd>
+</dl>
+
+<dl>
+<dt>Perl大改造！！劇的ビフォーアフター</dt>
+<dd>スピーカー: <a href="#hayakawa">早川真也</a><br />
+問題を抱えたプログラムを匠がリフォームを試みます。
+Perlそのものをリフォームする荒技も登場！(patch無し)
+</dd>
+</dl>
+
+
+<h4 class="subsection">スピーカー紹介</h4>
+
+<dl>
+<dt><a href="http://blog.bulknews.net/mt/" id="miyagawa">宮川達彦</a></dt>
+<dd>Shibuya.pm リーダーにして、CPAN モジュール制作数で世界3本の指に入る。iTunes や Google, Skype などの API でちまちま遊ぶのがマイブームだが飽きるのも光速。著書に <a href="http://hacks.bloghackers.net/">Blog Hacks</a> など。</dd>
+</dl>
+
+<dl>
+<dt><a href="http://module.jp/" id="oyama">小山浩之</a></dt>
+<dd>フリーのソフトウェアエンジニア兼ライター。最近ようやっと本来の姿であった「Perlの人」や「Apacheモジュールの人」的な仕事を請負えてきつつあるらしい。元来バイナリ操作やプロトコルハックを好むが最近は自制している。それでも、訳あって封印していたYahoo!メッセンジャーネタが緊急浮上中な三十路突入一児の父。著書"Apacheモジュールプログラミングガイド"。尊敬する人は及川
+光博。</dd>
+</dl>
+
+<dl>
+<dt><a href="http://naoya.dyndns.org/~naoya/mt/" id="naoya">伊藤直也</a></dt>
+<dd>近頃はカリスマブロガーやアルファギークなどの謎の業界横文字で呼ばれることも多い、はてなスタッフ。著書にBlog Hacks。株式会社はてな 取締役最高技術責任者。</dd>
+</dl>
+
+<dl>
+<dt><a href="http://namazu.org/~takesako/" id="takesako">竹迫良範</a></dt>
+<dd>株式会社ドリーム・アーツ広島ラボ勤務、現在の職業はmod_perl屋さん。Namazu for Win32のメンテナ、Perlクックブック第2版の監訳などを担当。
+</dd>
+</dl>
+
+<dl>
+<dt><a href="#" id="yuumi">吉田裕美</a></dt>
+<dd>お昼ね好きなSOHOプログラマー、今年も PerlとJava のお仕事を半半くらいの比率でやってました。</dd>
+</dl>
+
+<dl>
+<dt><a href="http://www.takaaki.info/" id="takaaki">水野貴明</a></dt>
+<dd>コンピュータ系兼業ライター。近著に「ULTIMATE Perl」など。本職は出版系システム会社で働くシステムエンジニア。</dd>
+</dl>
+
+<dl>
+<dt><a href="#" id="hayakawa">早川真也</a></dt>
+<dd>機能的で、大胆なコードを作り出す、“レキシカル変数の仕掛人”。
+レキサとパーサを最大限に活かす事を常に心掛ける。</dd>
+</dl>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

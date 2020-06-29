@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#12 「NoSQL特集」</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200911.html">http://shibuya.pm.org/blosxom/techtalks/200911.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#12 「NoSQL特集」</b><br />
+<b>by</b> takesako at Thu, 19 Nov 2009 15:07
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#12 "NoPerl, NoSQL, NoKVS" を2009年11月30日(月)に開催します。</p>
+<ul>
+  <li>テーマ - <b>"Not only Perl, Not only SQL, Not only KVS"</b></li>
+  <li>日時 - 2009年11月30日(月) 18:30-21:00 (18:00 開場)</li>
+
+  <li>会場 - グラントウキョウサウスタワー23F <a href="http://www.recruit.co.jp/corporate/english/company/data/pdf/map_south.pdf">リクルート本社サウスホール</a></li>
+  <li>住所 - 東京都千代田区丸の内1-9-2 (JR東京駅 八重洲南口すぐ)</li>
+  <li>料金 - 無料</li>
+  <li>定員 - <s>200名</s> 300名（※定員枠を増やしました）</li>
+
+  <li>事前登録 - <a href="http://atnd.org/events/2242">ATNDで参加申し込み受付中</a>です。</li>
+  <li>Ustream.tv - <a href="http://www.ustream.tv/channel/mtl-live">http://www.ustream.tv/channel/mtl-live</a></li>
+</ul>
+
+<ul>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>【開場時間】
+  <ol>
+  <li>18:00 会場2Fロビーの受付までお越しください</li>
+  </ol>
+
+ </li>
+
+ <li>【特別講演】
+  <ol>
+  <li>18:30 開会の挨拶</li>
+
+  <li>18:35 宮川達彦(miyagawa) - "Tatsumaki" I/O bound HTTP clients in web frameworks</li>
+  </ol>
+ </li>
+
+ <li>【特別企画】
+  <ol>
+  <li>19:00 NoSQL vs. NoKVS ライトニングディスカッション</li>
+  <li>平林幹雄(mikio) - Tokyo (Cabinet|Tyrant)</li>
+
+  <li>山田浩之(mogwaing) - Lux IO 的な何か</li>
+  <li>鶴岡直也(halt) - 毎秒11万回更新できるのはRedisだけ</li>
+  <li>古橋貞之(frsyuki) - えとらぼで kumofs 作って運用してみた</li>
+  <li>太田一樹(kzk) - Hadoop/hBase を動かしてみた</li>
+  <li>小泉守義(moriyoshi) - golang で KVS 作ってみた</li>
+  <li>奥一穂(kazuho) - NoKVS な RDBMS sharding 作ってみた</li>
+
+  <li>斯波健徳(shiba) - Spider Storage Engine 作ってみた</li>
+  <li>質疑応答</li>
+  </ol>
+ </li>
+<p>
+RDBMS 以外の non-relational なデータベースとして KVS の枠にとどまらない
+Not only SQL を指向する OSS の実装と運用の実際について語り合います。
+一人5分間の持ち時間でライトニングトーク的なプレゼンを行なった後、
+パネラーの方から5分間のツッコミを受けます。
+最後に総論として会場からの質疑応答を受け付けます。
+（※発表タイトル・順・時間はすべて仮です）</p>
+</ul></li>
+
+ <li>Lightning Talks - Not only Shibuya.pm#12
+  <ol>
+
+  <li>20:40 松野徳大(tokuhirom) - Perl で Golang のような Channel を実装する方法</li>
+  <li>20:45 藤吾郎(gfx) - Metaprogramming in XS</li>
+  <li>20:50 大沢和宏(Yappo) - Ajax application testing</li>
+  <li>20:55 ゼットオオナミ(z.ohnami) - CouchDBで作る薄々レイヤーアプリケーション</li>
+ </li>
+</ul>
+
+ <li>クロージング
+  <ol>
+
+  <li>21:00 閉会の挨拶</li>
+  </ol>
+ </li>
+
+<p>
+今回は軽量データベース特集ということで、Perlの枠を超えて、他の言語のプログラマー、
+インフラ系のエンジニアの方も安心して聞ける内容になると思います。
+現在お使いのプログラミング言語・データベースを問わず、ふるってご参加ください。
+</p>
+
+<p>会場は前回と同様リクルートMTLの川崎さんにお世話になりまして、東京駅近くの机付きの200人規模の大きな会場を使わさせていただくことになりました。ありがとうございます。</p>
+
+<p>
+※ 11/26(木)22:16 追記：リクルートMTL川崎さんのご厚意により会場の定員枠を200→300名に増やしていただけました。前半は机あり、後半は椅子のみのレイアウトとなります。ただし、立ち見の可能性もありますので、なるべく早めに会場へお越しください。
+</p>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

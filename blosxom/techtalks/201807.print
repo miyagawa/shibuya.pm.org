@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#18</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/201807.html">http://shibuya.pm.org/blosxom/techtalks/201807.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#18</b><br />
+<b>by</b> karupanerura at Mon, 11 Jun 2018 15:34
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#18 を2018年7月5日(木)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します。</p>
+<ul>
+  <li><b>Shibuya Perl Mongersテクニカルトーク#18</b></li>
+  <li>日時 - 2018年7月5日(木) 19:20-22:00 (19:00 開場)</li>
+  <li>会場 - 渋谷ヒカリエ21F DeNA本社（受付11F） (<a href="http://dena.com/jp/company/access.html">株式会社ディー・エヌ・エー</a>)</li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - 120名</li>
+  <li>事前登録 -  <a href="http://shibuyapm.connpass.com/event/89357/">http://shibuyapm.connpass.com/event/89357/</a> からお申し込みください。</li> 
+  <li>注意事項 - 入館手続きのため、名刺を1枚ご用意ください。名刺には事前にお申込み時のアカウント名のご記入をお願い致します。</li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>タイムスケジュール
+  <ul>
+  <li>19:00 - 開場・受付</li>
+  <li>19:20 - 開会の挨拶 - <a href="https://twitter.com/karupanerura">@karupanerura</a></li>
+  </ul>
+ </li>
+
+ <li>基調講演 - 「あのCPANモジュール実装の裏側」
+  <ul>
+  <li>19:30 - Inside of DBIx::Schema::DSL - <a href="https://twitter.com/songmu">@songmu</a></li> 
+  <li>19:50 - cpmの実装の裏側 - <a href="https://twitter.com/shoichikaji">@shoichikaji</a></li> 
+  <li>20:10 - 質疑応答（5分）</li> 
+  </ul>
+ </li>
+ <li>特別講演 - perl 5.28 has been released!
+  <ul> 
+  <li>20:20 - perl 5.28 delta - <a href="https://twitter.com/charsbar">@charsbar</a></li>
+  </ul>
+ </li> 
+ <li>Lightning Talks
+  <ol> 
+    <li>20:35 - <a href="https://twitter.com/tokuhirom">@tokuhirom</a></li>
+    <li>20:40 - <a href="https://twitter.com/codehex">@CodeHex</a></li>
+    <li>20:45 - <a href="https://twitter.com/kfly8">@kfly8</a></li>
+    <li>20:50 - <a href="https://twitter.com/dankogai">@dankogai</a>    
+    <li>20:55 - <a href="https://twitter.com/papix">@papix</a></li>
+  </ol>
+ </li> 
+ <li>リーダー引継ぎ式
+  <ul> 
+  <li>21:00 ~</li>
+  </ul>
+ </li> 
+</ul>
+</li>
+<li>受付・入館方法：
+<ul>
+<li>入館受付開始は19:00です。オフィスフロア入り口である11F受付にお越し下さい。ヒカリエビル内の地下フロアやJRとの連絡通路がある2Fなどに、11Fへのエレベータが数ヶ所設置されています。 当日11Fには、本フォーラム用の特設受付をご用意しておりますので、そちらへお越し頂き、その後は受付の案内に従ってください。</li>
+<li>入館時にお名刺を1枚ご準備ください。名刺には事前にお申込み時のアカウント名のご記入をお願い致します。名刺をお持ちで無い方は受付で芳名帳に記入をお願いいたします。</li>
+<li>受付締切時刻は19:30です。遅れてきた方は基本的に参加することができませんのでご注意ください。</li>
+</ul></li>
+
+<li>注意事項：
+<ul>
+<li>途中入退室できませんのでご注意ください。会場内は飲食可能です。
+お飲み物等は、予めご自身でご用意ください。11Fにローソンがありますので、
+入館手続き前にご購入ください。
+</li>
+<li>営業、スカウト行為目的のご参加は固くお断りしております。ご理解いただきますようお願い致します。</li>
+</ul></li>
+</ul>
+
+<p>Lightning Talksの発表者を募集しています。持ち時間は1人5分です。希望者の方はconnpassの参加登録のアンケートに発表タイトルと概要を記載いただくか、または件名「Shibuya.pm#18 LT希望」として、発表タイトルを添えて karupa@cpan.org までメールして下さい。</p>
+<ins><p>応募多数のため、Lightning Talksの発表者の募集は締め切りました。たくさんのご応募ありがとうございます。次回以降またよろしくお願いいたします。</p></ins>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

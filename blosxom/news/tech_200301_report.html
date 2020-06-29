@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="keywords" content="Shibuya, Perl, Tokyo, Japan, User Community, Technical Talks, Book" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://shibuya.pm.org/blosxom/index.rss10" />
+    <title>Shibuya Perl Mongers : スタートアップセミナー終了レポート</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="banner">Shibuya Perl Mongers</div>
+      <span class="description">We are a group of people dedicated to the encouragement of all things Perl-like in Shibuya.</span>
+    </div><!-- end of "header" -->
+
+    <div id="menu">
+      <a href="http://shibuya.pm.org/blosxom" title="Home">Home</a>
+      <a href="http://shibuya.pm.org/blosxom/common/mailinglist.html" title="Mailing List info">Mailing List</a>
+      <a href="http://shibuya.pm.org/blosxom/techtalks/" title="Technical Talks">Tech Talks</a>
+      <a href="http://shibuya.pm.org/blosxom/books/" title="Books">Books</a>
+    </div><!-- end of "menu" -->
+
+<div id="content">
+
+<div class="date">Sat, 01 Feb 2003</div>
+<div class="entry"><h1 class="title"><a name="tech_200301_report">スタートアップセミナー終了レポート</a></h1>
+
+<p>2003年1月31日、Shibuya Perl Mongersのスタートアップセミナーが開催された。当日行われた20分間のセミナー4本と懇親会の様子をレポート。</p>
+
+<p>開催の１週間前と急な告知だったにもかかわらず会場の定員いっぱいである約40名の参加者が集まるなか、Shibuya Perl Mongersスタートアップセミナーは執り行われた。</p>
+<h3 class="title">抜群(?)のロケーションと魅力的な料金と設備</h3>
+<p>セミナー会場である国立オリンピック記念青少年総合センターは明治神宮や代々木公園に隣接する緑に囲まれた広大な敷地をもつ青少年育成を目的とした施設である。参加者はさておき主催者達を"青少年"と呼べるか否か疑問視する声もあったが、同センターは青少年だけではなく一般団体の利用も認められているため問題はないそうだ。</p>
+<p><img src="/images/tech200301/200301_49.jpg" width="218" height="160" alt="電光掲示板" class="right" />まず驚かされたのが同センターの入り口広場に設置された電光掲示板。電光掲示板にはセンターを利用中の団体名と設備名などの情報が掲載されている。同センターを利用するためには団体登録が必要で団体名を登録する際にその名称は20文字以内という謎の制約があったのだが、表示装置の幅が20文字分しかないことにその制約も合点がいった。
+他にもプロジェクタなどのAV設備を備えた40名収容可能な研修室を4時間2,000円程度(300人収容200インチプロジェクタを備えた部屋も1万円程度)で利用できる低料金や、各建物の造型のモダンさ加減や全室テンキー式電磁ロックといったハイテク装備(?)をみると、「へー税金ってこーいうふうに使われるんだぁ(棒読み)」という普段味わうことができない気分を実感することができる場所であった。</p>
+
+<h3 class="title">高いバリューのセミナー内容(でも無料)</h3>
+<p>行われたセミナーは
+<ol>
+  <li>Perl5.6/5.8を使おう</li>
+  <li>MySQLプロトコル詳説 - PerlからみたMySQLの通信プロトコル</li>
+  <li>perldocjpのススメ</li>
+  <li>PHP::Session - PHP4とPerlでセッション情報を共有する</li>
+</ol>
+の計４本。それぞれ20分程度と短い時間ながらも密度が高く得るものが多い(そして笑える)内容であった。</p>
+<p><img src="/images/tech200301/200301_14.jpg" width="218" height="160" class="left" alt="Perl5.6/5.8を使おう" />まず１本目早川真也氏による「Perl5.6/5.8を使おう」は、最新版であるperl5.8系と5.6系の新機能の紹介や普段あまり意識することがないコンパイラの動きの解説や、氏が提唱する"UNIVERSAL Teleportation"などのマニアックなテクニックを披露した。なかでもベンチマーク結果を交えながらの実行速度向上の解説は、「バージョンアップして速くなります」と曖昧に片付けてしまいがちな部分を具体的な数値によって示すもので筆者自身にとっても大変参考になった。終始コミカルかつマニアックな解説が行われたこのセッションもEffctive STLから"Avoid producing write-only code.(書き込み専用のコードを避けよう)"を引用し、「マニアックなテクニックはまわりの人と相談してから」とスピーカーの経験談(?)で締めくくられた。</p>
+
+<p><img src="/images/tech200301/200301_15.jpg" width="218" height="160" class="right" alt="MySQLプロトコル詳説" />2本目のセッションは「MySQLプロトコル詳説」。MySQLとの通信シーケンスや実際にやり取りするパケットの構造を説明した後は、それらをPerlだけで実装するために必要な要素の解説。"再実装モノ"は完全な手本が存在するのでtcpdumpなどで比較追従してゆけば比較的簡単に実装できることやPerlでの32bit超の論理演算に苦しまされたことなどを解説したうえで、共同開発者(身代り?)の募集が行われたが立候補者はいなかったようだ。スピーカ自ら「40分で喋るネタを20分に圧縮して喋るので解りづらい」と述べたとおり終始ハイスピードな進行ではあったが、MySQLプロトコルのシンプルさが幸いしてか終了後に「想像していたよりも簡単というかベタなプロトコルなんですね」といった声もあった。</p>
+
+<p><img src="/images/tech200301/200301_23.jpg" width="218" height="160" class="left" alt="perldocjpのススメ" />3本目のセッションはKansai Perl Mongersの川合孝典氏による「perldocjpのススメ」。ここまでのセッションの技術的に踏み込んだ内容から一変し、Perlに関連する日本語リソースの問題点やそれらを解決するために活動しているperldocjpプロジェクトなど、Perlの社会的な側面についての解説と取り組みの説明がおこなわれた。perldocjpプロジェクトでは現在CPANモジュールのマニュアルなどの翻訳を行っているが翻訳という作業自体後手であるために3000を超えるCPANの全ディストリビューションを網羅することは不可能であろうということや、誤訳やバージョン違いなどのトラブルを避けるためにもPerl使いは英語を読む努力をしたほうが有利であることをふまえた上で、モジュールを使うとっかかりとしてはやはり日本語のマニュアルはあったほうが良いこと、Perl関係の有名人に感謝されるなどのメリットを説明してくれた。セッションを終えた後の質疑応答ではこれからプロジェクトに参加する人のために"手引き"が在ったほうが良いことや、翻訳予定 or 希望リストなどがあると良いのではないかと言った多くの提案があがった。</p>
+
+<p><img src="/images/tech200301/200301_30.jpg" width="218" height="160" class="right" alt="解説中さりげなく著書を取り出す宮川氏" />最後のセッションは宮川達彦氏による「PHP::Session - PHP4とPerlでセッション情報を共有する」。PHP4のセッション情報をPerlと共有するために、そのデータ構造とPerlによる実装であるPHP::Sessionなどの解説や、利用例・活用事例などが紹介された。セッションの初めでは「PHP::Sessionは基本的に必要ありません」と意表をつきながらも、最後に示された"テンプレートエンジンとしてPHPをPerlから使用する例"などは、意外でありながら非常に現実的かつ実用的なもので会場の参加者たちも「目から鱗」的な反応を見せていた。</p>
+
+<p>1セッション20分計4本という小ぶりな構成ながらも幅広くかつ濃い内容で、講師・参加者ともども良い刺激を受けることができたと思う。これらのセミナーで使用されたスライド資料はすべて<a href="/slides/200301/">ダウンロード</a>できるので眺めて見るとその雰囲気を垣間見ることができるだろう。次回は2003年3月下旬頃を予定しているが開催日や内容は未定で、決定し次第Webに掲載してアナウンスするとのこと。これだけディープな内容を扱うセミナーはなかなか存在しないので、次回のアナウンスと募集を楽しみにしてもらいたい。</p>
+
+<h3 class="title">高層ビル街を望みながらの懇親会</h3>
+<p><img src="/images/tech200301/200301_58.jpg" width="218" height="160" class="left" />懇親会は同センター内にある"レストランさくら"にて主催者達の「ちゃんと懇親できる懇親会にしたい」という希望から立食形式で行われた。途中、早川氏からperldocjpプロジェクトに関わる提案として「CPANモジュールの翻訳を一気に進める方法」があげられ会場(の一部)を沸かせていた。この方法に関しては早川氏から近々成果の報告があると見受けられる。他にも「某企業はドキュメントの厚さに金を払う」という指摘に対し「いやいや。お・も・さっ」という衝撃の告白が行われるなど、Perlに留まらない幅広い話題がかわされていたようだ。西新宿高層ビル街の夜景を望みながらのマニアックな会話と食事の2時間はあっという間にすぎていった。</p>
+
+
+<span>(文:<a href="mailto:oyama@module.jp">青山浩之</a> 写真:栗原由樹)</span>
+
+<p class="postinfo">posted at: <a title="permanent link to this entry" href="http://shibuya.pm.org/blosxom/news/tech_200301_report.html">12:00</a> by <a href="mailto:oyama@cpan.org">oyama</a> <a title="edit this blog entry (admin only)" href="http://shibuya.pm.org/blosxom/news/tech_200301_report.wikieditish#wikieditish">#</a> | category: <a href="http://shibuya.pm.org/blosxom/news">News</a> | <a href="http://shibuya.pm.org/blosxom/news/tech_200301_report.html">permalink</a><br />
+<a href="http://shibuya.pm.org/trackback/news_tech_200301_report?__mode=list" onclick="window.open(this.href, 'comments', 'width=640,height=480,scrollbars=yes,status=yes'); return false">Trackback (0)</a> | <a title="View printer friendly version of this blog entry" href="http://shibuya.pm.org/blosxom/news/tech_200301_report.print">Printer friendly</a> | <a title="Email this blog link to your firends" href="mailto:?subject=%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E7%B5%82%E4%BA%86%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88&amp;body=http://shibuya.pm.org/blosxom/news/tech_200301_report.html">Email this blog</a><!-- br />
+ <a href="http://bulkfeeds.net/app/similar?url=http%3A%2F%2Fshibuya.pm.org%2Fblosxom%2Fnews%2Ftech_200301_report.html" title="Find Similar Pages on Bulkfeeds">Similarity Search</a> (Powered by Bulkfeeds)</?> -->
+</p>
+
+<!--
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+    <rdf:Description
+      rdf:about="http://shibuya.pm.org/blosxom/news/tech_200301_report.html"
+      trackback:ping="http://shibuya.pm.org/trackback/news_tech_200301_report"
+      dc:title="スタートアップセミナー終了レポート"
+      dc:identifier="http://shibuya.pm.org/blosxom/news/tech_200301_report.html" />
+  </rdf:RDF>
+-->
+</div>
+<div class="prevnext">Prev: <a href="http://shibuya.pm.org/blosxom/news/tech_200301_deadline.html">スタートアップセミナー事前登録締切</a><br />Next: <a href="http://shibuya.pm.org/blosxom/news/web_switched_to_blosxom.html">Shibuya.pm Web Renewal</a></div>
+<!-- adsense -->
+<div style="padding: 1em">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0854756127426271";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_color_border = "CCCCCC";
+google_color_bg = "FFFFFF";
+google_color_link = "0000CC";
+google_color_url = "000000";
+google_color_text = "000000";
+google_ad_channel ="0907269075";
+google_alternate_color = "FFFFFF";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+</div><!-- id="content" -->
+
+    <div id="modules">
+      <div class="module">
+        <h4 class="module">About Us</h4>
+        <div class="modulebody">Shibuya Perl Mongers は東京地区とくに渋谷周辺のインターネット関連企業に勤務している Perl ユーザのコミュニティ形成を目指す非営利の団体です。主な活動内容はプログラミング言語 Perl に関係するメンバー主催の勉強会やインターネット上での啓蒙活動や情報交換です。Shibuya Perl Mongers は Perl を利用し、スキル向上を望む方であればどなたでも無料で参加できます。
+        </div>
+      </div>
+
+      <div class="module">
+        <h4 class="module">What is Perl Mongers?</h4>
+        <div class="modulebody"><a href="http://www.pm.org/">Perl Mongers(パールモンガース)</a>とは、地域ごとのPerlユーザグループの集合体です。発祥はニューヨークで現在は世界各地に Perl Mongers が分布し、それぞれの地域でのコミュニティーを形成しています。
+        </div>
+      </div>
+
+      <div class="module">
+        <h4 class="module">Site Search</h4>
+        <div class="modulebody"><!-- Search Google -->
+<form method="get" action="http://www.google.co.jp/custom" class="modulebody">
+<input name="q" type="text" size="16" maxlength="255" />
+<input type="submit" name="sa" value="Google" />
+<input type="hidden" name="domains" value="shibuya.pm.org" />
+<input type="hidden" name="cof" value="AWFID:FSjae0e0ce7fb7135b3b;GALT:#336699;LC:#0000aa;AH:left;VLC:#000088;GL:0;S:http://shibuya.pm.org/;" />
+<br />
+<input type="radio" name="sitesearch" value="" />WWW 
+<input type="radio" name="sitesearch" value="shibuya.pm.org" checked="checked" />Shibuya Perl Mongers
+</form>
+<!-- Search Google -->
+</div>
+        <div class="modulebody"><a href="http://shibuya.pm.org/blosxom/index.archives">Archive of All Entries</a></div>
+      </div>
+
+<!--      <div class="module">
+       <h4 class="module">Recent referers</h4>
+       <div class="modulebody"><script language="JavaScript" src="/js/referer.js"></script></div>
+      </div>
+-->
+<!--
+      <div class="module">
+<h4 class="module">BlogShares</h4>
+<div class="modulebody">
+<a href=""></a><br />
+Valuation: $<br />
+@ $ -  P/E
+</div>
+      </div>
+-->
+
+      <div class="module">
+<div class="modulebody">
+      <a href="http://shibuya.pm.org/blosxom/index.rss10"><img src="/images/icons/rss1.gif" border="0" alt="RSS 1.0 Syndication" /></a>
+      <a href="http://shibuya.pm.org/blosxom/index.rss"><img src="/images/icons/rss0_91.png" border="0" alt="RSS 0.91 Syndication" /></a><br />
+      <a href="http://www.blosxom.com/"><img src="/images/icons/blosxom.gif" border="0" alt="Powered by blosxom"/></a>
+<!--      <a href="http://blogshares.com/blogs.php?blog=http://shibuya.pm.org/blosxom"><img src="/images/icons/blogshares2.gif" border="0" alt="blogshares"/></a><br /> -->
+      <a href="http://www.perl.org/"><img src="/images/icons/perl.gif" border="0" alt="Powered by Perl"/></a><br />
+<!--      <a href="http://www.pm.org/"><img src="/images/icons/perlmongers.png" border="0" alt="Perl Mongers"/></a><br /> -->
+</div>
+      </div>
+
+      <div class="module">
+       <p class="copyright">&copy;2002-2003 <a href="mailto:chair at shibuya.pm.org">Shibuya Perl Mongers</a>. Japan. All rights reserved.</p>
+      </div>
+
+      </div><!-- end of "modules" -->
+
+
+<!-- div id="footer">
+<pre class="fortune"></pre>
+</div -->
+
+</body>
+</html>

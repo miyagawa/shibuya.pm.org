@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : blosxom gzip プラグインの利用開始</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/misc/blog_output_compressed_with_gzip.html">http://shibuya.pm.org/blosxom/misc/blog_output_compressed_with_gzip.html</a>.
+<br /><br /><br />
+
+<b>blosxom gzip プラグインの利用開始</b><br />
+<b>by</b> miyagawa at Mon, 18 Aug 2003 02:46
+<p />
+
+blosxom の <a href="http://blog.bulknews.net/mt/archives/000249.html">gzip プラグイン</a>を有効にして出力をgzip圧縮するようにしました。何かブラウジングに不具合等あればご連絡ください。
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

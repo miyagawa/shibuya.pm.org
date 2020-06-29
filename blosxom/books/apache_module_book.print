@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Apache モジュールプログラミングガイド</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/books/apache_module_book.html">http://shibuya.pm.org/blosxom/books/apache_module_book.html</a>.
+<br /><br /><br />
+
+<b>Apache モジュールプログラミングガイド</b><br />
+<b>by</b> miyagawa at Thu, 07 Aug 2003 16:22
+<p />
+
+Shibuya.pm メンバーである小山浩之さん著による、Apacheモジュール開発専門書 <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774117994/ref=nosim/bulknews-22">Apacheモジュールプログラミングガイド</a>が<a href="http://www.gihyo.co.jp/">技術評論社</a>より発売されています。
+<p />
+Apache API を利用したプログラミングは、Cで書いていることを忘れるぐらい、開発効率が良く、また動作も高速です。<a href="http://perl.apache.org/">mod_perl</a> に飽き足らず、さらなるパフォーマンスを求める方、C で書いたCGIをもっと高速化したい方、とにかく何かApacheモジュールつくってみたい方 etc. にオススメです。
+
+<hr class="seemore">
+
+
+<p />
+LL Saturday で紹介されていた <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4894715589/ref=nosim/bulknews-22">Perlデータマンジング</a>もよろしくです(宣伝)。
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

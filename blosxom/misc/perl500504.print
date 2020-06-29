@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Perl 5.005_04 released</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/misc/perl500504.html">http://shibuya.pm.org/blosxom/misc/perl500504.html</a>.
+<br /><br /><br />
+
+<b>Perl 5.005_04 released</b><br />
+<b>by</b> miyagawa at Tue, 02 Mar 2004 14:17
+<p />
+
+<a href="http://use.perl.org/articles/04/03/01/181242.shtml" title="use Perl | Perl 5.005_04 Released">use Perl | Perl 5.005_04 Released</a>
+<blockquote>This release updates Perl 5.005 to enable building with current compiler/operating system configurations. Read on for more details.</blockquote>
+
+perl 5.005_04 がリリースされました。perl 5.005_03 をモダンなコンパイラでも通るようにしたメンテナンスリリースです。
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

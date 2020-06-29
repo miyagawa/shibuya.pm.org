@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Blog Encodings</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/news/encoding_utf8.html">http://shibuya.pm.org/blosxom/news/encoding_utf8.html</a>.
+<br /><br /><br />
+
+<b>Blog Encodings</b><br />
+<b>by</b> miyagawa at Tue, 20 May 2003 23:59
+<p />
+
+<a href="http://www.raelity.org/apps/blosxom/plugins/text/tiki.individual">Tikiプラグイン</a>導入に伴い、Blogエントリを UTF-8化する必要に迫られたため、Blosxom の encoding プラグインを作成。RSS Syndication も含め、この Blog の出力はすべて UTF-8 に変更しました。
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

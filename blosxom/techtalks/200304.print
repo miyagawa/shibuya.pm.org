@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#2</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200304.html">http://shibuya.pm.org/blosxom/techtalks/200304.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#2</b><br />
+<b>by</b> oyama at Thu, 20 Mar 2003 01:29
+<p />
+
+Shibuya Perl Mongersテクニカルトーク#2の日程が2003年4月1日に確定いたしました。プログラムの詳細は現在調整中で、確定ししだい順次更新してゆきます。
+<ul>
+  <li>日時 - 2003年4月1日 火曜日 19:00〜21:00</li>
+  <li>会場 - <a href="http://www.nyc.go.jp/">国立オリンピック記念青少年総合センター</a> <a href="http://www.nyc.go.jp/users/d6-1-8.html">センター棟1階108号室</a></li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - 定員に達しましたので締め切りました。</li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+    <ol>
+      <li>"Inlineで遊ぼう" いけべともひろ</li>
+      <li>"Perl用Webアプリケーションフレームワーク考察" 吉田裕美</li>
+      <li>"Perlでネットワーク管理" 台場圭一</li>
+      <li>"はてなダイアリーの裏側見せます" 近藤淳也(from 京都)</li>
+    </ol>
+  </li>
+  <li>配布資料 - <a href="/slides/200304/">こちらで公開しています</a>
+</ul>
+<hr class="seemore">
+
+
+<h4 class="subsection">プログラム詳細</h4>
+  <dl>
+    <dt>はてなダイアリーの裏側見せます</dt>
+    <dd>スピーカー: <a href="#jkondo">近藤淳也</a><br />
+        ジャンル: 応用・実例<br />
+	一部で人気上昇中の<a href="http://d.hatena.ne.jp/">はてなダイアリー</a>。今年1月から始まった2ヶ月間のベータテスト中に、ユーザーからの要望により行われた機能追加、改善項目は約80件。Wikiシステムによりユーザーと密に接しながら行っている開発スタイルと、そのシステム概要をご紹介します。
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>Inlineで遊ぼう</dt>
+    <dd>スピーカー: <a href="#ikebe">いけべともひろ</a><br />
+        ジャンル: Perlの暗黒面<br />
+	Inlineモジュールを使用し、Perlとスクリプティング言語を組み合わせて「遊ぶ」方法を伝授。</dd>
+  </dl>
+
+  <dl>
+    <dt>Perl用Webアプリケーションフレームワーク考察</dt>
+    <dd>スピーカー: <a href="#yuumi">吉田裕美</a><br />
+        ジャンル: 応用・実例<br />
+	なぜフレームワークが必要なのか、使って見て成果はどうだったかなど、Perl2年生でフレームワーク作成に取り組んだ自身の経験をもとに、Perlとフレームワークについて考察する。</dd>
+  </dl>
+ 
+  <dl>
+    <dt>Perlでネットワーク管理</dt>
+    <dd>スピーカー: <a href="#okabe">台場圭一</a><br />
+        ジャンル: 応用・実例<br />
+	正規表現を駆使して、設定ファイルをいかに管理するか。binaryファイルはいかに読み解くか。</dd>
+  </dl>
+
+
+<h4 class="subsection">スピーカー紹介</h4>
+  <dl>
+    <dt><a href="" id="daiba">台場圭一</a></dt>
+    <dd>
+その昔ネットワーク管理に苦しんでいたときにPerlを覚え、今ではWin32環境でも使うようになった。ダイビングが趣味だが、最近潜っておらず、干からびた，いや太った．</dd>
+  </dl>
+  <dl>
+    <dt><a href="http://www.hatena.ne.jp/" id="jkondo">近藤淳也</a></dt>
+    <dd>
+人力検索サイト<a href="http://www.hatena.ne.jp/">はてな</a>、<a href="http://a.hatena.ne.jp/">はてなアンテナ</a>、<a href="http://d.hatena.ne.jp/">はてなダイアリー</a>を運営する京都発のベンチャー、有限会社はてな代表。「人と人を繋げるネットコミュニティで生活をもっと豊かに」をポリシーに新たなネット文化の創造を目指す。</dd>
+  </dl>
+
+<!--
+  <dl>
+    <dt><a href="" id="">氏名</a></dt>
+    <dd>紹介文</dd>
+  </dl>
+-->
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

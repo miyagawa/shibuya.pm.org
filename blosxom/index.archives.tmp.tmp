@@ -1,0 +1,23 @@
+<html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="keywords" content="Shibuya, Perl, Tokyo, Japan, User Community, Technical Talks, Book" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://shibuya.pm.org/blosxom/index.rss10" />
+    <title>Shibuya Perl Mongers</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="banner">Shibuya Perl Mongers</div>
+      <span class="description">We are a group of people dedicated to the encouragement of all things Perl-like in Shibuya.</span>
+    </div><!-- end of "header" -->
+
+    <div id="menu">
+      <a href="http://shibuya.pm.org/blosxom" title="Home">Home</a>
+      <a href="http://shibuya.pm.org/blosxom/common/mailinglist.html" title="Mailing List info">Mailing List</a>
+      <a href="http://shibuya.pm.org/blosxom/techtalks/" title="Technical Talks">Tech Talks</a

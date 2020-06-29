@@ -1,0 +1,487 @@
+% Styles : azure contemporain darkblue default frames lignesbleues
+%          alienglow nuancegris autumn troispoints
+%
+% \documentclass[pdf,slideColor,colorBG,azure]{prosper}
+
+\documentclass[pdf,slideColor,colorBG,azure]{prosper}
+
+\title{MySQLプロトコル詳説}
+\subtitle{PerlからみたMySQLの通信プロトコル}
+\author{小山浩之}
+\email{oyama@cpan.org}
+\institution{Shibuya Perl Mongers}
+\slideCaption{Shibuya.pm TechTalks 2003-01-31}
+% \displayVersion
+% \DefaultTransition{Dissolve}
+% \hypersetup{pdfpagemode=FullScreen}
+
+\usepackage{pst-node,color}
+
+\begin{document}
+\maketitle
+
+
+\overlays{2} { \begin{slide}{おしながき}
+  \begin{itemize}
+    \fromSlide{1} {
+        \item MySQLとのコミュニケーション
+        \item 送受信するパケットの構造
+        \item Perlでの実装とPerl特有の問題
+    }
+  \end{itemize}
+  \fromSlide{2} {
+    MySQLの通信プロトコルを解説し、いかにPerlで処理をおこなうか
+  }
+\end{slide} }
+
+
+\overlays{2} { \begin{slide}{MySQLとのコミュニケーション}
+  \begin{itemize}
+    \item MySQLはServerとClientで構成。
+    \item 両者はSocketで通信。
+    \begin{itemize}
+      \item /tmp/mysql.sock {\it (UNIX domain socket)}
+      \item 3306/tcp {\it (INET socket)}
+    \end{itemize}
+    \item ClientはServerにSocketを繋ぎメッセージを交換してDBを操作。
+  \end{itemize}
+  \fromSlide{2} {
+    なんら特別なことはなくフツーにSocketを使った通信。$\rightarrow$ {\it HTTPやSMTPなどと同列}
+  }
+\end{slide} }
+
+\overlays{7}{ \begin{slide} {Clientから見た通信シーケンス}
+  \rput(2,-1){\rnode{connect}{\fbox{ServerにSocket接続}}}
+  \fromSlide*{2} {
+    \rput(9.5,-2){\rnode{getinfo}{\fbox{情報取得}}}
+    \ncline[linecolor=white]{->}{connect}{getinfo}
+  }
+  \fromSlide*{3} {
+    \rput(2,-3){\rnode{auth}{\fbox{認証}}}
+    \ncline[linecolor=white]{->}{getinfo}{auth}
+  }
+  \fromSlide*{4} {
+    \rput(9.5,-4){\rnode{send}{\fbox{コマンド送信}}}
+    \ncline[linecolor=white]{->}{auth}{send}
+  }
+  \fromSlide*{5} {
+    \rput(9.38,-5.5){\rnode{result}{\fbox{応答受信}}}
+    \ncline[linecolor=white]{->}{send}{result}
+  }
+  \fromSlide*{6} {
+    \ncangles[linecolor=white,angleA=-90,arm=.8cm,angleB=-180,linearc=.4]{->}{result}{send}
+  }
+  \fromSlide*{7} {
+    \rput(1,-6.5){\rnode{quit}{\fbox{Socket切断}}} 
+    \ncdiagg[linecolor=white,angleA=-90,armA=.4cm,linearc=.2]{->}{send}{quit}
+  }
+
+  %% comments
+  \onlySlide*{2} {
+    \rput(2,-5){ \psframebox[linewidth=0]{
+      \parbox{7cm}{protocol version,\\server version,\\thread id,\\saltを取得。}}
+    }
+  }
+  \onlySlide*{3} {
+    \rput(2,-5){ \psframebox[linewidth=0]{
+      \parbox{7cm}{saltでpasswordエンコードし送信。\\(plain textではない)}}
+    }
+  }
+  \onlySlide*{4} {
+    \rput(2,-5){ \psframebox[linewidth=0]{
+      \parbox{7cm}{SQLや管理用コマンドを送信。\\SQLの長さ(binary) + SQL}}
+    }
+  }
+  \onlySlide*{5} {
+    \rput(2,-5){ \psframebox[linewidth=0]{
+      \parbox{7cm}{エラーか否か。\\更新系SQLならば影響を受けた行数。\\参照系SQLならカラム単位のデータ。}}
+    }
+  }
+  \onlySlide*{6} {
+    \rput(2,-5){ \psframebox[linewidth=0]{
+      \parbox{7cm}{終了コマンドを発行するまで繰り返し。}}
+    }
+  }
+\end{slide} }
+
+
+\overlays{2}{ \begin{slide}{Clientに要求される仕事}
+  \begin{itemize}
+    \item UNIX or INET Socketで通信できること
+    \item Binaryデータを操作できること
+  \end{itemize}
+
+  \fromSlide{2}{
+    つまり
+    \begin{itemize}
+      \item イマドキのOSとプログラミング言語の殆どがこの条件を満たす
+    \end{itemize}
+  }
+\end{slide}}
+
+
+\begin{slide}{送受信するパケットの構造}
+  次の各処理におけるパケットの形式を説明します。
+  \begin{itemize}
+    \item ログインフェーズ
+    \item クエリの発行
+    \item 応答の受信
+  \end{itemize}
+\end{slide}
+
+\begin{slide}{ログインフェーズ}
+  ServerにSocketを繋いだ後にまずやること。
+  \begin{itemize}
+    \item Serverから接続情報を受信
+    \item 認証情報を送信
+  \end{itemize}
+\end{slide}
+
+\overlays{7}{\begin{slide}{Serverから接続情報を受信}
+  \onlySlide*{1}{
+    {\tt 28 00 00 00 0a 33 2e 32 33 2e 35 32 00 03 00 00 00 2b 21 60 44 6f 25 65 50 00 2c 00 08 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00}\\
+  }
+  \onlySlide*{2}{
+    {\tt {\red 28 00 00 00} 0a 33 2e 32 33 2e 35 32 00 03 00 00 00 2b 21 60 44 6f 25 65 50 00 2c 00 08 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00}\\
+    パケットの長さ。
+    \begin{itemize}
+      \item Little-endian 32bit整数(unsigned long)
+    \end{itemize}
+    0x28000000 $\rightarrow$ 40byte
+  }
+
+  \onlySlide*{3}{
+    {\tt 28 00 00 00 {\red 0a} 33 2e 32 33 2e 35 32 00 03 00 00 00 2b 21 60 44 6f 25 65 50 00 2c 00 08 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00}\\
+    プロトコルバージョン。
+    \begin{itemize}
+      \item 8bit整数(unsigned char)
+    \end{itemize}
+    0x0a $\rightarrow$ Version 10
+  }
+
+  \onlySlide*{4}{
+    {\tt 28 00 00 00 0a {\red 33 2e 32 33 2e 35 32 00} 03 00 00 00 2b 21 60 44 6f 25 65 50 00 2c 00 08 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00}\\
+    サーババージョン。
+    \begin{itemize}
+      \item ASCIIの文字列
+      \item 末尾は"{\yen}0"
+    \end{itemize}
+    0x33 0x2e 0x32 0x33 0x2e 0x35 0x32 0x00 $\rightarrow$ "3.23.52"
+  }
+
+  \onlySlide*{5}{
+    {\tt 28 00 00 00 0a 33 2e 32 33 2e 35 32 00 {\red 03 00 00 00} 2b 21 60 44 6f 25 65 50 00 2c 00 08 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00}\\
+    Thread ID
+    \begin{itemize}
+      \item Little-endian 32bit整数(unsigned long)
+    \end{itemize}
+    0x03000000 $\rightarrow$ 3
+  }
+
+  \onlySlide*{6}{
+    {\tt 28 00 00 00 0a 33 2e 32 33 2e 35 32 00 03 00 00 00 {\red 2b 21 60 44 6f 25 65 50} 00 2c 00 08 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00}\\
+    Passwordエンコード用Salt
+    \begin{itemize}
+      \item 8Byteのバイナリ値(unsigned char[8])
+    \end{itemize}
+  }
+
+  \onlySlide*{7}{
+    {\tt 28 00 00 00 0a 33 2e 32 33 2e 35 32 00 03 00 00 00 2b 21 60 44 6f 25 65 50 {\red 00 2c 00 08 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00}}\\
+
+    あとは知らない。 (´Д｀；）いいんでつかっ
+  }
+\end{slide}}
+
+
+\overlays{5}{\begin{slide}{認証情報の送信}
+  \onlySlide*{1}{
+    {\tt 18 00 00 01 0d 24 00 00 00 72 6f 6f 74 00 5b 4e 57 41 57 58 4c 4f 00 6d 79 73 71 6c}\\
+  }
+  \onlySlide*{2}{
+    {\tt {\red 18} 00 00 01 0d 24 00 00 00 72 6f 6f 74 00 5b 4e 57 41 57 58 4c 4f 00 6d 79 73 71 6c}\\
+    パケットの長さ。
+    \begin{itemize}
+      \item 8bitの整数(unsigned char)
+    \end{itemize}
+  }
+  \onlySlide*{3}{
+    {\tt 18 00 00 01 0d 24 00 00 00 {\red 72 6f 6f 74 00} 5b 4e 57 41 57 58 4c 4f 00 6d 79 73 71 6c}\\
+    ユーザ名。
+    \begin{itemize}
+      \item ASCIIの文字列
+      \item 末尾は"{\yen}0"
+    \end{itemize}
+    0x72 0x6f 0x6f 0x74 0x00 $\rightarrow$ "root"
+  }
+  \onlySlide*{4}{
+    {\tt 18 00 00 01 0d 24 00 00 00 72 6f 6f 74 00 {\red 5b 4e 57 41 57 58 4c 4f 00} 6d 79 73 71 6c}\\
+    SaltでエンコードしたPassword。
+    \begin{itemize}
+      \item ASCIIの文字列
+      \item 末尾は"{\yen}0"
+    \end{itemize}
+    0x5b 0x4e 0x57 0x41 0x57 0x58 0x4c 0x4f $\rightarrow$ "[XWAWXLO"
+  }
+  \onlySlide*{5}{
+    {\tt 18 00 00 01 0d 24 00 00 00 72 6f 6f 74 00 5b 4e 57 41 57 58 4c 4f 00 {\red 6d 79 73 71 6c}}\\
+    データベース名。
+    \begin{itemize}
+      \item ASCIIの文字列
+    \end{itemize}
+    0x6d 0x79 0x73 0x71 0x6c $\rightarrow$ "mysql"
+  }
+\end{slide}}
+
+\begin{slide}{クエリの発行}
+  単純にSQL文を送信するだけ。
+\end{slide}
+
+
+\overlays{4}{\begin{slide}{SQLの送信}
+  \onlySlide*{1}{
+    {\tt 1c 00 00 00 03 73 65 6c 65 63 74 20 68 6f 73 74 2c 20 75 73 65 72 20 66 72 6f 6d 20 75 73 65 72}\\
+  }
+  \onlySlide*{2}{
+    {\tt {\red 1c 00 00 00} 03 73 65 6c 65 63 74 20 68 6f 73 74 2c 20 75 73 65 72 20 66 72 6f 6d 20 75 73 65 72}\\
+
+    パケットの長さ。
+    \begin{itemize}
+      \item Little-endian 32bitの整数値(unsigned long)
+    \end{itemize}
+    0x1c 0x00 0x00 0x00 $\rightarrow$ 28byte
+  }
+  \onlySlide*{3}{
+    {\tt 1c 00 00 00 {\red 03} 73 65 6c 65 63 74 20 68 6f 73 74 2c 20 75 73 65 72 20 66 72 6f 6d 20 75 73 65 72}\\
+
+    コマンド番号。
+    \begin{itemize}
+      \item 8bitの整数値(unsigned char)
+      \item 0から20までの整数でコマンドを表す。
+      \begin{itemize}
+        \item QUIT = 1
+	\item QUERY = 3
+	\item CHANGE\_USER = 17
+      \end{itemize}
+    \end{itemize}
+    0x03 $\rightarrow$ Queryコマンド
+  }
+  \onlySlide*{4}{
+    {\tt 1c 00 00 00 03 {\red 73 65 6c 65 63 74 20 68 6f 73 74 2c 20 75 73 65 72 20 66 72 6f 6d 20 75 73 65 72}}\\
+
+    SQL。
+    \begin{itemize}
+      \item 文字列
+      \item {\yen}, {\yen}0, {\yen}n, {\yen}r, ", ', 0x1aは"{\yen}"でエスケープ
+    \end{itemize}
+    $\rightarrow$ "select host, user from user" 
+  }
+\end{slide}}
+
+
+\begin{slide}{応答の受信}
+  クエリの応答を受信する。
+  \begin{itemize}
+    \item 参照系SQL - SELECT
+    \item 更新系SQL - UPDATE, INSERT
+  \end{itemize}
+  要求によって応答の形式が異なる。
+\end{slide}
+
+
+\overlays{11}{\begin{slide}{レコードの受信}
+  \onlySlide*{1}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 09 6c 6f 63 61 6c 68 6f 73 74 05 6f 79 61 6d 61 15 00 00 06 0d 77 77 77 2e 6d 6f 64 75 6c  65 2e 6a 70 06 6e 6f 62 6f 64 79 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 fe}\\
+  }
+  \onlySlide*{2}{{\tt 01 00 00 01 {\red 02} 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 09 6c 6f 63 61 6c 68 6f 73 74 05 6f 79 61 6d 61 15 00 00 06 0d 77 77 77 2e 6d 6f 64 75 6c  65 2e 6a 70 06 6e 6f 62 6f 64 79 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 fe}\\
+  カラム数。\\
+  0x02 $\rightarrow$ ２つのフィールドを持つ応答
+  }
+  \onlySlide*{3}{{\tt 01 00 00 01 02 14 00 00 02 {\red 04} {\yellow 75 73 65 72} 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 09 6c 6f 63 61 6c 68 6f 73 74 05 6f 79 61 6d 61 15 00 00 06 0d 77 77 77 2e 6d 6f 64 75 6c  65 2e 6a 70 06 6e 6f 62 6f 64 79 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 fe}\\
+  {\red 長さ} {\yellow テーブル名} $\rightarrow$ {\yellow "user"}\\
+  }
+  \onlySlide*{4}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 {\red 04} {\yellow 68 6f 73 74} 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 09 6c 6f 63 61 6c 68 6f 73 74 05 6f 79 61 6d 61 15 00 00 06 0d 77 77 77 2e 6d 6f 64 75 6c  65 2e 6a 70 06 6e 6f 62 6f 64 79 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 fe}\\
+    {\red 長さ} {\yellow カラム名} $\rightarrow$ {\yellow "host"}
+  }
+  \onlySlide*{5}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 {\green 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03} 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 09 6c 6f 63 61 6c 68 6f 73 74 05 6f 79 61 6d 61 15 00 00 06 0d 77 77 77 2e 6d 6f 64 75 6c  65 2e 6a 70 06 6e 6f 62 6f 64 79 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 fe}\\
+    {\green 型情報 etc}
+  }
+  \onlySlide*{6}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 {\red 04} {\yellow 75 73 65 72} {\red 04} {\yellow 75 73 65 72} {\green 03 10 00 00 01 fe 03 83 40 00 01 00 00 04} fe 10 00 00 05 09 6c 6f 63 61 6c 68 6f 73 74 05 6f 79 61 6d 61 15 00 00 06 0d 77 77 77 2e 6d 6f 64 75 6c  65 2e 6a 70 06 6e 6f 62 6f 64 79 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 fe}\\
+    {\red 長さ} {\yellow テーブル名} {\red 長さ} {\yellow カラム名} {\green 型情報}\\
+    $\rightarrow$ {\yellow "user.user"}
+  }
+
+  \onlySlide*{7}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 {\red 09} {\yellow 6c 6f 63 61 6c 68 6f 73 74} {\red 05} {\yellow 6f 79 61 6d 61} 15 00 00 06 0d 77 77 77 2e 6d 6f 64 75 6c  65 2e 6a 70 06 6e 6f 62 6f 64 79 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 fe}\\
+    {\red 長さ} {\yellow データ}, {\red 長さ} {\yellow データ}\\
+    $\rightarrow$ {\yellow "localhost" "oyama"}
+  }
+  \onlySlide*{8}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 {\red 09} {\yellow 6c 6f 63 61 6c 68 6f 73 74} {\red 05} {\yellow 6f 79 61 6d 61} 15 00 00 06 {\red 0d} {\yellow 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70} {\red 06} {\yellow 6e 6f 62 6f 64 79} 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 fe}\\
+    {\red 長さ} {\yellow データ}, {\red 長さ} {\yellow データ}\\
+    {\red 長さ} {\yellow データ}, {\red 長さ} {\yellow データ}\\
+  }
+  \onlySlide*{9}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 {\red 09} {\yellow 6c 6f 63 61 6c 68 6f 73 74} {\red 05} {\yellow 6f 79 61 6d 61} 15 00 00 06 {\red 0d} {\yellow 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70} {\red 06} {\yellow 6e 6f 62 6f 64 79} 14 00 00 07 {\red 0d} {\yellow 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70} {\red 05} {\yellow 77 68 65 65 6c} 01 00 00 08 fe}\\
+    {\red 長さ} {\yellow データ}, {\red 長さ} {\yellow データ}\\
+    {\red 長さ} {\yellow データ}, {\red 長さ} {\yellow データ}\\
+    {\red 長さ} {\yellow データ}, {\red 長さ} {\yellow データ}\\
+  }
+  \onlySlide*{10}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 {\red 09} {\yellow 6c 6f 63 61 6c 68 6f 73 74} {\red 05} {\yellow 6f 79 61 6d 61} 15 00 00 06 {\red 0d} {\yellow 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70} {\red 06} {\yellow 6e 6f 62 6f 64 79} 14 00 00 07 {\red 0d} {\yellow 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70} {\red 05} {\yellow 77 68 65 65 6c} 01 00 00 08 fe}\\
+    {\red 9} {\yellow "localhost"}, {\red 5} {\yellow "oyama"}\\
+    {\red 13} {\yellow "www.module.jp"}, {\red 6} {\yellow "nobody"}\\
+    {\red 13} {\yellow "www.module.jp"}, {\red 5} {\yellow "wheel"}\\
+  }
+  \onlySlide*{11}{{\tt 01 00 00 01 02 14 00 00 02 04 75 73 65 72 04 68 6f 73 74 03 3c 00 00 01 fe 03 83 40 00 14 00 00 03 04 75 73 65 72 04 75 73 65 72 03 10 00 00 01 fe 03 83 40 00 01 00 00 04 fe 10 00 00 05 09 6c 6f 63 61 6c 68 6f 73 74 05 6f 79 61 6d 61 15 00 00 06 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 06 6e 6f 62 6f 64 79 14 00 00 07 0d 77 77 77 2e 6d 6f 64 75 6c 65 2e 6a 70 05 77 68 65 65 6c 01 00 00 08 {\red fe}}\\
+    終端
+  }
+\end{slide}}
+
+
+\overlays{5}{\begin{slide}{更新件数の受信}
+  \onlySlide*{1}{
+    {\tt 2c 00 00 01 00 03 00 28 52 6f 77 73 20 6d 61 74 63 68 65 64 3a 20 33 20 20 43 68 61 6e 67 65 64 3a 20 33 20 20 57 61 72 6e 69 6e 67 73 3a 20 30}\\
+  }
+
+  \onlySlide*{2}{
+    {\tt 2c 00 00 01 00 {\red 03} 00 28 52 6f 77 73 20 6d 61 74 63 68 65 64 3a 20 33 20 20 43 68 61 6e 67 65 64 3a 20 33 20 20 57 61 72 6e 69 6e 67 73 3a 20 30}\\
+    影響を受けたレコード数
+  }
+
+  \onlySlide*{3}{
+    {\tt 2c 00 00 01 00 03 {\red 00} 28 52 6f 77 73 20 6d 61 74 63 68 65 64 3a 20 33 20 20 43 68 61 6e 67 65 64 3a 20 33 20 20 57 61 72 6e 69 6e 67 73 3a 20 30}\\
+    Insert-ID
+  }
+
+  \onlySlide*{4}{
+    {\tt 2c 00 00 01 00 03 00 {\red 28} 52 6f 77 73 20 6d 61 74 63 68 65 64 3a 20 33 20 20 43 68 61 6e 67 65 64 3a 20 33 20 20 57 61 72 6e 69 6e 67 73 3a 20 30}\\
+    メッセージの長さ\\
+    0x28 $\rightarrow$ 40byte
+  }
+
+  \onlySlide*{5}{
+    {\tt 2c 00 00 01 00 03 00 28 {\red 52 6f 77 73 20 6d 61 74 63 68 65 64 3a 20 33 20 20 43 68 61 6e 67 65 64 3a 20 33 20 20 57 61 72 6e 69 6e 67 73 3a 20 30}}\\
+    応答メッセージ $\rightarrow$ "Rows matched: 3{\yen}n Changed: 3{\yen}n Warnings: 0"
+  }
+\end{slide}}
+
+\begin{slide}{MySQLプロトコルのまとめ}
+  \begin{itemize}
+    \item データ長・コマンド番号以外のデータはASCIIが基本。
+    \item binary値はLittle-endian。8bit, 16bit, 24bit, 32bitを使い分ける。
+    \item 参照の応答にはレコード数などの情報は無し。$\rightarrow$ client側で計算。
+    \item シンプルでコンパクト。
+  \end{itemize}
+\end{slide}
+
+
+\overlays{2}{\begin{slide}{Perlでどう実装する？}
+  \begin{itemize}
+    \item UNIX or INET Socketを開く
+    \item Little-endianの8, 16, 24, 32bit値を処理する
+    \item Passwordのエンコード
+  \end{itemize}
+  解決すべきネタはこの程度。
+  \fromSlide{2}{ \\ $\rightarrow$ 実装の検証はtcpdumpで既存のclientと比較・追従すれば良い。}
+\end{slide}}
+
+
+\begin{slide}{UNIX or INET Socketを開く}
+  旅の友だち {\tt use IO::Socket;}\\
+    {\tt {\scriptsize
+    \ \ \ \ my \$mysql = IO::Socket::UNIX-\verb|>|new(\\
+    \ \ \ \ \ \ \ \ Type =\verb|>| SOCK\_STREAM,\\
+    \ \ \ \ \ \ \ \ Peer =\verb|>| '/tmp/mysql.sock',\\
+    \ \ \ \ );
+    }}\\
+    でも\\
+    {\tt {\scriptsize
+    \ \ \ \ my \$mysql = IO::Socket::INET-\verb|>|new(\\
+    \ \ \ \ \ \ \ \ PeerAddr =\verb|>| \$hostname,\\
+    \ \ \ \ \ \ \ \ PeerPort =\verb|>| 3306,\\
+    \ \ \ \ \ \ \ \ Proto =\verb|>| 'tcp',\\
+    \ \ \ \ );
+    }}\\でもお好きなように。
+\end{slide}
+
+\begin{slide}{Binary値のハンドリング}
+  三種の神器 {\tt pack()/unpack()/substr();}
+  \begin{itemize}
+    \item 8bit値(unsigned char)の変換\\
+    {\tt {\scriptsize
+      \ \ my \$number = unpack 'C', \$char8;\\
+      \ \ my \$char8 = pack 'C', \$number;}}
+    \item Little-Endianな16bit値(unsigned short)の変換\\
+      {\tt {\scriptsize
+        \ \ my \$number = unpack 'v', \$short16;\\
+        \ \ my \$short16 = pack 'v', \$number;
+      }}
+    \item Binary文字列から任意のbyteを切り出し\\
+      {\tt {\scriptsize
+        \ \ my \$char8 = substr \$raw\_data, \$position, 1;\\
+        \ \ my \$short16 = substr \$raw\_data, \$position, 2;
+      }}
+  \end{itemize}
+  桁の小さい値なら簡単。
+\end{slide}
+
+
+\begin{slide}{Little-endian 24bit, 32bit値}
+  \begin{itemize}
+    \item Little-endianな24bit値の変換\\
+      んなテンプレートは無いので\\
+      {\tt {\scriptsize
+      \ my \$int24 = substr \$packet, \$position, 3;\\
+      \ my \$number = unpack('C', substr \$int24, 0, 1)\\
+      \ \ \ + (unpack('C', substr \$int24, 1, 1) \verb|<|\verb|<| 8)\\
+      \ \ \ + (unpack('C', substr \$int24, 2, 1) \verb|<|\verb|<| 16);
+      }}
+   \item Little-endianな32bit値の変換\\
+     {\tt {\scriptsize
+     \ \ my \$int32 = substr \$packet, \$position, 4;\\
+     \ \ my \$number = unpack 'V', \$int32;
+     }}
+  \end{itemize}
+\end{slide}
+
+
+\overlays{3}{\begin{slide}{Passwordのエンコード}
+  最大の難関\\
+  \begin{itemize}
+    \item そもそもMySQLのプロトコルに関するドキュメントが無い(とおもう)
+    \item アルゴリズムの名前がわからない\\ $\rightarrow$ libmysql.c や出回っている２つのJDBCドライバのコードにもアルゴリズム名が書いていない。
+    \fromSlide{2}{
+      \begin{itemize}
+        \item じゃぁそのままC to PerlやJava to Perlの変換♪\\
+     \end{itemize}
+    }
+  \end{itemize}
+  \fromSlide{3}{しかしそこにはPerlの"闇"が潜んでいた...}
+\end{slide}}
+
+\overlays{8}{\begin{slide}{Passwordエンコードの問題}
+  32bit超の数値をグリグリ論理演算(xor, and etc..)。
+  \begin{itemize}
+    \fromSlide{2}{\item Perlで32bit以上の数値は論理演算できない。\\}
+    \fromSlide{3}{ $\rightarrow$ OSのint幅に依存。}
+    \fromSlide{4}{ \item ならば{\tt use Math::BigInt;} \\}
+    \fromSlide{5}{ $\rightarrow$ 遅すぎて認証が通らない環境があった。}
+    \fromSlide{6}{ \item しかたないので32bit幅に丸めながら計算。\\}
+    \fromSlide{7}{ $\rightarrow$ 5.6.0以前のPerlは32bit幅超の割算にも支障がっ}
+  \end{itemize}
+  \fromSlide{8}{結局32bit幅にイチイチ丸めながら計算するが、5.6.0以前のPerlは"引算"で丸め処理。(ダサっ)}
+\end{slide}}
+
+\begin{slide}{その成果}
+  {\tt Net::MySQL, DBD::mysqlPP}\\
+  100\% Pure PerlのMySQLクライアントライブラリ。
+  \begin{itemize}
+    \item 2002年3月25日頃調査と開発開始
+    \item 即、私のエイプリルフールネタに採用(逆です)
+    \item 何故か利用者がボチボチいるようだ
+  \end{itemize}
+\end{slide}
+
+
+\overlays{3}{\begin{slide}{今後の展望}
+  \fromSlide{2}{\rput(5,-3){一刻も早く共同開発者をゲットして引き継ぐ！(本気)}}
+  \fromSlide{3}{\rput(5,-5){{\scriptsize というわけで共同開発者大募集中です。}}}
+\end{slide}}
+
+\end{document}

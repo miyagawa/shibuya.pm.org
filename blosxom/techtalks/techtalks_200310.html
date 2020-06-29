@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="keywords" content="Shibuya, Perl, Tokyo, Japan, User Community, Technical Talks, Book" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://shibuya.pm.org/blosxom/index.rss10" />
+    <title>Shibuya Perl Mongers : Shibuya Perl Mongers 1周年記念テクニカルトーク</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="banner">Shibuya Perl Mongers</div>
+      <span class="description">We are a group of people dedicated to the encouragement of all things Perl-like in Shibuya.</span>
+    </div><!-- end of "header" -->
+
+    <div id="menu">
+      <a href="http://shibuya.pm.org/blosxom" title="Home">Home</a>
+      <a href="http://shibuya.pm.org/blosxom/common/mailinglist.html" title="Mailing List info">Mailing List</a>
+      <a href="http://shibuya.pm.org/blosxom/techtalks/" title="Technical Talks">Tech Talks</a>
+      <a href="http://shibuya.pm.org/blosxom/books/" title="Books">Books</a>
+    </div><!-- end of "menu" -->
+
+<div id="content">
+
+<div class="date">Thu, 18 Sep 2003</div>
+<div class="entry"><h1 class="title"><a name="techtalks_200310">Shibuya Perl Mongers 1周年記念テクニカルトーク</a></h1>
+
+Shibuya Perl Mongersテクニカルトーク#4 (1周年記念)を2003年10月18日に開催します。
+
+<p />
+<strong>2003/09/22:</strong> Lightning Talks のスピーカ募集を終了しました。<br />
+<strong>2003/09/23:</strong> 事前登録受付を終了しました。<br />
+<strong>2003/10/19:</strong> 無事終了しました。配布資料を<a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310_slides_and_reviews.html">公開</a>しました。<br />
+
+<p />
+<ul>
+  <li>日時 - 2003年10月18日 土曜日 14:00〜17:00</li>
+  <li>会場 - <a href="http://www.gihyo.co.jp/utilities/company.php/access.html">JR 東急目黒ビル8F 技術評論社セミナールーム</a> （協力: <a href="http://www.gihyo.co.jp/">技術評論社</a>）</li>
+  <li>料金 - 無料</li>
+  <li>事前登録 - 定員に達しました （当日参加はできません）</li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+    <ol>
+      <li>"Blog テクノロジーと Web サービス" - 伊藤直也</li>
+      <li>"mod_perl における C10K problem" - 竹迫良範</li>
+      <li>"Blosxom による CMS 構築と SEO テクニック" - 宮川達彦</li>
+      <li>Lightning Talks - 川合孝典 / 木村岳文 / 小山浩之 / 山岸広太郎 / 高林哲 / 山下達雄 / 塚本牧生 / 飯尾淳 / 早川真也</li>
+    </ol>
+  </li>
+  <li>配布資料とレビューリンク - <a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310_slides_and_reviews.html">こちら</a>で公開しています</li>
+</ul>
+
+<h4 class="subsection">プログラム詳細</h4>
+  <dl>
+    <dt>Blog テクノロジーと Web サービス</dt>
+    <dd>スピーカー: <a href="#naoya">伊藤直也</a><br />
+        ジャンル: Web サービス<br />
+RSS, Trackback, Weblogs.com など Blog のコアを形成する XML テクノロジーの技術的解説や、Amazon Web サービス、Google API といった関連 Web サービスのプログラミングについて紹介する。
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>mod_perl における C10K problem</dt>
+    <dd>スピーカー: <a href="#takesako">竹迫良範</a> (株式会社ドリーム・アーツ / Namazu Project)<br />
+        ジャンル: Web アプリケーション<br />
+	大規模 Web アプリケーションを mod_perl で構築した事例をもとに10,000クライアント同時接続問題 (C10K problem) の技術的解説とオープンソースによる実践ソリューションを紹介する。<br />
+キーワード: MaxClients、KeepAlive、Reverse Proxy、負荷分散。
+     </dd>
+  </dl>
+
+  <dl>
+    <dt>Blosxom による CMS 構築と SEO テクニック</dt>
+    <dd>スピーカー: <a href="#miyagawa">宮川達彦</a> (エッジ株式会社 / Shibuya.pm)<br />
+        ジャンル: コンテンツ管理<br />
+	Shibuya.pm サイトの運営を事例にして、Weblog ツール <a href="http://www.blosxom.com/">Blosxom</a> によるコンテンツマネジメントシステムの実装、また Google で PageRank [TM] 6/10 を獲得した SEO テクニックの一部を披露する。
+        </dd>
+  </dl>
+ 
+<h4 class="subsection">Lightning Talks Session</h4>
+  <dl>
+    <dt>Perl で VisualBasic のソースを解析する(仮)</dt>
+    <dd>スピーカー: <a href="#hippo2000">川合孝典</a> (Kansai.pm)<br />
+	Win3.1時代の遺物であるVB2のソースをVB6に移植するために活用したPerlスクリプトについての解説。あるいはVBで仕事をしてるように見せかけながらPerlで遊ぶ方法。
+        </dd>
+  </dl>
+
+  <dl>
+    <dt>位置情報と私</dt>
+    <dd>スピーカー: <a href="#takefumi">木村岳文</a> (Shibuya.pm / Tokyo.pm)<br />
+	携帯電話(au/A5302CA)とハンディGPS(GARMIN etrex)を使って位置情報+画像データの<a href="http://www.godtomato.net/here/ ">蓄積</a>をしているスピーカーが、約1年分のデータを使ってこれからやってみたいことを俺トークします。
+       </dd>
+  </dl>
+
+  <dl>
+     <dt>オープンソースソフトウェア開発者はなぜ飽きるのか(仮)</dt>
+     <dd>スピーカー: <a href="#oyama">小山浩之</a> (Shibuya.pm)<br />
+     思いつきだけで開発され、その後放置されたオープンソースソフトウェアのなんと多いこと。いくつものソフトウェア開発に携わり(そして飽きた)スピーカーが、自らの経験もふまえながら、その理由と改善策について考察する。
+      </dd>
+  </dl>
+
+  <dl>
+      <dt>Introduction to CNET Japan</dt>
+      <dd>スピーカー: <a href="#yamagishi">山岸広太郎</a> (シーネットネットワークスジャパン株式会社)<br />
+      2003年1月にスタートしたIT系ニュースサイト <a href="http://japan.cnet.com/">CNET Japan</a> の編集長みずから、オンラインニュース業界の動向を語るように装い CNET Japan の宣伝を行う。
+       </dd>
+  </dl>
+ 
+  <dl>
+  <dt>ネットピープル分類学、その傾向と対策 (仮)</dt>
+  <dd>スピーカー: <a href="#satoru">高林哲</a> (バッドノウハウ研究家)<br />
+偏見に満ちた問題作<a href="http://namazu.org/~satoru/yarpc19101/">「UNIXにみる世代間の断絶」</a>で物議を醸した著者が、またもや過度の類型化を武器にネットにおけるさまざまな人種を分析し、その傾向と対策について無闇矢鱈に考察する。
+  </dd>
+  </dl>
+
+  <dl>
+  <dt>ChangeLog で Blog</dt>
+  <dd>スピーカー: <a href="#tatuo">山下達雄</a> (ChangeLog メモ研究家)<br />
+  ChangeLog ファイルをなんとなくよさげな HTML ファイルに変換する Perl プログラム <a
+href="http://nais.to/~yto/tools/chalow/">chalow</a>。
+これを用いた情報発信・情報管理のノウハウをさくっと紹介。</dd>
+  </dl>
+
+  <dl>
+    <dt>Perl on PDAs</dt>
+    <dd>スピーカー: <a href="#tsukamoto">塚本牧生</a><br />
+      PDA でこそ Perl を標榜し、WindowsCE から Linux ザウルスに流れ着く遍歴をご紹介。各種 PDA での Perl 環境と、Linux ザウルス上の Perl 環境が以下によろしいかをお話できればと思います。
+    </dd>
+  </dl>
+
+  <dl>
+    <dt>FLOSS-JP オープンソース/フリーソフトウェア開発者オンライン調査日本版</dt>
+    <dd>スピーカー: <a href="#iio">飯尾淳</a> (三菱総合研究所)<br />
+Perl を含むオープンソース/フリーソフトウェア環境の向上を狙いとして、標記の調査を実施中です。その背景と目的、調査内容、手順等を説明します。
+   </dd>
+  </dl>
+
+  <dl>
+    <dt>技としての Perl</dt>
+    <dd>スピーカー: <a href="#hayakawa">早川真也</a> (Shibuya.pm)<br />
+Perl言語を単なる構造を持った記号物、いわば「もの」としてではなく、それを表現し理解する営み、「わざ」として考えた場合の性質を紹介します。</dd>
+  </dl>
+
+<h4 class="subsection">スピーカー紹介</h4>
+  <dl>
+    <dt><a href="http://naoya.dyndns.org/" id="naoya">伊藤直也</a></dt>
+    <dd>某ISPで個人向けコミュニティ系サービスの企画・開発などを担当する若手エンジニア。最近はCPANモジュールを使ったプログラミングが好き。
+Blogと絡むPerlプログラミングの楽しさに気づいてちょっとはまっている。突然 Shibuya.pm で喋ってくれと言われ正直びびっている。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="mailto:takesako@namazu.org" id="takesako">竹迫良範</a></dt>
+    <dd>広島県在籍の Shibuya.pm 常連者で、いつも「いかにコードを書かずして問題を解決するか」を考えている不精者。現在の職業は mod_perl屋さんで、<a href="http://www.dreamarts.co.jp/">INSUITE(R) Enterprise</a> の製品開発などに従事している。<a href="http://namazu.org/">Namazu for Win32</a> のメンテナでもある。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://blog.bulknews.net/mt/" id="miyagawa">宮川達彦</a></dt>
+    <dd>Shibuya.pm リーダーにして、CPAN モジュール生産数世界一を誇る。最近では日本の RSS の第一人者として活躍中。著書（翻訳）に <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4894715589/ref=nosim/bulknews-22">Perl データマンジング</a>。<a href="http://edge.jp/">エッジ株式会社</a>勤務。</dd>
+  </dl>
+
+  <dl>
+  <dt><a href="http://member.nifty.ne.jp/hippo2000/" id="hippo2000">川合孝典</a></dt>
+  <dd>CPANモジュールの日本語訳を公開し、日本のPerlユーザの多くが一度はお世話になっている。著書に<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4756140580/ref=nosim/bulknews-22">Perlを256倍使うための本 DBI偏</a>, <a href="http://www.amazon.co.jp/exec/obidos/ASIN/4894715309/ref=nosim/bulknews-22">MySQL&Perl Webアプリケーション開発</a>など。<a href="http://www.nippon-rad.co.jp/">日本ラッド株式会社</a>勤務。</dd>
+  </dl>
+
+  <dl>
+  <dt><a href="http://diary.godtomato.net/takefumi/" id="takefumi">木村岳文</a></dt>
+  <dd>WEB関係のプログラマ、手段のためには目的を忘れてしまうことがしばしば。とくに <a href="http://sl.edge.jp/">Sledge</a> を使うようになってから目的を忘れ <a href="http://www.godtomato.net/lib/Sledge/">Pluginを作って</a>しまう様になった。</dd>
+  </dl>
+
+  <dl>
+  <dt><a href="http://module.jp/" id="oyama">小山浩之</a></dt>
+  <dd>職場で「Webのフロントエンド書くのはもうお腹いっぱい」とのたまいつつ、趣味でApache moduleを書いていたりする矛盾の多い本格派駄目サラリーマン。著書に<a href="http://www.amazon.co.jp/exec/obidos/ASIN/4774117994/ref=nosim/modulejp-22" title="amazon.co.jp">Apacheモジュールプログラミングガイド</a>。ヤフー株式会社勤務。</dd>
+  </dl>
+
+  <dl>
+  <dt><a href="http://blog.cnetnetworks.jp/yamagishi/" id="yamagishi">山岸広太郎</a></dt>
+  <dd>2003年1月より米国 <a href="http://www.cnetnetworks.com/">CNET Networks</a> の日本法人<a href="http://www.cnetnetworks.jp/">シーネットネットワークスジャパン株式会社</a>に勤務。今は編集長として <a href="http://japan.cnet.com/">CNET Japan</a> の立ち上げに追われる日々。</dd>
+  </dl>
+
+  <dl>
+  <dt><a href="http://www.namazu.org/~satoru/" id="satoru">高林哲</a></dt>
+  <dd><a href="http://namazu.org/~satoru/misc/bad-knowhow.html">バッドノウハウ研究家</a>にして <a
+href="http://www.google.co.jp/search?&hl=ja&ie=UTF-8&oe=UTF-8&q=%E3%81%8F%E3%81%A0%E3%82%89%E3%81%AA%E3%81%84+%E7%8F%BE%E5%AE%9F%E9%80%83%E9%81%BF%E3%81%AE+%E5%AE%89%E7%9B%B4%E3%81%AA+%E3%81%8C%E3%82%89%E3%81%8F%E3%81%9F+%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2">くだらない 現実逃避の 安直な がらくた ソフトウェア</a>の専門家。今思えば Perl との出会いがバッドノウハウ研究の出発点となったような気がする。</dd>
+  </dl>
+
+  <dl>
+  <dt><a href="http://nais.to/~yto/" id="tatuo">山下達雄</a></dt>
+  <dd>某 IT メーカで何かについて研究している研究員。小さくて短いシンプルなプログラムを好む。学生時代は<a href="http://chasen.aist-nara.ac.jp/">茶筌</a>や <a href="http://nais.to/~yto/tools/sufary/">SUFARY</a> の開発に携わる。最近はダウンサイジングして、<a href="http://nais.to/~yto/tools/kuttukibbs/">くっつき BBS</a>を始めとした「くっつきシリーズ」や <a href="http://nais.to/~yto/tools/chalow/">chalow</a> などの Web 系ツールを細々と作っている。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://digit.que.ne.jp/" id="tsukamoto">塚本牧生</a></dt>
+    <dd>SE として Perl にも Web にも無縁な部署に勤務。今の業務には適性はないと思うのですけど。Perl を使える PDA が欲しくて PocketPC を手に入れ、より本格的な Perl 環境を期待して Linux ザウルスに移行。<a href="http://www.okisoft.co.jp/">沖ソフトウェア株式会社</a>勤務。</dd>
+  </dl>
+
+  <dl>
+    <dt><a href="http://www.malib.net/~iiojun/" id="iio">飯尾淳</a></dt>
+    <dd>本業は画像処理屋で UI 研究家。<a href="http://www.malib.net/">MAlib</a> 開発つながりでオープンソース関係に足を踏み入れ、気が付けばオープンソース振興の手伝いに追われる日々。著書に<a href="http://www.mri.co.jp/PUBLICITY/BOOK/JOHO/Joho.html">
+Linux による画像処理プログラミング</a>、など。</dd>
+  </dl>
+
+  <dl>
+    <dt><a id="hayakawa">早川真也</a></dt>
+    <dd>「CPANは"くぱん"と読む」を普及させようと目論むツワモノ。一日1つ新しい(マニアックな)オペレーションシステムをインストールすることを日課にしている。<a href="http://shibuya.pm.org/blosxom/news/ll_saturday_event_finished.html">LL Saturday 2003</a> での活躍は記憶に新しい。</dd>
+  </dl>
+
+<p class="postinfo">posted at: <a title="permanent link to this entry" href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.html">14:09</a> by <a href="mailto:miyagawa@bulknews.net">miyagawa</a> <a title="edit this blog entry (admin only)" href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.wikieditish#wikieditish">#</a> | category: <a href="http://shibuya.pm.org/blosxom/techtalks">Tech Talks</a> | <a href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.html">permalink</a><br />
+<a href="http://shibuya.pm.org/trackback/techtalks_techtalks_200310?__mode=list" onclick="window.open(this.href, 'comments', 'width=640,height=480,scrollbars=yes,status=yes'); return false">Trackback (0)</a> | <a title="View printer friendly version of this blog entry" href="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.print">Printer friendly</a> | <a title="Email this blog link to your firends" href="mailto:?subject=Shibuya%20Perl%20Mongers%201%E5%91%A8%E5%B9%B4%E8%A8%98%E5%BF%B5%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%83%88%E3%83%BC%E3%82%AF&amp;body=http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.html">Email this blog</a><!-- br />
+ <a href="http://bulkfeeds.net/app/similar?url=http%3A%2F%2Fshibuya.pm.org%2Fblosxom%2Ftechtalks%2Ftechtalks_200310.html" title="Find Similar Pages on Bulkfeeds">Similarity Search</a> (Powered by Bulkfeeds)</?> -->
+</p>
+
+<!--
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+    <rdf:Description
+      rdf:about="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.html"
+      trackback:ping="http://shibuya.pm.org/trackback/techtalks_techtalks_200310"
+      dc:title="Shibuya Perl Mongers 1周年記念テクニカルトーク"
+      dc:identifier="http://shibuya.pm.org/blosxom/techtalks/techtalks_200310.html" />
+  </rdf:RDF>
+-->
+</div>
+<div class="prevnext">Prev: <a href="http://shibuya.pm.org/blosxom/techtalks/call_for_lightning_talks_200310.html">Call For Lightning Talks @ Tech Talks #4</a><br />Next: <a href="http://shibuya.pm.org/blosxom/news/techtalks_200310_registration_closed.html">テクニカルトーク #4 事前登録締切</a></div>
+<!-- adsense -->
+<div style="padding: 1em">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0854756127426271";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_color_border = "CCCCCC";
+google_color_bg = "FFFFFF";
+google_color_link = "0000CC";
+google_color_url = "000000";
+google_color_text = "000000";
+google_ad_channel ="0907269075";
+google_alternate_color = "FFFFFF";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+</div><!-- id="content" -->
+
+    <div id="modules">
+      <div class="module">
+        <h4 class="module">About Us</h4>
+        <div class="modulebody">Shibuya Perl Mongers は東京地区とくに渋谷周辺のインターネット関連企業に勤務している Perl ユーザのコミュニティ形成を目指す非営利の団体です。主な活動内容はプログラミング言語 Perl に関係するメンバー主催の勉強会やインターネット上での啓蒙活動や情報交換です。Shibuya Perl Mongers は Perl を利用し、スキル向上を望む方であればどなたでも無料で参加できます。
+        </div>
+      </div>
+
+      <div class="module">
+        <h4 class="module">What is Perl Mongers?</h4>
+        <div class="modulebody"><a href="http://www.pm.org/">Perl Mongers(パールモンガース)</a>とは、地域ごとのPerlユーザグループの集合体です。発祥はニューヨークで現在は世界各地に Perl Mongers が分布し、それぞれの地域でのコミュニティーを形成しています。
+        </div>
+      </div>
+
+      <div class="module">
+        <h4 class="module">Site Search</h4>
+        <div class="modulebody"><!-- Search Google -->
+<form method="get" action="http://www.google.co.jp/custom" class="modulebody">
+<input name="q" type="text" size="16" maxlength="255" />
+<input type="submit" name="sa" value="Google" />
+<input type="hidden" name="domains" value="shibuya.pm.org" />
+<input type="hidden" name="cof" value="AWFID:FSjae0e0ce7fb7135b3b;GALT:#336699;LC:#0000aa;AH:left;VLC:#000088;GL:0;S:http://shibuya.pm.org/;" />
+<br />
+<input type="radio" name="sitesearch" value="" />WWW 
+<input type="radio" name="sitesearch" value="shibuya.pm.org" checked="checked" />Shibuya Perl Mongers
+</form>
+<!-- Search Google -->
+</div>
+        <div class="modulebody"><a href="http://shibuya.pm.org/blosxom/index.archives">Archive of All Entries</a></div>
+      </div>
+
+<!--      <div class="module">
+       <h4 class="module">Recent referers</h4>
+       <div class="modulebody"><script language="JavaScript" src="/js/referer.js"></script></div>
+      </div>
+-->
+<!--
+      <div class="module">
+<h4 class="module">BlogShares</h4>
+<div class="modulebody">
+<a href=""></a><br />
+Valuation: $<br />
+@ $ -  P/E
+</div>
+      </div>
+-->
+
+      <div class="module">
+<div class="modulebody">
+      <a href="http://shibuya.pm.org/blosxom/index.rss10"><img src="/images/icons/rss1.gif" border="0" alt="RSS 1.0 Syndication" /></a>
+      <a href="http://shibuya.pm.org/blosxom/index.rss"><img src="/images/icons/rss0_91.png" border="0" alt="RSS 0.91 Syndication" /></a><br />
+      <a href="http://www.blosxom.com/"><img src="/images/icons/blosxom.gif" border="0" alt="Powered by blosxom"/></a>
+<!--      <a href="http://blogshares.com/blogs.php?blog=http://shibuya.pm.org/blosxom"><img src="/images/icons/blogshares2.gif" border="0" alt="blogshares"/></a><br /> -->
+      <a href="http://www.perl.org/"><img src="/images/icons/perl.gif" border="0" alt="Powered by Perl"/></a><br />
+<!--      <a href="http://www.pm.org/"><img src="/images/icons/perlmongers.png" border="0" alt="Perl Mongers"/></a><br /> -->
+</div>
+      </div>
+
+      <div class="module">
+       <p class="copyright">&copy;2002-2003 <a href="mailto:chair at shibuya.pm.org">Shibuya Perl Mongers</a>. Japan. All rights reserved.</p>
+      </div>
+
+      </div><!-- end of "modules" -->
+
+
+<!-- div id="footer">
+<pre class="fortune"></pre>
+</div -->
+
+</body>
+</html>

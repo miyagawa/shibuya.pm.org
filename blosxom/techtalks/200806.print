@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#9</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200806.html">http://shibuya.pm.org/blosxom/techtalks/200806.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#9</b><br />
+<b>by</b> takesako at Wed, 18 Jun 2008 21:24
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#9 (通称：XS Nite) を2008年6月25日に開催します。</p>
+<ul>
+  <li>日時 - 2008年6月25日(水) 18:30-21:00 (18:00 開場)</li>
+  <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
+
+  <li>料金 - 無料</li>
+  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200806/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --> <s>（定員100名）</s> 定員に達したので締め切りました。</li>
+  <li>ストリーミング
+<ul>
+<li>録画を公開しました（cojiさん、ありがとうございます！）</li>
+<li><a href="http://techtalk.jp/2008/06/shibuyapm9.html">http://techtalk.jp/2008/06/shibuyapm9.html</a></li>
+
+</ul>
+  </li>
+  <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+ <li>第一部「XS 概論」
+  <ol>
+  <li>18:30 はじめてのXS - ハマりどころはココだ (hirose31)</li>
+  <li>18:45 Perl 5 internals の世界にようこそ (Daisuke Maki)</li>
+
+  <li>19:30 休憩</li>
+  </ol>
+ </li>
+ <li>第二部「XS 若手の会」
+  <ol>
+  <li>19:50 Inside Ruby.pm (藤 吾郎)</li>
+  <li>20:10 PerlMachine (wakapon)</li>
+  </ol>
+
+ </li>
+ <li>Lightning Talks
+  <ol>
+  <li>20:30 autobox.xs 徹底解説 (tokuhirom)</li>
+  <li>20:35 PL_check Hacks (Yappo)</li>
+  <li>20:40 arguments.callee の作り方 (TAKESAKO)</li>
+  <li>20:45 gdbでXS on mod_perlをデバッグ (stanaka)</li>
+
+  <li>20:50 Abstract Script Engines (Akira Higuchi)</li>
+  <li>20:55 Acme::PerlVMGolf (tokuhirom)</li>
+  </ol>
+ </li>
+</ul></li>
+</ul>
+<p>YAPC::Asia 2008 Tokyo で一部人気だったセッションをもとに、今回は XS Nite と称して、これから XS を書いてみようと思う Perl プログラマの人を対象に、PerlとCライブラリとの拡張インターフェースを作るためのマクロ言語 XS だけについて語る XS only イベントを開催します。C言語で書かれた Perl 処理系の内部構造についても軽く中身をのぞいてみる予定です。</p>
+
+<h3>感想リンク集</h3>
+
+<ul>
+<li><a href="http://d.hatena.ne.jp/hiratara/20080625/1214389654">XS Nite (Shibuya.pm Tech Talk #9) - a geek</a></li>
+<li><a href="http://diary.lampetty.net/20080625.html#p02">おいぬま日報(不定期) - Shibuya Perl Mongersテクニカルトーク#9 (XS Nite)に行ってきました ,</a></li>
+<li><a href="http://yusukebe.com/archives/08/06/26/112921.html">ゆーすけべー日記: Shibuya.pm tech talk #9 (XS Nite) に行って来た</a></li>
+<li><a href="http://d.hatena.ne.jp/rin1024/20080626/1214450995">昨日はShibuya.pmだったー！！１ - uncertain world</a></li>
+</ul>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>

@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Shibuya Perl Mongers : Shibuya Perl Mongersテクニカルトーク#16</title>
+</head>
+<body>
+Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/201107.html">http://shibuya.pm.org/blosxom/techtalks/201107.html</a>.
+<br /><br /><br />
+
+<b>Shibuya Perl Mongersテクニカルトーク#16</b><br />
+<b>by</b> takesako at Mon, 13 Jun 2011 16:19
+<p />
+
+<p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#16 を2011年7月6日(水)にmixiさんの新オフィスをお借りして開催します。</p>
+<p>今回はmixiさんのご厚意によりテクニカルトーク後に懇親会を開催する予定となっております。<br/>こちらも時間の許す限り奮ってご参加いただければと思います。</p>
+<ul>
+  <li>テーマ - <b>「夏の正規表現祭り」</b></li>
+  <li>日時 - 2011年7月6日(水) 18:45-21:00 (18:30 開場)</li>
+  <li>会場 - 〒150-0011 東京都渋谷区東1-2-20 住友不動産渋谷ファーストタワー 7F (<a href="http://mixi.co.jp/profile/info/#map">株式会社ミクシィ</a>)</li> 
+  <li>料金 - 無料</li> 
+  <li>定員 - 110名 (<a href="http://www.mdn.co.jp/di/articles/2412/?page=1">いちばん大きなセミナールーム</a>)</li>
+  <li>事前登録 - <a href="http://atnd.org/events/17082">http://atnd.org/events/17082</a> にて参加申し込みが必要 → 満員御礼</li> 
+  <li>中継 - <a href="http://www.ustream.tv/channel/shibuya-perl-mongers-mixi">http://www.ustream.tv/channel/shibuya-perl-mongers-mixi</a> にてUSTREAM中継します!</li>
+  <li>注意事項 - ※20時以降のご来社はビルが閉館してしまう為、誠に恐縮ですがご遠慮ください</li>
+</ul>
+
+<ul>
+  <li>プログラム（予定） <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
+<ul>
+
+ <li>タイムスケジュール
+  <ul>
+  <li>18:30 - 開場</li>
+  </ul>
+ </li>
+
+ <li>夏の正規表現祭り
+  <ul>
+  <li>18:45 - 開会宣言（会場からの諸注意）</li>
+  <li>18:50 - Dan the (Irr|R)egular Expressionist - <a href="https://twitter.com/#!/dankogai">@dankogai</a></li>
+  <li>19:10 - スペシャルゲスト「正規表現メモ」 - <a href="http://www.kt.rim.or.jp/~kbk/zakkicho/">木村浩一</a></li> 
+  </ul>
+ </li>
+ <li>正規表現若手の会
+  <ul>
+  <li>19:40 - Hello, re::engine! - <a href="https://twitter.com/#!/__gfx__">@__gfx__</a></li>
+  <li>19:55 - 正規表現の限界 - <a href="https://twitter.com/#!/sinya8282">@sinya8282</a></li> 
+  </ul>
+ </li> 
+
+ <li>Lightning Talks
+  <ol> 
+  <li>20:30 - 僕の考えた世界最強の正規表現エンジン(速けりゃイイじゃん?) - <a href="https://twitter.com/#!/sinya8282">@sinya8282</a></li> 
+  <li>20:35 - Plaggerで覚えたPerlの正規表現 - <a href="https://twitter.com/#!/yusukebe">@yusukebe</a></li> 
+  <li>20:40 - Regexp::Assembleで正規表現を作るとか - <a href="https://twitter.com/#!/yappo">@yappo</a></li> 
+  <li>20:45 - 再帰的正規表現 - <a href="https://twitter.com/#!/TAKESAKO">@TAKESAKO</a></li> 
+  <li>20:50 - 僕と契約して、自己言及コードになってよ！ - <a href="https://twitter.com/#!/sugyan">@sugyan</a></li> 
+  <li>20:55 - 色々なものを正規に表現してみよう(仮) - <a href="https://twitter.com/#!/nipotan">@nipotan</a></li> 
+  </ol> 
+ </li> 
+
+ <li>懇親会（<a href="http://www.mdn.co.jp/di/articles/2412/?page=2">コラボレーションルーム</a>）
+  <ul> 
+  <li>21:00 - 隣の<a href="http://www.mdn.co.jp/di/articles/2412/?page=2">コラボレーションルーム</a>に移動して懇親会を開始
+  <ul>
+  <li>乾杯の音頭： <a href="http://ja.wikipedia.org/wiki/%E6%AD%8C%E4%BB%A3%E5%92%8C%E6%AD%A3">歌代和正</a>様（jcode.pl開発者）より乾杯のご発声</li>
+  <li>趣旨：数年ぶりの渋谷での開催ということで、みんなでお祝いしたいと思います</li>
+  <li>スポンサー： 株式会社ミクシィ様</li>
+  <li>懇親会費： 無料（参加者全員分の飲み物のご用意がありますので最初の乾杯時だけでもご参加ください）</li>
+  </ul>
+  </li>
+  <li>21:10 - ご歓談（自由解散）
+  </li> 
+  <li>22:30 - 撤収</li> 
+  </ul>
+ </li> 
+ 
+<p>今回は正規表現尽くしでお送りいたします。</p>
+
+</ul>
+</li>
+</ul></li>
+
+<p>※ ビルの入館の関係上、遅れて参加の場合は20:00までに必ずご入館ください。<br/>※ 懇親会のみの参加は受け付けておりません。</p>
+
+
+<p />
+Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+</body></html>
