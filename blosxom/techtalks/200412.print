@@ -3,8 +3,8 @@
 <title>Shibuya Perl Mongers : Shibuya Perl Mongers テクニカルトーク #5</title>
 </head>
 <body>
-Published on <a href="http://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
-Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200412.html">http://shibuya.pm.org/blosxom/techtalks/200412.html</a>.
+Published on <a href="https://shibuya.pm.org/blosxom">Shibuya.pm</a>.<br />
+Printer friendly version of <a href="https://shibuya.pm.org/blosxom/techtalks/200412.html">https://shibuya.pm.org/blosxom/techtalks/200412.html</a>.
 <br /><br /><br />
 
 <b>Shibuya Perl Mongers テクニカルトーク #5</b><br />
@@ -17,7 +17,7 @@ Printer friendly version of <a href="http://shibuya.pm.org/blosxom/techtalks/200
   <li>日時 - 2004年12月16日 (木) 18:30-21:00 (18:00 開場)</li>
   <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/map/">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
   <li>料金 - 無料</li>
-  <li>事前登録 - 定員を超えたので締め切りました。<!-- a href="http://shibuya.pm.org/register/200412/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a> （定員100名）--></li>
+  <li>事前登録 - 定員を超えたので締め切りました。<!-- a href="https://shibuya.pm.org/register/200412/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a> （定員100名）--></li>
   <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
     <ol>
       <li>"iPod&amp;iTunes Hacks" - 宮川達彦</li>
@@ -127,5 +127,5 @@ Perlそのものをリフォームする荒技も登場！(patch無し)
 
 
 <p />
-Copyright&copy;2002-2003 <b><a href="http://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
+Copyright&copy;2002-2003 <b><a href="https://shibuya.pm.org/blosxom">Shibuya Perl Mongers</a></b>
 </body></html>

@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <meta name="keywords" content="Shibuya, Perl, Tokyo, Japan, User Community, Technical Talks, Book" />
     <link rel="stylesheet" type="text/css" href="/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://shibuya.pm.org/blosxom/index.rss10" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://shibuya.pm.org/blosxom/index.rss10" />
     <title>Shibuya Perl Mongers</title>
   </head>
   <body>
@@ -18,6 +18,6 @@
     </div><!-- end of "header" -->
 
     <div id="menu">
-      <a href="http://shibuya.pm.org/blosxom" title="Home">Home</a>
-      <a href="http://shibuya.pm.org/blosxom/common/mailinglist.html" title="Mailing List info">Mailing List</a>
-      <a href="http://shibuya.pm.org/blosxom/techtalks/" title="Technical Talks">Tech Talks</a
+      <a href="https://shibuya.pm.org/blosxom" title="Home">Home</a>
+      <a href="https://shibuya.pm.org/blosxom/common/mailinglist.html" title="Mailing List info">Mailing List</a>
+      <a href="https://shibuya.pm.org/blosxom/techtalks/" title="Technical Talks">Tech Talks</a

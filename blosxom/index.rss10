@@ -8,9 +8,9 @@
   xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
 > 
 
-  <channel rdf:about="http://shibuya.pm.org/blosxom">
+  <channel rdf:about="https://shibuya.pm.org/blosxom">
     <title>Shibuya Perl Mongers</title>
-    <link>http://shibuya.pm.org/blosxom</link>
+    <link>https://shibuya.pm.org/blosxom</link>
     <description>Shibuya Perl Mongers Weblogs</description>
     <language>ja</language>
     <dc:creator>Shibuya Perl Mongers (chair at shibuya.pm.org)</dc:creator>
@@ -20,30 +20,30 @@
 
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201807.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201506.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201107.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201012.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201009.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/201004.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/200911.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/200904.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/2008011.html" />
-        <rdf:li rdf:resource="http://shibuya.pm.org/blosxom/techtalks/200806.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/201807.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/201506.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/201107.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/201012.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/201009.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/201004.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/200911.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/200904.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/2008011.html" />
+        <rdf:li rdf:resource="https://shibuya.pm.org/blosxom/techtalks/200806.html" />
 
       </rdf:Seq>
     </items>
 
 
   </channel>
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201807.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/201807.html">
     <title>Shibuya Perl Mongersテクニカルトーク#18</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/201807.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/201807.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#18 を2018年7月5日(木)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>karupanerura</dc:creator>
     <dc:date>2018-06-11T15:34+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201807" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_201807" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#18 を2018年7月5日(木)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します。</p>
 <ul>
@@ -117,14 +117,14 @@
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201506.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/201506.html">
     <title>Shibuya Perl Mongersテクニカルトーク#17</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/201506.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/201506.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#17 を2015年6月2日(火)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2015-04-30T09:13+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201506" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_201506" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#17 を2015年6月2日(火)に渋谷ヒカリエのDeNAさんの会議室をお借りして開催します。</p>
 <ul>
@@ -196,14 +196,14 @@
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201107.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/201107.html">
     <title>Shibuya Perl Mongersテクニカルトーク#16</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/201107.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/201107.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#16 を2011年7月6日(水)にmixiさんの新オフィスをお借りして開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2011-06-13T07:19+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201107" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_201107" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#16 を2011年7月6日(水)にmixiさんの新オフィスをお借りして開催します。</p>
 <p>今回はmixiさんのご厚意によりテクニカルトーク後に懇親会を開催する予定となっております。<br/>こちらも時間の許す限り奮ってご参加いただければと思います。</p>
@@ -279,14 +279,14 @@
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201012.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/201012.html">
     <title>Shibuya Perl Mongersテクニカルトーク#15</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/201012.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/201012.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#15 を2010年12月9日(木)に開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2010-11-25T05:34+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201012" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_201012" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#15 を2010年12月9日(木)に開催します。</p>
 <ul>
@@ -347,14 +347,14 @@
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201009.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/201009.html">
     <title>Shibuya Perl Mongersテクニカルトーク#14</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/201009.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/201009.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#14 を2010年9月30日(木)に開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2010-09-03T07:58+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201009" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_201009" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#14 を2010年9月30日(木)に開催します。</p>
 <ul>
@@ -431,14 +431,14 @@
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/201004.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/201004.html">
     <title>Shibuya Perl Mongersテクニカルトーク#13「Shibuya.pm in Taipei」</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/201004.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/201004.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#13 を2010年4月24日(土)に台湾で開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2010-04-01T03:05+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_201004" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_201004" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#13 を2010年4月24日(土)に台湾で開催します。</p>
 <ul>
@@ -499,14 +499,14 @@ You'll see the highest level in technics and the lowest level in depth of Perl.
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/200911.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/200911.html">
     <title>Shibuya Perl Mongersテクニカルトーク#12 「NoSQL特集」</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/200911.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/200911.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#12 "NoPerl, NoSQL, NoKVS" を2009年11月30日(月)に開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2009-11-19T06:07+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_200911" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_200911" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#12 "NoPerl, NoSQL, NoKVS" を2009年11月30日(月)に開催します。</p>
 <ul>
@@ -597,14 +597,14 @@ Not only SQL を指向する OSS の実装と運用の実際について語り�
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/200904.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/200904.html">
     <title>Shibuya Perl Mongersテクニカルトーク#11</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/200904.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/200904.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#11を2009年4月22日(水)に開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2009-03-27T07:44+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_200904" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_200904" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#11を2009年4月22日(水)に開催します。</p>
 <ul>
@@ -613,7 +613,7 @@ Not only SQL を指向する OSS の実装と運用の実際について語り�
   <li>会場 - グラントウキョウサウスタワー23F <a href="http://www.recruit.co.jp/corporate/english/company/data/pdf/map_south.pdf">リクルート本社サウスホール</a></li>
   <li>住所 - 東京都千代田区丸の内1-9-2 (JR東京駅 八重洲南口すぐ)</li>
   <li>料金 - 無料</li>
-  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200904" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --><s>（定員200名）</s> → 当日参加枠30名を追加しました。</li>
+  <li>事前登録 - <!-- a href="https://shibuya.pm.org/register/200904" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --><s>（定員200名）</s> → 当日参加枠30名を追加しました。</li>
 </ul>
 <ul>
   <li>プログラム <span class="caution">内容・順番・時間などは予告なく変更する場合があります。</span>
@@ -833,21 +833,21 @@ TAKESAKOさんの追っかけ。Perlはぜんぜんわかりません。 <a href
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/2008011.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/2008011.html">
     <title>Shibuya Perl Mongersテクニカルトーク#10</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/2008011.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/2008011.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#10「最新Perlフレームワーク特集」を2008年11月27日に開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2008-11-18T10:00+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_2008011" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_2008011" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#10「最新Perlフレームワーク特集」を2008年11月27日に開催します。</p>
 <ul>
   <li>日時 - 2008年11月27日(木) 18:30-21:00 (18:00 開場)</li>
   <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
   <li>料金 - 無料</li>
-  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200811/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --> <s>（定員100名）</s>定員に達したので締め切りました。</li>
+  <li>事前登録 - <!-- a href="https://shibuya.pm.org/register/200811/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --> <s>（定員100名）</s>定員に達したので締め切りました。</li>
   <li>ストリーミング
 <ul>
 <li><a href="http://www.ustream.tv/channel/shibuya-perl-mongers">ustream.tv で中継予定</a>（by cojiさん）</li>
@@ -906,14 +906,14 @@ TAKESAKOさんの追っかけ。Perlはぜんぜんわかりません。 <a href
 ]]></content:encoded>
   </item>
 
-  <item rdf:about="http://shibuya.pm.org/blosxom/techtalks/200806.html">
+  <item rdf:about="https://shibuya.pm.org/blosxom/techtalks/200806.html">
     <title>Shibuya Perl Mongersテクニカルトーク#9</title>
-    <link>http://shibuya.pm.org/blosxom/techtalks/200806.html</link>
+    <link>https://shibuya.pm.org/blosxom/techtalks/200806.html</link>
     <description>Shibuya Perl Mongersテクニカルトーク#9 (通称：XS Nite) を2008年6月25日に開催します...</description>
     <dc:subject>Tech Talks</dc:subject>
     <dc:creator>takesako</dc:creator>
     <dc:date>2008-06-18T12:24+09:00</dc:date>
-    <trackback:ping rdf:resource="http://shibuya.pm.org/trackback/techtalks_200806" />
+    <trackback:ping rdf:resource="https://shibuya.pm.org/trackback/techtalks_200806" />
     <content:encoded><![CDATA[
 <p style="margin-top:0">Shibuya Perl Mongersテクニカルトーク#9 (通称：XS Nite) を2008年6月25日に開催します。</p>
 <ul>
@@ -921,7 +921,7 @@ TAKESAKOさんの追っかけ。Perlはぜんぜんわかりません。 <a href
   <li>会場 - 神保町三井ビル 17F <a href="http://www.iij.ad.jp/info/map/head-office.html">株式会社インターネットイニシアティブ (IIJ) 大会議室</a></li>
 
   <li>料金 - 無料</li>
-  <li>事前登録 - <!-- a href="http://shibuya.pm.org/register/200806/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --> <s>（定員100名）</s> 定員に達したので締め切りました。</li>
+  <li>事前登録 - <!-- a href="https://shibuya.pm.org/register/200806/" onClick="window.open(this.href,'register','width=500,height=400,location=yes,status=yes,scrollbars=yes');return false;">こちら</a --> <s>（定員100名）</s> 定員に達したので締め切りました。</li>
   <li>ストリーミング
 <ul>
 <li>録画を公開しました（cojiさん、ありがとうございます！）</li>
